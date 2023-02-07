@@ -6,13 +6,22 @@
     font-family: manrope-regular;
     src: url(../assets/fonts/Manrope-Regular.ttf);
 }
+@font-face {
+    font-family: american-signature;
+    src: url(../assets/fonts/American-signature.ttf);
+}
+
+body {
+    font-size: 14px;
+}
 
 $max-width: 1180px;
-$font-title-size:52px;
+$font-title-size:2.8rem;
 
 $primary-color:#5451F9;
 $light-grey:#F8F8F8;
 
 
+$logo-font:american-signature;
 $primary-font:noeDisplay;
 $secondary-font:manrope-regular;

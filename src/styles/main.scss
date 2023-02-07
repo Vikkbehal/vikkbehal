@@ -1,21 +1,27 @@
 @import './variables.scss';
 @import './header.scss';
+@import './selectedWork.scss';
 @import './footer.scss';
 
 body {
     #hero {
         max-width: $max-width;
         margin: 0 auto;
-        padding-top: 50vh;
+        padding-top: 35vh;
         .hello {
             opacity: 0.5;
         }
         h1 {
             font-size: $font-title-size;
             font-family: $primary-font;
+            margin:0;
             span {
                 color: $primary-color;
             }
+        }
+        p.desc {
+            max-width: 65%;
+            font-family: $secondary-font;
         }
     }
 }

@@ -4,13 +4,20 @@ header#header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    .logo {
+        p {
+            font-family: $logo-font;
+            font-size: 3rem;
+            margin:1rem 0rem;
+        }
+    }
     ul {
         display: flex;
-        margin: 0px;
+        margin: 0rem;
         li {
-            margin: 0px;
+            margin: 0rem;
             list-style: none;
-            margin-left:35px
+            margin-left:3rem;
         }
     }
 }
