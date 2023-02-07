@@ -14,7 +14,7 @@ import logoCoinshift from '../assets/img/logos/coinshift.svg';
 
 const WorkCard = (props) => {
     return (
-      <div className='workCard' style={{backgroundImage: `url(${props.bg})`, color:{props.textColor}, backgroundSize:'cover'}}>
+      <div className='workCard' style={{backgroundImage: `url(${props.bg})`,  backgroundSize:'cover'}}>
         <div className='logoWrapper'>
             <img className="logo" src={props.logo} />
         </div>

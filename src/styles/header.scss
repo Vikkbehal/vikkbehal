@@ -11,13 +11,18 @@ header#header {
             margin:1rem 0rem;
         }
     }
-    ul {
+    .navigation {
         display: flex;
         margin: 0rem;
-        li {
+        a {
             margin: 0rem;
             list-style: none;
             margin-left:3rem;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: bold;
+            color: #363636;
+            opacity: 0.75;
         }
     }
 }
