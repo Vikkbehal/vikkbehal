@@ -7,10 +7,10 @@ const Footer = () => {
       <div className='footer'>
         <p className='contact-me'>My door is always open to new opportunities, so come say hello and have a chat about working together ↓</p>
         <ul className='social-links'>
-          <li><Link to="">vikkbehal@gmail.com</Link></li>
-          <li><Link to="">Dribbble</Link></li>
-          <li><Link to="">LinkedIn</Link></li>
-          <li><Link to="">Twitter</Link></li>
+          <li className='mail'><Link to='#' onClick={() => window.location = 'mailto:vikkbehal@gmail.com'} target="_blank">vikkbehal@gmail.com</Link></li>
+          <li className='dribbble'><Link to="https://dribbble.com/vikkbehal" target="_blank">Dribbble</Link></li>
+          <li className='linkedin'><Link to="https://www.linkedin.com/in/vikkbehal/" target="_blank">LinkedIn</Link></li>
+          <li className='instagram'><Link to="https://www.instagram.com/ux.vikkbehal/" target="_blank">Instagram</Link></li>
         </ul>
           
       </div>

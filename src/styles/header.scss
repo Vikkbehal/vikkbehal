@@ -1,14 +1,17 @@
 header#header {
     max-width: $max-width;
     margin: 0 auto;
+    padding:1rem 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     .logo {
-        p {
+        a {
             font-family: $logo-font;
             font-size: 3rem;
             margin:1rem 0rem;
+            text-decoration: none;
+            color: black;
         }
     }
     .navigation {

@@ -4,7 +4,7 @@ import Hero from '../components/hero'
 import Footer from '../components/footer'
 import SelectedWork from '../components/selectedWork'
 
-const About = () => {
+const Work = () => {
   return (
     <div className='main-wrapper'>
         <Header />
@@ -14,4 +14,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Work
