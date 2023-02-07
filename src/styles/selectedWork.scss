@@ -2,7 +2,7 @@
     max-width: $max-width;
     margin: 0 auto;
     p.title {
-        font-family: $primary-font;
+        font-family: $primary-font-regular;
         font-size: 1.8rem;
         opacity: 0.5;
     }
@@ -23,6 +23,10 @@
             }
             .desc {
 
+            }
+            a {
+                color: white;
+                text-decoration: none;
             }
         }
     }

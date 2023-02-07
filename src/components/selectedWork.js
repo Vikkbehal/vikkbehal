@@ -14,7 +14,7 @@ import logoCoinshift from '../assets/img/logos/coinshift.svg';
 
 const WorkCard = (props) => {
     return (
-      <div className='workCard' style={{backgroundImage: `url(${props.bg})`,  backgroundSize:'cover'}}>
+      <div className='workCard' style={{backgroundImage: `url(${props.bg})`, color:'white', backgroundSize:'cover'}}>
         <div className='logoWrapper'>
             <img className="logo" src={props.logo} />
         </div>
@@ -33,9 +33,9 @@ const SelectedWork = () => {
     <section id='selectedWork' >
         <p className='title'>Selected Work</p>
         <WorkCard bg={Coinmax} textColor="white" logo={logoCoinmax} sno="1" title="Coinmax (Web/Mobile)" desc="Landing Page, Web Based Crypto Exchange, Mobile Based Crypto Exchange (ios,Android), Web App (Instant Buy/Sell) Portal" linkText="View Case Study" />
-        <WorkCard bg={Coinshop} logo={logoCoinshop} sno="1" title="Coinmax (Web/Mobile)" desc="Landing Page, Web Based Crypto Exchange, Mobile Based Crypto Exchange (ios,Android), Web App (Instant Buy/Sell) Portal" linkText="View Case Study" />
-        <WorkCard bg={Drives} logo={logoDrives} sno="1" title="Coinmax (Web/Mobile)" desc="Landing Page, Web Based Crypto Exchange, Mobile Based Crypto Exchange (ios,Android), Web App (Instant Buy/Sell) Portal" linkText="View Case Study" />
-        <WorkCard bg={Coinshift} logo={logoCoinshift} sno="1" title="Coinmax (Web/Mobile)" desc="Landing Page, Web Based Crypto Exchange, Mobile Based Crypto Exchange (ios,Android), Web App (Instant Buy/Sell) Portal" linkText="View Case Study" />
+        <WorkCard bg={Coinshop} logo={logoCoinshop} sno="2" title="Coinshop (Mobile Apps)" desc="Collection of three Mobile App, Customer App, Merchant App and Collection agent Application." linkText="View Case Study" />
+        <WorkCard bg={Drives} logo={logoDrives} sno="3" title="Drives (Web/Mobile)" desc="Landing Page, Mobile App Redesign, Frontend (react-native)" linkText="View Case Study" />
+        <WorkCard bg={Coinshift} logo={logoCoinshift} sno="4" title="Coinshift (Brand Guidelines)" desc="Brand Guidelines, Redesign Landing Page" linkText="View Case Study" />
     </section>
   )
 }

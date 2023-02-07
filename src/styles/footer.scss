@@ -4,5 +4,25 @@ footer {
         font-family: $secondary-font;
         max-width: $max-width;
         margin: 0 auto;
+        padding:4rem 0px;
+        .contact-me {
+            font-family: $secondary-font;
+            font-size: 2.2rem;
+            font-weight: 700;
+            width: 80%;
+        }
+        ul.social-links {
+            padding:0px;
+            li {
+                margin-bottom: 1.6rem;
+                text-decoration: none;
+                list-style: none;
+                a {
+                    font-family: $secondary-font;
+                    text-decoration: none;
+                    font-size: 2rem;
+                }
+            }
+        }
     }
 }
