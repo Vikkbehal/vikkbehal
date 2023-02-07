@@ -1,0 +1,21 @@
+@import './variables.scss';
+@import './header.scss';
+@import './footer.scss';
+
+body {
+    #hero {
+        max-width: $max-width;
+        margin: 0 auto;
+        padding-top: 50vh;
+        .hello {
+            opacity: 0.5;
+        }
+        h1 {
+            font-size: $font-title-size;
+            font-family: $primary-font;
+            span {
+                color: $primary-color;
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+header#header {
+    max-width: $max-width;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    ul {
+        display: flex;
+        margin: 0px;
+        li {
+            margin: 0px;
+            list-style: none;
+            margin-left:35px
+        }
+    }
+}

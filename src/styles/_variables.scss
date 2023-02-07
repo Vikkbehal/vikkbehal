@@ -1,0 +1,18 @@
+@font-face {
+    font-family: noeDisplay;
+    src: url(../assets/fonts/FontsFree-Net-NoeDisplay-Bold.ttf);
+}
+@font-face {
+    font-family: manrope-regular;
+    src: url(../assets/fonts/Manrope-Regular.ttf);
+}
+
+$max-width: 1180px;
+$font-title-size:52px;
+
+$primary-color:#5451F9;
+$light-grey:#F8F8F8;
+
+
+$primary-font:noeDisplay;
+$secondary-font:manrope-regular;
