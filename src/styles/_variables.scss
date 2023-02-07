@@ -1,6 +1,10 @@
 @font-face {
+    font-family: noeDisplay-bold;
+    src: url(../assets/fonts/NoeDisplay-Bold.ttf);
+}
+@font-face {
     font-family: noeDisplay;
-    src: url(../assets/fonts/FontsFree-Net-NoeDisplay-Bold.ttf);
+    src: url(../assets/fonts/Noe-Display-Medium.ttf);
 }
 @font-face {
     font-family: manrope-regular;
@@ -11,17 +15,13 @@
     src: url(../assets/fonts/American-signature.ttf);
 }
 
-body {
-    font-size: 14px;
-}
 
 $max-width: 1180px;
-$font-title-size:2.8rem;
 
 $primary-color:#5451F9;
 $light-grey:#F8F8F8;
 
 
 $logo-font:american-signature;
-$primary-font:noeDisplay;
+$primary-font:noeDisplay-bold;
 $secondary-font:manrope-regular;

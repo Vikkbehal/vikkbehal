@@ -3,25 +3,24 @@
 @import './selectedWork.scss';
 @import './footer.scss';
 
-body {
-    #hero {
-        max-width: $max-width;
-        margin: 0 auto;
-        padding-top: 35vh;
-        .hello {
-            opacity: 0.5;
+#hero {
+    max-width: $max-width;
+    margin: 0 auto;
+    padding-top: 25vh;
+    .hello {
+        opacity: 0.5;
+    }
+    h1 {
+        font-size: 3.2rem;
+        font-family: $primary-font;
+        margin:0;
+        span {
+            color: $primary-color;
         }
-        h1 {
-            font-size: $font-title-size;
-            font-family: $primary-font;
-            margin:0;
-            span {
-                color: $primary-color;
-            }
-        }
-        p.desc {
-            max-width: 65%;
-            font-family: $secondary-font;
-        }
+    }
+    p.desc {
+        max-width: 65%;
+        font-family: $secondary-font;
+        font-size: 1rem;
     }
 }

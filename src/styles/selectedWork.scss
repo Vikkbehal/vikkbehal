@@ -6,4 +6,24 @@
         font-size: 1.8rem;
         opacity: 0.5;
     }
+    .workCard {
+        font-family: $secondary-font;
+        padding: 3rem;
+        margin-bottom: 2rem;
+        .logoWrapper {
+            margin-bottom: 6rem;
+            img {
+                width: 100px;
+            }
+        }
+        .contentWrapper {
+            max-width: 50%;
+            .title{
+                opacity: 1;
+            }
+            .desc {
+
+            }
+        }
+    }
 }
