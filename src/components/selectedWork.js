@@ -11,6 +11,8 @@ import logoCoinshop from "../assets/img/logos/coinshop.png";
 import logoDrives from "../assets/img/logos/drives.png";
 import logoCoinshift from "../assets/img/logos/coinshift.svg";
 
+import { useWindowSize } from "react-use";
+
 const WorkCard = (props) => {
   return (
     <div
@@ -31,8 +33,10 @@ const WorkCard = (props) => {
 
         <ul className="tags">
           {props.tags &&
-            props.tags.map((singleTag) => (
-              <li className="product-tag tag">{singleTag}</li>
+            props.tags.map((singleTag, i) => (
+              <li key={`uitags-${props.sno}--${i}`} className="product-tag tag">
+                {singleTag}
+              </li>
             ))}
         </ul>
 
@@ -62,9 +66,14 @@ const works = [
 ];
 
 const SelectedWork = () => {
+  const { width } = useWindowSize();
+
   return (
-    <section id="selectedWork">
+    <section id="selectedWork" data-test={width}>
       <p className="title">Selected Work</p>
+
+      {width > 1366 && <p>Mobile and UI UX Dev</p>}
+
       <WorkCard
         bg={Coinmax}
         logo={logoCoinmax}
