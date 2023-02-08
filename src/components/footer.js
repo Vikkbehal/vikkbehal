@@ -12,7 +12,7 @@ const Footer = () => {
           <li className='linkedin'><Link to="https://www.linkedin.com/in/vikkbehal/" target="_blank">LinkedIn</Link></li>
           <li className='instagram'><Link to="https://www.instagram.com/ux.vikkbehal/" target="_blank">Instagram</Link></li>
         </ul>
-          
+        <p className='footerstripe'>© 2023 Vishal Behal. All Rights Reserved.</p>
       </div>
     </footer>
   )
