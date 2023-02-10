@@ -1,0 +1,10 @@
+#iWorkWith.main-wrapper {
+    max-width: $max-width;
+    margin: 0 auto;
+    font-family: $secondary-font;
+    font-weight: 700;
+    font-size: 2rem;
+    span {
+        opacity: 0.5;
+    }
+}
