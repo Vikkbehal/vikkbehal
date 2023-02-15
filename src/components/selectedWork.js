@@ -36,7 +36,7 @@ const SelectedWork = () => {
             desc="Landing Page, Web Based Crypto Exchange, Mobile Based Crypto Exchange (ios,Android), Web App (Instant Buy/Sell) Portal"
             linkText="View Case Study"
             tags={["Branding", "Product Design", "UI/UX", "Frontend (React Native)"]}
-            ctaLink="https://reactrouter.com/en/main/components/link"
+            ctaLink="/casestudy/coinmax"
           />
           <WorkCardMobile
             bg={Coinshop}
@@ -46,7 +46,7 @@ const SelectedWork = () => {
             desc="Collection of three Mobile App, Customer App, Merchant App and Collection agent Application."
             linkText="View Case Study"
             tags={["Product Design", "UI/UX", "Frontend (React Native)"]}
-            ctaLink="https://reactrouter.com/en/main/components/link"
+            ctaLink="/casestudy/coinmax"
           />
           <WorkCardMobile
             bg={Drives}
@@ -56,7 +56,7 @@ const SelectedWork = () => {
             desc="Landing Page, Mobile App Redesign, Frontend (react-native)"
             linkText="View Case Study"
             tags={["UI/UX", "Frontend (React Native)"]}
-            ctaLink="https://reactrouter.com/en/main/components/link"
+            ctaLink="/casestudy/coinmax"
           />
           <WorkCardMobile
             bg={Coinshift}
@@ -66,7 +66,7 @@ const SelectedWork = () => {
             desc="Brand Guidelines, Redesign Landing Page"
             linkText="View Project"
             tags={["Branding", "UI/UX"]}
-            ctaLink="https://reactrouter.com/en/main/components/link"
+            ctaLink="/casestudy/coinmax"
           />
         </>
       }
@@ -82,7 +82,7 @@ const SelectedWork = () => {
             desc="Landing Page, Web Based Crypto Exchange, Mobile Based Crypto Exchange (ios,Android), Web App (Instant Buy/Sell) Portal"
             linkText="View Case Study"
             tags={["Branding", "Product Design", "UI/UX", "Frontend (React Native)"]}
-            ctaLink="https://reactrouter.com/en/main/components/link"
+            ctaLink="/casestudy/coinmax"
           />
           <WorkCard
             bg={Coinshop}

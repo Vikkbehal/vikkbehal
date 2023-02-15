@@ -3,6 +3,7 @@ import Home from './pages/home';
 import About from './pages/about';
 import Blog from './pages/blog';
 import Work from './pages/work';
+import Coinmax from './pages/case-studies/coinmax';
 
 function Router() {
   return (
@@ -13,6 +14,7 @@ function Router() {
         <Route path="/work" element={<Work/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/Blog" element={<Blog/>} />
+        <Route path="/casestudy/coinmax" element={<Coinmax/>} />
       </Routes>
     </BrowserRouter>
   );

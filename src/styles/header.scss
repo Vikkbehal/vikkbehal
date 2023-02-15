@@ -16,6 +16,7 @@ header#header {
     }
     .navigation {
         display: flex;
+        align-items: center;
         margin: 0rem;
         a {
             margin: 0rem;
@@ -25,7 +26,13 @@ header#header {
             font-size: 1rem;
             font-weight: bold;
             color: #363636;
-            opacity: 0.75;
+            opacity: 0.5;
+        }
+        a.resume {
+            background-color: #000;
+            color: #fff;
+            opacity: 1;
+            padding: 15px 25px;
         }
     }
 }

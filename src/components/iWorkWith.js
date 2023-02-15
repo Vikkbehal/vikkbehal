@@ -8,7 +8,7 @@ const IWorkWith = () => {
             <p className='title'>Brands & Company’s <span>i’ve worked with as</span> UX/UI Designer, Product Designer, Graphic Designer :</p>
             <div className='workWithCardWrapper'>
                 <WorkWithCard
-                    CompanyLogo={Coinmax}
+                    CompanyLogo={Coinshift}
                     MyRoll="UI & Graphic Designer"
                     MyRollExp="Assisted in Dashboard Design/Redesign Landing Page/ Designed Graphics & Assets"
                 />

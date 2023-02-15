@@ -8,8 +8,9 @@
     height: 75vh;
     font-family: $secondary-font;
     .blogTitle {
-        opacity: 0.20;
-        font-size: 4.5rem;
+        max-width: 75%;
+        color: $primary-color;
+        font-size: 3rem;
         text-align: center;
         margin-bottom: 20px;
     }
@@ -18,7 +19,7 @@
         font-weight: 700;
         font-size: 2rem;
         text-align: center;
-        color: $primary-color;
+        color: $accent-color;
         margin-bottom: 20px;
     }
 }
