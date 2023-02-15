@@ -6,9 +6,7 @@ import {logoCoinmax, logoCoinshift, logoCoinshop, logoDrives} from "../assets/im
 import WorkCardMobile from "./workCardMobile";
 import WorkCard from "./workCard";
 
-
 import { useWindowSize } from "react-use";
-
 
 const works = [
   {

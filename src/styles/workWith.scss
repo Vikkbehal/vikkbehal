@@ -1,10 +1,56 @@
 #iWorkWith.main-wrapper {
     max-width: $max-width;
     margin: 0 auto;
-    font-family: $secondary-font;
-    font-weight: 700;
-    font-size: 2rem;
+    p {
+        font-family: $secondary-font;
+        font-weight: 700;
+        font-size: 1.9rem;
+    }
     span {
         opacity: 0.5;
+    }
+    .workWithCardWrapper {
+        display: flex;
+        flex:1;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        .workWithCard {
+            width: calc(33.33333333% - 60px);
+            display: flex;
+            flex-direction: column;
+            background-color: #F5F5F5;
+            border-radius: 15px;
+            height: 200px;
+            align-items: center;
+            justify-content: center;
+            font-family: $secondary-font;
+            text-align: center;
+            padding: 20px;
+            p {
+                margin: 0;
+            }
+            img {
+                max-height: 55px;
+                margin-bottom: 20px;
+                aspect-ratio: auto 1 / 1;
+            }
+            p.title {
+                font-weight: bold;
+                font-size: 1.1rem;
+                margin-bottom: 10px;
+            }
+            p.myRoll {
+                font-weight: 300;
+                font-size: 0.9rem;
+            }
+            .manymoreTitle {
+                font-weight: bold;
+                font-size: 1.8rem;
+                span {
+                    opacity: 0.35;
+                }
+            }
+        }
     }
 }
