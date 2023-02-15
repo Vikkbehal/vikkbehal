@@ -11,7 +11,7 @@ const Header = () => {
           <Link to="/about">about me.</Link>
           <Link to="/work">my work.</Link>
           <Link to="/blog">reads.</Link>
-          <Link to="/blog" className='resume' target="_blank" >Download CV</Link>
+          <Link to="/blog" className='resume' target="_blank" >My Resume</Link>
         </div>
     </header>
   )
