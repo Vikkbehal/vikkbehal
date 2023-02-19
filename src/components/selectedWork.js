@@ -20,11 +20,9 @@ const works = [
 
 const SelectedWork = () => {
   const { width } = useWindowSize();
-
   return (
     <section id="selectedWork" data-test={width}>
       <p className="title">Selected Work</p>
-
       {
         width < 768 && 
         <>
@@ -46,7 +44,7 @@ const SelectedWork = () => {
             desc="Collection of three Mobile App, Customer App, Merchant App and Collection agent Application."
             linkText="View Case Study"
             tags={["Product Design", "UI/UX", "Frontend (React Native)"]}
-            ctaLink="/casestudy/coinmax"
+            ctaLink="/casestudy/coinshop"
           />
           <WorkCardMobile
             bg={Drives}
@@ -56,7 +54,7 @@ const SelectedWork = () => {
             desc="Landing Page, Mobile App Redesign, Frontend (react-native)"
             linkText="View Case Study"
             tags={["UI/UX", "Frontend (React Native)"]}
-            ctaLink="/casestudy/coinmax"
+            ctaLink="/casestudy/drives"
           />
           <WorkCardMobile
             bg={Coinshift}
@@ -66,7 +64,7 @@ const SelectedWork = () => {
             desc="Brand Guidelines, Redesign Landing Page"
             linkText="View Project"
             tags={["Branding", "UI/UX"]}
-            ctaLink="/casestudy/coinmax"
+            ctaLink="/casestudy/coinshift"
           />
         </>
       }
@@ -92,7 +90,7 @@ const SelectedWork = () => {
             desc="Collection of three Mobile App, Customer App, Merchant App and Collection agent Application."
             linkText="View Case Study"
             tags={["Product Design", "UI/UX", "Frontend (React Native)"]}
-            ctaLink="https://reactrouter.com/en/main/components/link"
+            ctaLink="/casestudy/coinshop"
           />
           <WorkCard
             bg={Drives}
@@ -102,7 +100,7 @@ const SelectedWork = () => {
             desc="Landing Page, Mobile App Redesign, Frontend (react-native)"
             linkText="View Case Study"
             tags={["UI/UX", "Frontend (React Native)"]}
-            ctaLink="https://reactrouter.com/en/main/components/link"
+            ctaLink="/casestudy/drives"
           />
           <WorkCard
             bg={Coinshift}
@@ -112,12 +110,10 @@ const SelectedWork = () => {
             desc="Brand Guidelines, Redesign Landing Page"
             linkText="View Project"
             tags={["Branding", "UI/UX"]}
-            ctaLink="https://reactrouter.com/en/main/components/link"
+            ctaLink="/casestudy/coinshift"
           />
         </>
       }
-
-      
     </section>
   );
 };

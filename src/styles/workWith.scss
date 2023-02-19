@@ -46,9 +46,11 @@
             }
             .manymoreTitle {
                 font-weight: bold;
-                font-size: 1.8rem;
+                font-size: 1.6rem;
+                color: $accent-color;
                 span {
-                    opacity: 0.35;
+                    font-size: 1.4rem;
+                    opacity: 1;
                 }
             }
         }
