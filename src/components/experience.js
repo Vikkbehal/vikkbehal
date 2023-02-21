@@ -20,7 +20,7 @@ const ExperienceCard = (props) => {
 const Experience = () => {
     return (
         <section id='experience' className='main-wrapper'>
-            <p className='title'>Experience History 💼</p>
+            <p className='title'>Work Experience History 💼</p>
             <ExperienceCard
                 title="Coinshift"
                 sno="1"

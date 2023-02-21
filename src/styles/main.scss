@@ -14,7 +14,7 @@ html {
     body {
         #homeWrapper, #aboutWrapper {
             background-color: $off-white;
-            background-image: url("../assets/img/bg/bgnew.jpg");
+            background-image: url("../assets/img/bg/bgnewgrad.jpg");
             background-size: 100%;
             background-repeat: no-repeat;
             color: #20262E;
@@ -56,55 +56,58 @@ html {
         margin-bottom: 10px;
         font-size: 1.2rem;
     }
-    ul.social-links {
-        padding:0px;
+    .social-links-wrapper {
         display: flex;
-        margin-top: 0px;
-        &:hover {
-            li {
-                transition: 0.1s linear;
-                opacity: 0.5;
-                &:hover {
+        ul.social-links {
+            padding:0px;
+            display: flex;
+            margin: 0px;
+            width: auto;
+            &:hover {
+                li {
                     transition: 0.1s linear;
-                    opacity: 1;
+                    opacity: 0.5;
+                    &:hover {
+                        transition: 0.1s linear;
+                        opacity: 1;
+                    }
                 }
             }
-        }
-        li {
-            flex-direction: row;
-            margin-bottom: 1.6rem;
-            text-decoration: none;
-            list-style: none;
-            margin-right: 2rem;
-            img {
-                width: 25px;
-                margin-right: 5px;
-            }
-            a {
-                font-family: $secondary-font;
+            li {
+                flex-direction: row;
                 text-decoration: none;
-                font-size: 1.2rem;
-                display: flex;
+                list-style: none;
+                padding-right: 2rem;
+                img {
+                    width: 25px;
+                    margin-right: 5px;
+                }
+                a {
+                    font-family: $secondary-font;
+                    text-decoration: none;
+                    font-size: 1.2rem;
+                    display: flex;
+                }
             }
-        }
-        li.mail {
-            a {
-                color:#0D31EE
+            li.mail {
+                a {
+                    color:#0D31EE
+                }
             }
-        }
-        li.dribbble {
-            a {
-                color:#FC37A1
+            li.dribbble {
+                a {
+                    color:#FC37A1
+                }
             }
-        }
-        li.linkedin {
-            a {
-                color:#26A9D2
+            li.linkedin {
+                a {
+                    color:#26A9D2
+                }
             }
-        }
-        li.instagram {
-            a {
-                color:#DE5134
+            li.instagram {
+                a {
+                    color:#DE5134
+                }
             }
         }
     }
