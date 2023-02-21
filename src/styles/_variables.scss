@@ -14,16 +14,33 @@
     font-family: american-signature;
     src: url(../assets/fonts/American-signature.ttf);
 }
-
+@font-face {
+    font-family: brettley-signature;
+    src: url(../assets/fonts/brettley-signature.ttf);
+}
+@font-face {
+    font-family: shamson-signature;
+    src: url(../assets/fonts/shamson-signature.otf);
+}
+@font-face {
+    font-family: boulevard-signature;
+    src: url(../assets/fonts/boulevardsignature.otf);
+}
 
 $max-width: 1180px;
 
-$primary-color:#5451F9;
-$accent-color:#FF4A8B;
+// $primary-color:#5451F9;
+// $accent-color:#FF4A8B;
+$primary-color:#A459D1;
+$accent-color:#F16767;
 $light-grey:#F8F8F8;
+$off-white :#F3EEE7;
 
 
 $logo-font:american-signature;
+$logo-font-new:boulevard-signature;
+$logo-font-new2:brettley-signature;
+$logo-font-new3:shamson-signature;
 $primary-font:noeDisplay-bold;
 $primary-font-regular:noeDisplay;
 $secondary-font:manrope-regular;

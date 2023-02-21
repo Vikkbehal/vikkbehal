@@ -6,7 +6,7 @@ import SelectedWork from '../components/selectedWork'
 
 const Home = () => {
   return (
-    <div className='main-wrapper'>
+    <div id="homeWrapper" className='main-wrapper'>
         <Header />
         <Hero />
         <SelectedWork/>

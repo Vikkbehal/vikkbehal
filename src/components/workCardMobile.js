@@ -12,7 +12,7 @@ const WorkCardMobile = (props) => {
         }}
       >
         <div className="logoWrapper">
-          <img className="logo" src={props.logo} />
+          <img className="logo" src={props.logo} alt="vikkbehal" />
         </div>
         <div className="contentWrapper">
           <p className="sno">● 00{props.sno}</p>

@@ -1,11 +1,13 @@
 import React from 'react'
 import { Coinmax, Coinshift, Coinshop, Cyber, Drives, FortisForma, Max, Iterative, Peercoin, Techalpha, Vevsa  } from '../assets/img/companyIcon'
 import WorkWithCard from './workWithCard'
+import Experience from './experience'
 
 const IWorkWith = () => {
     return (
         <section id='iWorkWith' className='main-wrapper'>
-            <p className='title'>Brands & Company’s <span>i’ve worked with as</span> UX/UI Designer, Product Designer, Graphic Designer :</p>
+            <Experience/>
+            <p className='title'>All the Brands & Company’s <span>i’ve worked with as</span> UX/UI Designer, Product Designer, Graphic Designer :</p>
             <div className='workWithCardWrapper'>
                 <WorkWithCard
                     CompanyLogo={Coinshift}

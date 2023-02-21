@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 import {Coinmax, Coinshop, Drives, Coinshift} from "../assets/img/backgrounds"
 import {logoCoinmax, logoCoinshift, logoCoinshop, logoDrives} from "../assets/img/logos"
@@ -8,15 +8,15 @@ import WorkCard from "./workCard";
 
 import { useWindowSize } from "react-use";
 
-const works = [
-  {
-    bg: Coinmax,
-    sno: "1",
-    title: "Coinmax (Web/Mobile)",
-    desc: "Landing Page, Web Based Crypto Exchange, Mobile Based Crypto Exchange (ios,Android), Web App (Instant Buy/Sell) Portal",
-    linkText: "View Case Study",
-  },
-];
+// const works = [
+//   {
+//     bg: Coinmax,
+//     sno: "1",
+//     title: "Coinmax (Web/Mobile)",
+//     desc: "Landing Page, Web Based Crypto Exchange, Mobile Based Crypto Exchange (ios,Android), Web App (Instant Buy/Sell) Portal",
+//     linkText: "View Case Study",
+//   },
+// ];
 
 const SelectedWork = () => {
   const { width } = useWindowSize();

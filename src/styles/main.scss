@@ -2,21 +2,41 @@
 @import './header.scss';
 @import './blog.scss';
 @import './selectedWork.scss';
+@import './experience.scss';
 @import './workWith.scss';
+@import './someSkills.scss';
 @import './footer.scss';
 
-#hero {
+::-webkit-scrollbar {
+    display: none;
+}
+html {
+    body {
+        #homeWrapper, #aboutWrapper {
+            background-color: $off-white;
+            background-image: url("../assets/img/bg/bgnew.jpg");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            color: #20262E;
+        }
+    }
+}
+#hero, #heroAbout {
     max-width: $max-width;
     margin: 0 auto;
-    padding-top: 25vh;
+    padding-top: 20vh;
     padding-bottom: 4vh;
     .hello {
-        opacity: 0.35;
-        font-size: 1.4rem;
+        // opacity: 0.25;
+        color: $accent-color ;
+        font-size: 1.2rem;
         font-family: $secondary-font;
+        letter-spacing: 0.1rem;
+        font-weight:bold ;
     }
-    h1 {
-        font-size: 3.5rem;
+    h1.title {
+        width: 80%;
+        font-size: 3rem;
         font-family: $primary-font;
         margin:0;
         span {
@@ -24,9 +44,68 @@
         }
     }
     p.desc {
-        max-width: 75%;
+        max-width: 85%;
         font-family: $secondary-font;
-        font-size: 1.1rem;
-        opacity: 0.5;
+        font-size: 1.2rem;
+        opacity: 0.8;
+    }
+}
+#aboutWrapper {
+    p.social-links-title {
+        font-family: $primary-font;
+        margin-bottom: 10px;
+        font-size: 1.2rem;
+    }
+    ul.social-links {
+        padding:0px;
+        display: flex;
+        margin-top: 0px;
+        &:hover {
+            li {
+                transition: 0.1s linear;
+                opacity: 0.5;
+                &:hover {
+                    transition: 0.1s linear;
+                    opacity: 1;
+                }
+            }
+        }
+        li {
+            flex-direction: row;
+            margin-bottom: 1.6rem;
+            text-decoration: none;
+            list-style: none;
+            margin-right: 2rem;
+            img {
+                width: 25px;
+                margin-right: 5px;
+            }
+            a {
+                font-family: $secondary-font;
+                text-decoration: none;
+                font-size: 1.2rem;
+                display: flex;
+            }
+        }
+        li.mail {
+            a {
+                color:#0D31EE
+            }
+        }
+        li.dribbble {
+            a {
+                color:#FC37A1
+            }
+        }
+        li.linkedin {
+            a {
+                color:#26A9D2
+            }
+        }
+        li.instagram {
+            a {
+                color:#DE5134
+            }
+        }
     }
 }

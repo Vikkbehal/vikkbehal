@@ -1,13 +1,14 @@
 header#header {
     max-width: $max-width;
     margin: 0 auto;
-    padding:1rem 0px;
+    padding:2rem 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     .logo {
         a {
-            font-family: $logo-font;
+            // font-family: $logo-font;
+            font-family: $logo-font-new;
             font-size: 3rem;
             margin:1rem 0rem;
             text-decoration: none;
@@ -23,14 +24,13 @@ header#header {
             list-style: none;
             margin-left:3rem;
             text-decoration: none;
-            font-size: 1rem;
-            font-weight: bold;
+            font-size: 1.1rem;
             color: #363636;
-            opacity: 0.5;
+            opacity: 0.75;
         }
         a.resume {
-            background-color: #000;
-            color: #fff;
+            background-color: #000000;
+            color: white;
             opacity: 1;
             padding: 15px 25px;
         }

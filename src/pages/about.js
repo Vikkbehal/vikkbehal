@@ -1,14 +1,15 @@
 import React from 'react'
 import Header from '../components/header'
-import Hero from '../components/hero'
 import Footer from '../components/footer'
 import IWorkWith from '../components/iWorkWith'
+// import SomeSkills from '../components/someSkills'
+import HeroAbout from '../components/heroAbout'
 
 const About = () => {
   return (
-    <div className='main-wrapper'>
+    <div id="aboutWrapper" className='main-wrapper'>
         <Header />
-        <Hero />
+        <HeroAbout />
         <IWorkWith/>
         <Footer/>
     </div>
