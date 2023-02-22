@@ -1,26 +1,12 @@
 @font-face {
-    font-family: noeDisplay-bold;
-    src: url(../assets/fonts/NoeDisplay-Bold.ttf);
-}
-@font-face {
-    font-family: noeDisplay;
-    src: url(../assets/fonts/Noe-Display-Medium.ttf);
+    font-family: Butler;
+    src: url(../assets/fonts/butler/Butler_Webfont/Butler.woff2);
+    font-style: normal;
+    font-weight: normal;
 }
 @font-face {
     font-family: manrope-regular;
     src: url(../assets/fonts/Manrope-Regular.ttf);
-}
-@font-face {
-    font-family: american-signature;
-    src: url(../assets/fonts/American-signature.ttf);
-}
-@font-face {
-    font-family: brettley-signature;
-    src: url(../assets/fonts/brettley-signature.ttf);
-}
-@font-face {
-    font-family: shamson-signature;
-    src: url(../assets/fonts/shamson-signature.otf);
 }
 @font-face {
     font-family: boulevard-signature;
@@ -37,10 +23,6 @@ $light-grey:#F8F8F8;
 $off-white :#F3EEE7;
 
 
-$logo-font:american-signature;
 $logo-font-new:boulevard-signature;
-$logo-font-new2:brettley-signature;
-$logo-font-new3:shamson-signature;
-$primary-font:noeDisplay-bold;
-$primary-font-regular:noeDisplay;
+$primary-font:'Butler', serif;
 $secondary-font:manrope-regular;

@@ -8,6 +8,7 @@ import Coinshift from './pages/case-studies/coinshift';
 import Drives from './pages/case-studies/drives';
 import Coinshop from './pages/case-studies/coinshop';
 import PageNotFound from './components/pageNotFound';
+import Resources from './pages/resources';
 
 function Router() {
   return (
@@ -17,7 +18,8 @@ function Router() {
         <Route path="/home" element={<Home/>} />
         <Route path="/work" element={<Work/>} />
         <Route path="/about" element={<About/>} />
-        <Route path="/Blog" element={<Blog/>} />
+        <Route path="/blog" element={<Blog/>} />
+        <Route path="/resources" element={<Resources/>} />
         <Route path="/casestudy/coinmax" element={<Coinmax/>} />
         <Route path="/casestudy/coinshift" element={<Coinshift/>} />
         <Route path="/casestudy/coinshop" element={<Coinshop/>} />
