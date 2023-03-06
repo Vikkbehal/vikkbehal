@@ -4,8 +4,8 @@ const CaseStudyHeroCard = (props) => {
     return (
         <div id='case-study-wrapper'>
             <div className='titleHero'>
-                <p className='sno'>● 001</p>
-                <h3 className='project-name'>Coinmax (Web/Mobile)</h3>
+                <p className='sno'>● 00{props.sno}</p>
+                <h3 className='project-name'>{props.projectName}</h3>
                 {/* <div className='tag-wrapper'>
                     <span className='tag'>Branding</span>
                     <span className='tag'>Product Design</span>
@@ -16,7 +16,7 @@ const CaseStudyHeroCard = (props) => {
                     <div className='overview'>
                         <p className='title'>Project Overview</p>
                         <hr/>
-                        <p className='description'>Tartu City History Museums, established in 1955 is the umbrella organisation for five museums: Tartu City Museum, Song Celebration Museum, KGB Cells Museum, Oskar Lots House Museum, and 19th Century Citizen's Museum. Together, the museums uniquely tell the story of Tartu focussing solely on the city and its progress throughout history.</p>
+                        <p className='description'>{props.overview}</p>
                     </div>
                     <div className='myrole-wrapper'>
                         <p className='title'>My Role & Duration</p>

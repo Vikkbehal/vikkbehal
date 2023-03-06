@@ -28,7 +28,7 @@ const WorkCard = (props) => {
               ))}
           </ul>
   
-          <Link target="_blank" to={props.ctaLink} className="ctaButton" >
+          <Link to={props.ctaLink} className="ctaButton" >
             {props.linkText}
           </Link>
         </div>

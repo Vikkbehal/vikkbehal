@@ -81,14 +81,44 @@
             flex: 2;
             margin-top: 0px;
             span {
-                opacity: 0.75;
+                color: $accent-color;
             }
+        }
+        .processWrapper {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            .processWrap {
+                background-color: white;
+                padding: 2rem;
+                border-radius: 10px;
+                flex: 1 1 35%;
+                h4 {
+                    font-size: 1.6rem;
+                    margin: 0;
+                    font-family: $secondary-font; 
+                    text-align: center;  
+                }
+            }
+        }
+        p,div {
+            flex: 3;
         }
         p {
             font-size: 1.2rem;
             font-family: $secondary-font;
-            flex: 3;
             margin-top: 0px;
         }
+        img {
+            width: 100%;
+        }
+    }
+}
+section.projectImgWrapper {
+    max-width: $max-width;
+    margin: 0 auto;
+    img {
+        width: 100%;
+        margin-bottom: 1rem
     }
 }
