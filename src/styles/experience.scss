@@ -1,0 +1,59 @@
+#experience.main-wrapper {
+    max-width: $max-width;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+    p.title {
+        font-family: $secondary-font;
+        font-weight: 700;
+        font-size: 1.8rem;
+        padding-right: 10%;
+        margin-bottom: 60px;
+        span {
+            opacity: 1;
+            padding-top: -1004px;
+        }
+    }
+    .experienceWrapper {
+        padding-bottom: 3rem;
+        hr {
+            opacity: 0.75;
+        }
+        .titleWrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+            p.title, p.titlesno {
+                font-family: $secondary-font;
+                font-size: 1.6rem;
+                margin: 0px;
+            }
+            p.title {
+                margin-left: 10px;
+            }
+            p.titlesno {
+                margin-right: 10px;
+            }
+        }
+        .experienceDetailsWrapper {
+            p {
+                margin: 0px;
+                font-family: $secondary-font;
+                margin-left: 10px;
+            }
+            p.position {
+                font-weight: bold;
+                font-size: 1.1rem;
+                margin-bottom: 10px;
+            }
+            p.period {
+                font-size: 0.8rem;
+                margin-bottom: 10px;
+            }
+            p.whatidid {
+                font-size: 1.1rem;
+                opacity: 0.5;
+            }
+        }
+    }
+}

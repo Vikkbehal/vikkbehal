@@ -1,0 +1,14 @@
+#someSkills {
+    max-width: $max-width;
+    margin: 0 auto;
+    p.title {
+        font-family: $secondary-font;
+        font-weight: 700;
+        font-size: 1.8rem;
+        padding-right: 10%;
+        margin-bottom: 35px;
+    }
+    span {
+        opacity: 0.5;
+    }
+}

@@ -1,20 +1,117 @@
 @import './variables.scss';
 @import './header.scss';
+@import './blog.scss';
+@import './selectedWork.scss';
+@import './experience.scss';
+@import './workWith.scss';
+@import './someSkills.scss';
+@import './caseStudy.scss';
 @import './footer.scss';
 
-body {
-    #hero {
-        max-width: $max-width;
-        margin: 0 auto;
-        padding-top: 50vh;
-        .hello {
-            opacity: 0.5;
+::-webkit-scrollbar {
+    display: none;
+}
+html {
+    body {
+        #homeWrapper, #aboutWrapper, #case-study {
+            background-color: $light-grey;
+            background-image: url("../assets/img/bg/updated-bg.jpg");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            color: #20262E;
         }
-        h1 {
-            font-size: $font-title-size;
-            font-family: $primary-font;
-            span {
-                color: $primary-color;
+    }
+}
+#hero, #heroAbout {
+    max-width: $max-width;
+    margin: 0 auto;
+    padding-top: 20vh;
+    padding-bottom: 4vh;
+    .hello {
+        color: $accent-color ;
+        font-size: 1.2rem;
+        font-family: $secondary-font;
+        letter-spacing: 0.1rem;
+        font-weight:bold ;
+    }
+    h1.title {
+        width: 80%;
+        font-size: 3rem;
+        font-family: $primary-font;
+        margin:0;
+        font-weight: 400;
+        span {
+            color: $primary-color;
+        }
+        span.emoji {
+            font-size: 2.6rem;
+        }
+    }
+    p.desc {
+        max-width: 85%;
+        font-family: $secondary-font;
+        font-size: 1.2rem;
+        opacity: 0.8;
+    }
+}
+#aboutWrapper {
+    p.social-links-title {
+        font-family: $primary-font;
+        margin-bottom: 10px;
+        font-size: 1.4rem;
+    }
+    .social-links-wrapper {
+        display: flex;
+        ul.social-links {
+            padding:0px;
+            display: flex;
+            margin: 0px;
+            width: auto;
+            &:hover {
+                li {
+                    transition: 0.1s linear;
+                    opacity: 0.5;
+                    &:hover {
+                        transition: 0.1s linear;
+                        opacity: 1;
+                    }
+                }
+            }
+            li {
+                flex-direction: row;
+                text-decoration: none;
+                list-style: none;
+                padding-right: 2rem;
+                img {
+                    width: 25px;
+                    margin-right: 5px;
+                }
+                a {
+                    font-family: $secondary-font;
+                    text-decoration: none;
+                    font-size: 1.2rem;
+                    display: flex;
+                }
+            }
+            li.mail {
+                a {
+                    color:#0D31EE
+                }
+            }
+            li.dribbble {
+                a {
+                    color:#FC37A1
+                }
+            }
+            li.linkedin {
+                a {
+                    color:#26A9D2
+                }
+            }
+            li.instagram {
+                a {
+                    color:#DE5134
+                }
             }
         }
     }

@@ -1,18 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 @font-face {
-    font-family: noeDisplay;
-    src: url(../assets/fonts/FontsFree-Net-NoeDisplay-Bold.ttf);
+    font-family: Butler;
+    src: url(../assets/fonts/butler/Butler_Webfont/Butler.woff2);
+    font-style: normal;
+    font-weight: normal;
 }
 @font-face {
     font-family: manrope-regular;
     src: url(../assets/fonts/Manrope-Regular.ttf);
 }
+@font-face {
+    font-family: boulevard-signature;
+    src: url(../assets/fonts/boulevardsignature.otf);
+}
 
 $max-width: 1180px;
-$font-title-size:52px;
 
-$primary-color:#5451F9;
+// $primary-color:#5451F9;
+// $accent-color:#FF4A8B;
+$primary-color:#A459D1;
+$accent-color:#F16767;
 $light-grey:#F8F8F8;
+$off-white :#F3EEE7;
 
 
-$primary-font:noeDisplay;
+$logo-font-new:boulevard-signature;
+$primary-font:'Poppins', sans-serif;
+// $primary-font:'Butler', serif;
 $secondary-font:manrope-regular;
