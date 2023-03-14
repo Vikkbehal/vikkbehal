@@ -3,8 +3,11 @@ import Header from '../../components/header'
 import Footer from '../../components/footer'
 import CaseStudyHeroCard from '../../components/caseStudyHeroCard'
 
+import process from '../../assets/img/case-study/uxProcess/ux-process-blue.png'
 import cm1 from '../../assets/img/case-study/coinmax1.png'
-import typography from '../../assets/img/case-study/typo-coinmax.png'
+import typography from '../../assets/img/case-study/typo/typo-coinmax.png'
+import userflow from '../../assets/img/case-study/userflow/coinmax.png'
+import CoinmaxResult from '../../assets/img/case-study/CoinMax.jpg'
 
 const Coinmax = () => {
   return (
@@ -28,7 +31,8 @@ const Coinmax = () => {
           <section className='content-wrapper'>
             <h3 className='title'><span>03/</span>Design Process</h3>
             <div className='processWrapper'>
-              <div className='processWrap'>
+              <img src={process} />
+              {/* <div className='processWrap'>
                 <h4>Identify the problem or need</h4>
               </div>
               <div className='processWrap'>
@@ -49,11 +53,15 @@ const Coinmax = () => {
               <div className='processWrap'>
                 <h4>Evaluate and iterate</h4>
               </div>
+              </div> */}
             </div>
           </section>
           <section className='content-wrapper'>
             <h3 className='title'><span>04/</span>Personas(User Flows)</h3>
             <p>Tartu City History Museums, established in 1955 is the umbrella organisation for five museums: Tartu City Museum, Song Celebration Museum, KGB Cells Museum, Oskar Lots House Museum, and 19th Century Citizen's Museum. Together, the museums uniquely tell the story of Tartu focussing solely on the city and its progress throughout history.</p>
+            <div>
+              <img src={userflow} alt="Vishal Behal | UI / UX Designer" />
+            </div>
           </section>
           <section className='content-wrapper'>
             <h3 className='title'><span>05/</span>Typography & Colors</h3>
@@ -67,6 +75,9 @@ const Coinmax = () => {
           </section> */}
           <section className='content-wrapper'>
             <h3 className='title'><span>06/</span>The Result</h3>
+            <div>
+              <img src={CoinmaxResult} alt="Vishal Behal | UI / UX Designer" />
+            </div>
             <div>
 
             </div>
