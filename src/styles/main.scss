@@ -14,8 +14,9 @@
 html {
     body {
         #homeWrapper, #aboutWrapper, #case-study {
-            background-color: $light-grey;
-            background-image: url("../assets/img/bg/updated-bg.jpg");
+            // background-color: $light-grey;
+            background-image: url("../assets/img/bg/bg-white.jpg");
+            background-size: cover;
             background-size: 100%;
             background-repeat: no-repeat;
             color: #20262E;
@@ -39,7 +40,7 @@ html {
         font-size: 3rem;
         font-family: $primary-font;
         margin:0;
-        font-weight: 400;
+        font-weight: 700;
         span {
             color: $primary-color;
         }
