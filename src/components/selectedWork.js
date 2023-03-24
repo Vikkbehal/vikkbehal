@@ -22,7 +22,7 @@ const SelectedWork = () => {
   const { width } = useWindowSize();
   return (
     <section id="selectedWork" data-test={width}>
-      <p className="title">Selected Work</p>
+      <p className="title">Some of My Selected Work</p>
       {
         width < 768 && 
         <>
