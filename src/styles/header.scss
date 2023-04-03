@@ -20,11 +20,12 @@ header#header {
         align-items: center;
         margin: 0rem;
         a {
+            font-family: $primary-font;
             margin: 0rem;
             list-style: none;
             margin-left:3rem;
             text-decoration: none;
-            font-size: 1.1rem;
+            font-size: 1rem;
             color: #363636;
             opacity: 0.75;
         }
