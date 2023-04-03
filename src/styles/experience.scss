@@ -3,9 +3,9 @@
     margin: 0 auto;
     padding-bottom: 3rem;
     p.title {
-        font-family: $secondary-font;
-        font-weight: 700;
-        font-size: 1.8rem;
+        font-family: $primary-font;
+        font-weight: 500;
+        font-size: 1.4rem;
         padding-right: 10%;
         margin-bottom: 60px;
         span {
@@ -28,11 +28,12 @@
                 font-size: 1.6rem;
                 margin: 0px;
             }
-            p.title {
+            p.title, p.titlesno {
+                font-family: $primary-font;
+                color: $accent-color;
+                font-weight: 500;
+                font-size: 1.4rem;
                 margin-left: 10px;
-            }
-            p.titlesno {
-                margin-right: 10px;
             }
         }
         .experienceDetailsWrapper {

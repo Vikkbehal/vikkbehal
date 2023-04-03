@@ -3,8 +3,8 @@
     margin: 0 auto;
     p.title {
         font-family: $primary-font;
-        font-size: 1.8rem;
-        opacity: 0.75;
+        font-size: 1.4rem;
+        // opacity: 0.75;
         margin-bottom: 1rem;
 
     }
@@ -56,7 +56,7 @@
             .ctaButton {
                 padding:0.8rem 1.2rem;
                 background-color: rgba(0,0,0,0.15);
-                border:1px solid rgba(255,255,255,0.15);
+                border:1px solid rgba(255,255,255,1);
                 transition: 0.1s linear;
                 &:hover {
                     background-color: #f8f8f8;

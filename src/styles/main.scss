@@ -8,12 +8,26 @@
 @import './caseStudy.scss';
 @import './footer.scss';
 
+
+.cursor {
+    background-color: transparent;
+    // background-color: $primary-color;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    border: 2px solid rgba($accent-color, $alpha: 0.5);
+  }
+
 ::-webkit-scrollbar {
     display: none;
 }
 html {
     body {
-        #homeWrapper, #aboutWrapper, #case-study, #blogWrapper {
+        #homeWrapper, #aboutWrapper, #case-study, #blogWrapper, #work {
             background-color: $light-grey;
             background-image: url("../assets/img/bg/bg-white.jpg");
             background-size: cover;
@@ -30,8 +44,8 @@ html {
     padding-bottom: 4vh;
     .hello {
         color: $accent-color ;
-        font-size: 1.2rem;
-        font-family: $secondary-font;
+        font-size: 1.1rem;
+        font-family: $primary-font;
         letter-spacing: 0.1rem;
         font-weight:bold ;
     }

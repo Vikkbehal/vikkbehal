@@ -7,7 +7,6 @@ header#header {
     justify-content: space-between;
     .logo {
         a {
-            // font-family: $logo-font;
             font-family: $logo-font-new;
             font-size: 3rem;
             margin:1rem 0rem;
@@ -28,6 +27,7 @@ header#header {
             font-size: 1rem;
             color: #363636;
             opacity: 0.75;
+            padding: 1rem 0rem;
         }
         a.resume {
             background-color: #000000;

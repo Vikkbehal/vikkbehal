@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer>
       <div className='footer'>
-        <p className='contact-me'>Unlock endless possibilities by knocking on my door, let's explore the opportunity of working together! ⬇️ ⬇️ </p>
+        <p className='contact-me'>Unlock endless possibilities by knocking on my door, let's explore the opportunity of working together!<span> ↓ ↓ ↓</span></p>
         <ul className='social-links'>
           <li className='mail'><Link to='#' onClick={() => window.location = 'mailto:vikkbehal@gmail.com'} target="_blank"><img src={Gmail} alt="vikkbehal_email" />Lets Have a word! 😇</Link></li>
           <li className='dribbble'><Link to="https://dribbble.com/vikkbehal" target="_blank"><img src={Dribbble} alt="vikkbehal_email" />Dribbble</Link></li>
