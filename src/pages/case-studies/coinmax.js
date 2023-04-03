@@ -9,9 +9,18 @@ import typography from '../../assets/img/case-study/typo/typo-coinmax.png'
 import userflow from '../../assets/img/case-study/userflow/coinmax.png'
 import CoinmaxResult from '../../assets/img/case-study/CoinMax.jpg'
 
+import { useEffect } from "react";
+function ScrollToTop() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  return null;
+}
+
 const Coinmax = () => {
   return (
     <div id="case-study" className='main-wrapper'>
+      <ScrollToTop />
         <Header />
         <div className='case-study-body-wrapper'>
           <CaseStudyHeroCard 

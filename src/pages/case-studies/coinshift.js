@@ -5,9 +5,18 @@ import CaseStudyHeroCard from '../../components/caseStudyHeroCard'
 
 import {Splash, Content, One, Brandmark, Safespace, Two, Three, Four, Five, Six, PrimaryColor, Colorpalette, Font1, Font2, Thumbnail, Icons1, Icons2, Icons3, Logo, Logobw, BCard,Env, Outro} from '../../assets/img/case-study/coinshift'
 
+import { useEffect } from "react";
+function ScrollToTop() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  return null;
+}
+
 const Coinshift = () => {
   return (
     <div id="case-study" className='main-wrapper'>
+      <ScrollToTop />
         <Header />
         <div className="case-study-body-wrapper" >
           <CaseStudyHeroCard/>

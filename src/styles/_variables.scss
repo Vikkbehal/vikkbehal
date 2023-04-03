@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
 
 // @font-face {
 //     font-family: Butler;
@@ -7,38 +6,38 @@
 //     font-style: normal;
 //     font-weight: normal;
 // }
-@font-face {
-    font-family: manrope-regular;
-    src: url(../assets/fonts/Manrope-Regular.ttf);
-}
+// @font-face {
+//     font-family: manrope-regular;
+//     src: url(../assets/fonts/Manrope-Regular.ttf);
+// }
 // @font-face {
 //     font-family: elegante;
 //     src: url(../assets/fonts/elegante.ttf);
 // }
-@font-face {
-    font-family: Quaria;
-    src: url(../assets/fonts/primary/Quaria-medium.otf);
-    font-style: normal;
-    font-weight: "500";
-}
-@font-face {
-    font-family: Quaria;
-    src: url(../assets/fonts/primary/Quaria.otf);
-    font-style: normal;
-    font-weight: "400";
-}
-@font-face {
-    font-family: Quaria;
-    src: url(../assets/fonts/primary/Quaria-bold.otf);
-    font-style: normal;
-    font-weight: "700";
-}
-@font-face {
-    font-family: Quaria;
-    src: url(../assets/fonts/primary/Quaria-semibold.otf);
-    font-style: normal;
-    font-weight: "600";
-}
+// @font-face {
+//     font-family: Quaria;
+//     src: url(../assets/fonts/primary/Quaria-medium.otf);
+//     font-style: normal;
+//     font-weight: "500";
+// }
+// @font-face {
+//     font-family: Quaria;
+//     src: url(../assets/fonts/primary/Quaria.otf);
+//     font-style: normal;
+//     font-weight: "400";
+// }
+// @font-face {
+//     font-family: Quaria;
+//     src: url(../assets/fonts/primary/Quaria-bold.otf);
+//     font-style: normal;
+//     font-weight: "700";
+// }
+// @font-face {
+//     font-family: Quaria;
+//     src: url(../assets/fonts/primary/Quaria-semibold.otf);
+//     font-style: normal;
+//     font-weight: "600";
+// }
 // @font-face {
 //     font-family: elegante;
 //     src: url(../assets/fonts/elegante.ttf);
@@ -59,10 +58,12 @@ $off-white :#F3EEE7;
 
 
 $logo-font-new:boulevard-signature;
-$primary-font:'Quaria', sans-serif;
+$primary-font:'Unbounded', cursive;
+$secondary-font:'Manrope', sans-serif;
+
+// $primary-font:'Quaria', sans-serif;
 // $primary-font:'elegante', sans-serif;
 // $primary-font:'elegante', sans-serif;
 // $primary-font:'elegante', sans-serif;
 // $primary-font:'Poppins', sans-serif;
 // $primary-font:'Butler', serif;
-$secondary-font:manrope-regular;
