@@ -4,9 +4,12 @@ import { motion } from "framer-motion"
 const Hero = () => {
   return (
     <motion.div
-      initial={{ opacity: 0, y: 25 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.75 }}>
+      initial={{ opacity: 0, y: 10 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ 
+        duration: 0.5,
+        delay:0.15
+         }}>
       <section id='hero'>
         <p className='hello'>Hello ● Bonjour ● Namastey</p>
         <h1 className='title'> <span>My name is Vishal Behal  <br/> </span>I’m a <span className='emoji'>✏️</span> UX Designer based in <span className='emoji'>🇮🇳</span> India,<br/>available <span className='emoji'>🌍</span> Worldwide</h1>

@@ -7,7 +7,7 @@ const IWorkWith = () => {
     return (
         <section id='iWorkWith' className='main-wrapper'>
             <Experience/>
-            <p className='title'>All the Brands & Company’s <span>i’ve worked with as</span> UX/UI Designer, Product Designer, Graphic Designer :</p>
+            <p className='mainTitle'>All the Brands & Company’s <span>i’ve worked with as</span> UX/UI Designer, Product Designer, Graphic Designer :</p>
             <div className='workWithCardWrapper'>
                 <WorkWithCard
                     CompanyLogo={Coinshift}

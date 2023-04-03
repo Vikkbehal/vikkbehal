@@ -4,7 +4,8 @@ const CaseStudyHeroCard = (props) => {
     return (
         <div id='case-study-wrapper'>
             <div className='titleHero'>
-                <p className='sno'>● 00{props.sno}</p>
+                {/* <p className='sno'>● 00{props.sno}</p> */}
+                <p className='sno'>--00{props.sno}</p>
                 <h3 className='project-name'>{props.projectName}</h3>
                 {/* <div className='tag-wrapper'>
                     <span className='tag'>Branding</span>

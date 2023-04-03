@@ -2,11 +2,18 @@
     #case-study-wrapper {
         max-width: $max-width;
         margin: 0 auto;
+        .sno {
+            font-family: $primary-font;
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: $primary-color;
+        }
         h3.project-name {
             font-family: $primary-font;
-            font-size: 3rem;
+            font-size: 2.4rem;
             margin: 0px;
             margin-bottom: 2rem;
+            font-weight: 500;
         }
         .tag-wrapper {
             display: flex;
@@ -31,9 +38,8 @@
             display: flex;
             flex-direction: row;
             .title {
-                font-family: $secondary-font;
+                font-family: $primary-font;
                 font-size: 1.4rem;
-                font-weight: bold;
                 margin: 0px;
             }
             .description {
@@ -76,13 +82,14 @@
         flex-direction: column;
         align-items: flex-start;
         h3.title {
-            font-size: 1.8rem;
+            font-size: 1.6rem;
             font-family: $primary-font;
             flex: 2;
             margin-top: 0px;
+            font-weight: 500;
             span {
-                color: $accent-color;
-                opacity: 0.25;
+                color: $primary-color;
+                // opacity: 0.5;
             }
         }
         .processWrapper {

@@ -1,15 +1,15 @@
 #iWorkWith.main-wrapper {
     max-width: $max-width;
     margin: 0 auto;
-    p.title {
-        font-family: $secondary-font;
-        font-weight: 700;
-        font-size: 1.8rem;
+    p.mainTitle {
+        font-family: $primary-font;
+        font-weight: 500;
+        font-size: 1.6rem;
         padding-right: 10%;
         margin-bottom: 35px;
     }
     span {
-        opacity: 0.5;
+        color: $primary-color;
     }
     .workWithCardWrapper {
         display: flex;
@@ -42,7 +42,7 @@
             }
             p.title {
                 font-weight: bold;
-                font-size: 1rem;
+                font-size: 1.1rem;
                 margin-bottom: 10px;
             }
             p.myRoll {
