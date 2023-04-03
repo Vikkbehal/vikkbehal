@@ -14,7 +14,7 @@ const Footer = () => {
           <li className='linkedin'><Link to="https://www.linkedin.com/in/vikkbehal/" target="_blank"><img src={LinkedIn} alt="vikkbehal_email" />LinkedIn</Link></li>
           <li className='instagram'><Link to="https://www.instagram.com/ux.vikkbehal/" target="_blank"><img src={Insta} alt="vikkbehal_email" />Instagram</Link></li>
         </ul>
-        <p className='footerstripe'>© 2023 Vishal Behal. All Rights Reserved.</p>
+        <p className='footerstripe'><span>© 2023 Vishal Behal | All Rights Reserved | Design & Coded with </span>💗💗</p>
       </div>
     </footer>
   )

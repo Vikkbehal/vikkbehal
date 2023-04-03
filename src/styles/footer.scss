@@ -73,9 +73,10 @@ footer {
             padding:1.6rem 0px;
             text-align: right;
             font-family: $secondary-font;
-            font-size: 1rem;
-            opacity: 0.5;
-            font-weight: 700;
+            font-size: 1.2rem;
+            span {
+                opacity: 0.75;
+            }
         }
     }
 }

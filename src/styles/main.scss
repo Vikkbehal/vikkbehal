@@ -13,8 +13,8 @@
 }
 html {
     body {
-        #homeWrapper, #aboutWrapper, #case-study {
-            // background-color: $light-grey;
+        #homeWrapper, #aboutWrapper, #case-study, #blogWrapper {
+            background-color: $light-grey;
             background-image: url("../assets/img/bg/bg-white.jpg");
             background-size: cover;
             background-size: 100%;
