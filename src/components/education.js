@@ -1,45 +1,26 @@
 import React from "react";
-import { motion } from "framer-motion";
 
 const ExperienceCard = (props) => {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 10 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{
-        duration: 0.5,
-        delay: 0.15,
-      }}
-    >
-      <div className="experienceWrapper">
-        <div className="titleWrapper">
-          <p className="title">{props.title}</p>
-          <p className="titlesno">0{props.sno}</p>
-        </div>
-        <hr />
-        <div className="experienceDetailsWrapper">
-          <p className="position">{props.position}</p>
-          <p className="period">{props.period}</p>
-          <p className="whatidid">{props.role}</p>
-        </div>
+    <div className="experienceWrapper">
+      <div className="titleWrapper">
+        <p className="title">{props.title}</p>
+        <p className="titlesno">0{props.sno}</p>
       </div>
-    </motion.div>
+      <hr />
+      <div className="experienceDetailsWrapper">
+        <p className="position">{props.position}</p>
+        <p className="period">{props.period}</p>
+        <p className="whatidid">{props.role}</p>
+      </div>
+    </div>
   );
 };
 
-const Experience = () => {
+const Education = () => {
   return (
     <section id="experience" className="main-wrapper">
-      <motion.div
-        initial={{ opacity: 0, y: 10 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{
-          duration: 0.5,
-          delay: 0.1,
-        }}
-      >
-        <p className="title">Work Experience History 💼</p>
-      </motion.div>
+      <p className="title">Work Experience History 💼</p>
       <ExperienceCard
         title="Coinshift"
         sno="1"
@@ -78,4 +59,4 @@ const Experience = () => {
     </section>
   );
 };
-export default Experience;
+export default Education;

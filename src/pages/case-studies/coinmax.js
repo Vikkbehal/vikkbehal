@@ -23,6 +23,9 @@ const Coinmax = () => {
     <div id="case-study" className="main-wrapper">
       <ScrollToTop />
       <Header />
+      {/* <div className="floatNextProject">
+        <p>kjdbfvkjgb</p>
+      </div> */}
       <div className="case-study-body-wrapper">
         <motion.div
           initial={{ opacity: 0, y: 10 }}

@@ -8,7 +8,7 @@ function App() {
     x: 0,
     y: 0,
   });
-  const [cursorVariant, setCursorVariant] = useState("default");
+  const [cursorVariant] = useState("default");
   useEffect(() => {
     const mouseMove = (e) => {
       setMousePosition({
@@ -37,8 +37,10 @@ function App() {
         className="cursor"
         variants={variants}
         animate={cursorVariant}
-        transition={{ type: "Spring", stiffness: 100, duration: 0.15 }}
-      />
+        transition={{ type: "Spring", stiffness: 100, duration: 0.1 }}
+      >
+        <div className="point"></div>
+      </motion.div>
       <Router />
     </div>
   );
