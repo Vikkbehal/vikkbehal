@@ -10,7 +10,7 @@ import cs01 from "../../assets/img/case-study/coinshop/cs01.jpg";
 import cs02 from "../../assets/img/case-study/coinshop/cs02.jpg";
 import cs03 from "../../assets/img/case-study/coinshop/cs03.jpg";
 import userflow from "../../assets/img/case-study/userflow/coinmax.png";
-import CoinmaxResult from "../../assets/img/case-study/CoinMax.jpg";
+// import CoinmaxResult from "../../assets/img/case-study/CoinMax.jpg";
 
 import { motion } from "framer-motion";
 
