@@ -9,7 +9,7 @@ import typography from "../../assets/img/case-study/typo/typo-coinmax.png";
 import userflow from "../../assets/img/case-study/userflow/coinmax.png";
 import cm01 from "../../assets/img/case-study/coinmax/cm01.jpg";
 // import cm02 from "../../assets/img/case-study/coinmax/2.jpg";
-import cmsplash from "../../assets/img/case-study/coinmax/cmsplash.jpg";
+// import cmsplash from "../../assets/img/case-study/coinmax/cmsplash.jpg";
 // import CoinmaxMBP from "../../assets/img/case-study/coinmax/coinmax-mbp.png";
 import { motion } from "framer-motion";
 
