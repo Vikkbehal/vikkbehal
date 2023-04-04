@@ -4,7 +4,6 @@
     p.title {
         font-family: $primary-font;
         font-size: 1.4rem;
-        // opacity: 0.75;
         margin-bottom: 1rem;
 
     }
@@ -43,6 +42,7 @@
                 margin:0px 0px 35px 0px;
                 li.tag {
                     background-color: rgba(0,0,0,0.25);
+                    border:1px solid rgba(0,0,0,0.15);
                     margin-right: 0.75rem;
                     margin-bottom: 0.75rem;
                     color:$light-grey;

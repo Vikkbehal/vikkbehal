@@ -81,6 +81,9 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        img.case-study-final {
+            margin-bottom: 1rem;
+        }
         h3.title {
             font-size: 1.6rem;
             font-family: $primary-font;
@@ -124,9 +127,9 @@
             width: 100%;
             transition: 0.2s linear;
             cursor: pointer;
-            &:hover {
-                box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
-            }
+            // &:hover {
+            //     box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+            // }
         }
     }
 }

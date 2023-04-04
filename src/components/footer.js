@@ -34,7 +34,8 @@ const Footer = () => {
                 target="_blank"
               >
                 <img src={Gmail} alt="vikkbehal_email" />
-                Lets Have a word! 😇
+                {/* Lets Have a word! 😇 */}
+                Lets talk about our next project! 😇
               </Link>
             </li>
             <li className="dribbble">

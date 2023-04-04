@@ -7,7 +7,10 @@ import process from "../../assets/img/case-study/uxProcess/ux-process-blue.png";
 import cm1 from "../../assets/img/case-study/coinmax1.png";
 import typography from "../../assets/img/case-study/typo/typo-coinmax.png";
 import userflow from "../../assets/img/case-study/userflow/coinmax.png";
-import CoinmaxResult from "../../assets/img/case-study/CoinMax.jpg";
+import cm01 from "../../assets/img/case-study/coinmax/cm01.jpg";
+// import cm02 from "../../assets/img/case-study/coinmax/2.jpg";
+import cmsplash from "../../assets/img/case-study/coinmax/cmsplash.jpg";
+// import CoinmaxMBP from "../../assets/img/case-study/coinmax/coinmax-mbp.png";
 import { motion } from "framer-motion";
 
 import { useEffect } from "react";
@@ -24,7 +27,7 @@ const Coinmax = () => {
       <ScrollToTop />
       <Header />
       {/* <div className="floatNextProject">
-        <p>kjdbfvkjgb</p>
+        <p>Next Project</p>
       </div> */}
       <div className="case-study-body-wrapper">
         <motion.div
@@ -175,7 +178,11 @@ const Coinmax = () => {
               <span>06/ </span>The Result
             </h3>
             <div>
-              <img src={CoinmaxResult} alt="Vishal Behal | UI / UX Designer" />
+              <img
+                className="case-study-final"
+                src={cm01}
+                alt="Vishal Behal | UI / UX Designer"
+              />
             </div>
             <div></div>
           </section>

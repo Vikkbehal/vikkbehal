@@ -12,7 +12,7 @@ const Hero = () => {
       }}
     >
       <section id="hero">
-        <p className="hello">Hello ● Bonjour ● Namastey</p>
+        <p className="hello">🙏🏽 Hello ● Bonjour ● Namastey</p>
         <h1 className="title">
           <span>
             My name is Vishal Behal <br />{" "}
