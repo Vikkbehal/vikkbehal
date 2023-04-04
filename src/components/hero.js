@@ -18,7 +18,8 @@ const Hero = () => {
             My name is Vishal Behal <br />{" "}
           </span>
           I’m a <span className="emoji">✏️</span> UX Designer based in{" "}
-          <span className="emoji">🇮🇳</span> India,
+          {/* <span className="emoji">🇮🇳</span>  */}
+          India,
           <br />
           available <span className="emoji">🌍</span> Worldwide
         </h1>

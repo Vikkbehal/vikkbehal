@@ -5,7 +5,7 @@ import CaseStudyHeroCard from "../../components/caseStudyHeroCard";
 
 import process from "../../assets/img/case-study/uxProcess/ux-process-blue.png";
 import cm1 from "../../assets/img/case-study/coinmax1.png";
-import typography from "../../assets/img/case-study/typo/typo-coinmax.png";
+import typography from "../../assets/img/case-study/typo/cm-type-color.jpg";
 import userflow from "../../assets/img/case-study/userflow/coinmax.png";
 import CoinmaxResult from "../../assets/img/case-study/CoinMax.jpg";
 import { motion } from "framer-motion";

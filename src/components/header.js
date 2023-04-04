@@ -23,7 +23,7 @@ const Header = () => {
           {/* <Link to="/resources">resources.</Link> */}
           <Link to="/blog">reads.</Link>
           <Link to="/blog" className="resume" target="_blank">
-            My Resume
+            Download CV
           </Link>
         </div>
       </header>
