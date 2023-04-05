@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import {
   Coinmax,
   Coinshop,
@@ -154,6 +154,20 @@ const SelectedWork = () => {
               tags={["Branding", "UI/UX"]}
               ctaLink="/casestudy/coinshift"
             />
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, x: -15 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{
+              duration: 0.5,
+              delay: 0.5,
+            }}
+          >
+            <div className="view-more-work">
+              <Link to="/work">
+                <p>Check out my other projects for more of my work →</p>
+              </Link>
+            </div>
           </motion.div>
         </>
       )}
