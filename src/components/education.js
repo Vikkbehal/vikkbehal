@@ -20,40 +20,19 @@ const ExperienceCard = (props) => {
 const Education = () => {
   return (
     <section id="experience" className="main-wrapper">
-      <p className="title">Work Experience History 💼</p>
+      <p className="title">My Education 📖</p>
       <ExperienceCard
-        title="Coinshift"
+        title="BCA (Bachelor of Computer Application)"
         sno="1"
         position="UI & Graphic Designer"
         period="Mar 2022 - Oct 2022"
         role="Assisted in Dashboard Design/Redesign Landing Page/ Designed Graphics & Assets"
       />
       <ExperienceCard
-        title="Coinshop - Formerly Bittmax "
+        title="High School"
         sno="2"
         position="Product Designer"
         period="Dec 2018 - Mar 2022"
-        role="Assisted in Dashboard Design/Redesign Landing Page/ Designed Graphics & Assets"
-      />
-      <ExperienceCard
-        title="Vevsa Technologies"
-        sno="3"
-        position="UI Designer"
-        period="Mar 2018 - Dec 2018"
-        role="Assisted in Dashboard Design/Redesign Landing Page/ Designed Graphics & Assets"
-      />
-      <ExperienceCard
-        title="SNA Power - Software and Technology"
-        sno="4"
-        position="UI & Web Designer"
-        period="Jul 2017 - Mar 2018"
-        role="Assisted in Dashboard Design/Redesign Landing Page/ Designed Graphics & Assets"
-      />
-      <ExperienceCard
-        title="1neclick Online Pvt. Ltd."
-        sno="5"
-        position="UI Designer"
-        period="Jan 2016 - Jul 2017"
         role="Assisted in Dashboard Design/Redesign Landing Page/ Designed Graphics & Assets"
       />
     </section>
