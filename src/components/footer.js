@@ -13,19 +13,28 @@ import { motion } from "framer-motion";
 const Footer = () => {
   return (
     <footer>
-      <motion.div
-        initial={{ opacity: 0, y: 10 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{
-          duration: 0.5,
-          delay: 0.3,
-        }}
-      >
-        <div className="footer">
+      <div className="footer">
+        <motion.div
+          initial={{ opacity: 0, x: -25 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{
+            duration: 0.5,
+            delay: 0.3,
+          }}
+        >
           <p className="contact-me">
             Unlock endless possibilities by knocking on my door, let's explore
             the opportunity of working together!<span> ↓ ↓ ↓</span>
           </p>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, x: 15 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{
+            duration: 0.5,
+            delay: 0.3,
+          }}
+        >
           <ul className="social-links">
             <li className="mail">
               <Link
@@ -69,14 +78,14 @@ const Footer = () => {
               </Link>
             </li>
           </ul>
-          <p className="footerstripe">
-            <span>
-              © 2023 Vishal Behal | All Rights Reserved | Design & Coded with{" "}
-            </span>
-            💗💗
-          </p>
-        </div>
-      </motion.div>
+        </motion.div>
+        <p className="footerstripe">
+          <span>
+            © 2023 Vishal Behal | All Rights Reserved | Design & Coded with{" "}
+          </span>
+          💗💗
+        </p>
+      </div>
     </footer>
   );
 };

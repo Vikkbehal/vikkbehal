@@ -4,14 +4,14 @@ import Footer from "../../components/footer";
 import CaseStudyHeroCard from "../../components/caseStudyHeroCard";
 
 import process from "../../assets/img/case-study/uxProcess/ux-process-blue.png";
-// import d01 from "../../assets/img/case-study/drives/d01.jpg";
+import d00 from "../../assets/img/case-study/drives/d00.jpg";
+import d01 from "../../assets/img/case-study/drives/d01.jpg";
+// import d02 from "../../assets/img/case-study/drives/d02.jpg";
+import d03 from "../../assets/img/case-study/drives/d03.jpg";
 import prototype from "../../assets/img/case-study/drives/drives-flow.jpg";
 import drivestc01 from "../../assets/img/case-study/drives/drivestc01.jpg";
 import drivestc02 from "../../assets/img/case-study/drives/drivestc02.jpg";
-import d02 from "../../assets/img/case-study/drives/d02.jpg";
-import typography from "../../assets/img/case-study/typo/cm-type-color.jpg";
 import userflow from "../../assets/img/case-study/userflow/coinmax.png";
-import CoinmaxResult from "../../assets/img/case-study/CoinMax.jpg";
 import { motion } from "framer-motion";
 
 import { useEffect } from "react";
@@ -51,7 +51,7 @@ const Drives = () => {
           }}
         >
           <img
-            src={d02}
+            src={d00}
             className="case-study-hero"
             alt="Vishal Behal | UI / UX Designer"
           />
@@ -155,10 +155,18 @@ const Drives = () => {
               <span>05/ </span>Typography & Colors
             </h3>
             <div>
-              <img src={drivestc01} alt="Vishal Behal | UI / UX Designer" />
+              <img
+                className="case-study-final"
+                src={drivestc01}
+                alt="Vishal Behal | UI / UX Designer"
+              />
             </div>
             <div>
-              <img src={drivestc02} alt="Vishal Behal | UI / UX Designer" />
+              <img
+                className="case-study-final"
+                src={drivestc02}
+                alt="Vishal Behal | UI / UX Designer"
+              />
             </div>
           </section>
         </motion.div>
@@ -192,9 +200,22 @@ const Drives = () => {
               <span>06/ </span>The Result
             </h3>
             <div>
-              <img src={CoinmaxResult} alt="Vishal Behal | UI / UX Designer" />
+              <img
+                className="case-study-final"
+                src={d01}
+                alt="Vishal Behal | UI / UX Designer"
+              />
             </div>
-            <div></div>
+            {/* <div>
+              <img src={d02} alt="Vishal Behal | UI / UX Designer" />
+            </div> */}
+            <div>
+              <img
+                className="case-study-final"
+                src={d03}
+                alt="Vishal Behal | UI / UX Designer"
+              />
+            </div>
           </section>
         </motion.div>
       </div>
