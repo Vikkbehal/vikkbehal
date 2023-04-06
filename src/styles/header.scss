@@ -53,4 +53,61 @@ header#header {
             }
         }
     }
+
+    .backdrop {
+        position: fixed;
+        z-index: 98;
+        background: rgba($color: #000000, $alpha: 0.35);
+        backdrop-filter: blur(2px);
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        transition: 0.2s ease-in-out;
+
+        &.show {
+            display: block;
+        }
+
+        &.hide {
+            display: none;
+        }
+    }
+
+    .navigationFloat {
+        position: fixed;
+        z-index: 99;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-color: $off-white;
+        width: 100%;
+        transition: 0.2s ease-in-out;
+        overflow: hidden;
+
+        &.open {
+            height: auto;
+        }
+
+        &.closed {
+            height: 0vh;
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            padding-top: 1rem;
+
+            a {
+                font-family: $primary-font;
+                text-decoration: none;
+                padding: 1rem;
+                color: $primary-color;
+                font-size: 1.2rem;
+                font-weight: 700;
+                opacity: 1;
+            }
+        }
+    }
 }
