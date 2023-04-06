@@ -29,12 +29,12 @@ const Header = () => {
             </div>
             <div>
               <p
-                className={`navigation menuState-${
+                className={`navigation menuStateTogger ${
                   isMenuOpen ? "open" : "closed"
                 }`}
                 onClick={toggleMenuState}
               >
-                {!isMenuOpen ? "Open" : "X"}
+                {!isMenuOpen ? "Menu" : ""}
               </p>
             </div>
           </header>
@@ -78,11 +78,11 @@ const Header = () => {
                 delay: 0.1,
               }}
             >
-              <Link to="/about">about me.</Link>
-              <Link to="/work">my work.</Link>
-              <Link to="/blog">reads.</Link>
+              <Link to="/about">about me. ✏️</Link>
+              <Link to="/work">my work. 💼</Link>
+              <Link to="/blog">reads. 📖</Link>
               <Link to="/blog" className="resume" target="_blank">
-                Download CV
+                Download CV ⬇
               </Link>
             </motion.div>
           </div>
