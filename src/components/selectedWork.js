@@ -12,6 +12,12 @@ import {
   logoCoinshop,
   logoDrives,
 } from "../assets/img/logos";
+import {
+  mobileCoinmax,
+  mobileCoinshop,
+  mobileDrives,
+  mobileCoinshift,
+} from "../assets/img/case-study/mobile";
 import WorkCardMobile from "./workCardMobile";
 import WorkCard from "./workCard";
 import { motion } from "framer-motion";
@@ -25,12 +31,12 @@ const SelectedWork = () => {
       {width < 768 && (
         <>
           <WorkCardMobile
-            bg={Coinmax}
+            bg={mobileCoinmax}
             logo={logoCoinmax}
             sno="1"
             title="Coinmax (Web/Mobile) Mobile"
             desc="Landing Page, Web Based Crypto Exchange, Mobile Based Crypto Exchange (ios,Android), Web App (Instant Buy/Sell) Portal"
-            linkText="View Case Study"
+            linkText="View Case Study →"
             tags={[
               "Branding",
               "Product Design",
@@ -40,32 +46,32 @@ const SelectedWork = () => {
             ctaLink="/casestudy/coinmax"
           />
           <WorkCardMobile
-            bg={Coinshop}
+            bg={mobileCoinshop}
             logo={logoCoinshop}
             sno="2"
             title="Coinshop (Mobile Apps)"
             desc="Collection of three Mobile App, Customer App, Merchant App and Collection agent Application."
-            linkText="View Case Study"
+            linkText="View Case Study →"
             tags={["Product Design", "UI/UX", "Frontend (React Native)"]}
             ctaLink="/casestudy/coinshop"
           />
           <WorkCardMobile
-            bg={Drives}
+            bg={mobileDrives}
             logo={logoDrives}
             sno="3"
             title="Drives (Web/Mobile)"
             desc="Landing Page, Mobile App Redesign, Frontend (react-native)"
-            linkText="View Case Study"
+            linkText="View Case Study →"
             tags={["UI/UX", "Frontend (React Native)"]}
             ctaLink="/casestudy/drives"
           />
           <WorkCardMobile
-            bg={Coinshift}
+            bg={mobileCoinshift}
             logo={logoCoinshift}
             sno="4"
             title="Coinshift (Brand Guidelines)"
             desc="Brand Guidelines, Redesign Landing Page"
-            linkText="View Project"
+            linkText="View Project →"
             tags={["Branding", "UI/UX"]}
             ctaLink="/casestudy/coinshift"
           />

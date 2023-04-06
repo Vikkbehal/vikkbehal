@@ -14,6 +14,9 @@ const WorkCardMobile = (props) => {
     >
       <div className="workCard">
         <div className="contentWrapper">
+          <div className="project-image-mobile">
+            <img src={props.bg} alt="vikkbehal" />
+          </div>
           <div className="mobileTitleWrap">
             <p className="sno">00{props.sno}/ </p>
             <p className="title">{props.title}</p>

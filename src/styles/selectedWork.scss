@@ -105,7 +105,7 @@
         }
 
         .workCard {
-            padding: 1rem;
+            padding: 0rem;
             margin-bottom: 2rem;
 
             .logoWrapper {
@@ -118,6 +118,12 @@
 
             .contentWrapper {
                 max-width: 100%;
+
+                .project-image-mobile {
+                    img {
+                        width: 100%;
+                    }
+                }
 
                 .mobileTitleWrap {
                     display: flex;
