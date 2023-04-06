@@ -1,66 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
 
-// @font-face {
-//     font-family: Butler;
-//     src: url(../assets/fonts/butler/Butler_Webfont/Butler.woff2);
-//     font-style: normal;
-//     font-weight: normal;
-// }
-// @font-face {
-//     font-family: manrope-regular;
-//     src: url(../assets/fonts/Manrope-Regular.ttf);
-// }
-// @font-face {
-//     font-family: elegante;
-//     src: url(../assets/fonts/elegante.ttf);
-// }
-// @font-face {
-//     font-family: Quaria;
-//     src: url(../assets/fonts/primary/Quaria-medium.otf);
-//     font-style: normal;
-//     font-weight: "500";
-// }
-// @font-face {
-//     font-family: Quaria;
-//     src: url(../assets/fonts/primary/Quaria.otf);
-//     font-style: normal;
-//     font-weight: "400";
-// }
-// @font-face {
-//     font-family: Quaria;
-//     src: url(../assets/fonts/primary/Quaria-bold.otf);
-//     font-style: normal;
-//     font-weight: "700";
-// }
-// @font-face {
-//     font-family: Quaria;
-//     src: url(../assets/fonts/primary/Quaria-semibold.otf);
-//     font-style: normal;
-//     font-weight: "600";
-// }
-// @font-face {
-//     font-family: elegante;
-//     src: url(../assets/fonts/elegante.ttf);
-// }
 @font-face {
     font-family: boulevard-signature;
     src: url(../assets/fonts/boulevardsignature.otf);
 }
 
 $max-width: 1180px;
+$max-width-mobile: calc(768px - 5%);
 
-// $primary-color:#5451F9;
-// $accent-color:#FF4A8B;
-$primary-color:#A459D1;
-// $accent-color:#F16767;
-$accent-color:#FB2576;
-$light-grey:#F8F8F8;
+$primary-color: #A459D1;
+$accent-color: #FB2576;
+$light-grey: #F8F8F8;
 $off-white :#F3EEE7;
 
 
-$logo-font-new:boulevard-signature;
-$primary-font:'Unbounded', cursive;
-$secondary-font:'Manrope', sans-serif;
+$logo-font-new: boulevard-signature;
+$primary-font: 'Unbounded', cursive;
+$secondary-font: 'Manrope', sans-serif;
 
 // $primary-font:'Quaria', sans-serif;
 // $primary-font:'elegante', sans-serif;

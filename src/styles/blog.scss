@@ -1,4 +1,3 @@
-
 #blogWrapper {
     .blogWrapper {
         display: flex;
@@ -9,6 +8,7 @@
         margin: 0 auto;
         height: 80vh;
         font-family: $secondary-font;
+
         .blogTitle {
             max-width: 80%;
             color: $primary-color;
@@ -16,6 +16,7 @@
             text-align: center;
             margin-bottom: 20px;
         }
+
         .blogLink {
             text-decoration: none;
             font-weight: 700;
@@ -23,6 +24,25 @@
             text-align: center;
             color: $accent-color;
             margin-bottom: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #blogWrapper {
+        .blogWrapper {
+            width: 90%;
+            height: 65vh;
+            font-family: $primary-font;
+
+            .blogTitle {
+                font-size: 1.6rem;
+            }
+
+            .blogLink {
+                font-weight: 400;
+                font-size: 1.2rem;
+            }
         }
     }
 }

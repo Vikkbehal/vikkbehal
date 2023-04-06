@@ -28,7 +28,7 @@ const SelectedWork = () => {
             bg={Coinmax}
             logo={logoCoinmax}
             sno="1"
-            title="Coinmax (Web/Mobile) MObile"
+            title="Coinmax (Web/Mobile) Mobile"
             desc="Landing Page, Web Based Crypto Exchange, Mobile Based Crypto Exchange (ios,Android), Web App (Instant Buy/Sell) Portal"
             linkText="View Case Study"
             tags={[
@@ -119,6 +119,16 @@ const SelectedWork = () => {
             tags={["Branding", "UI/UX"]}
             ctaLink="/casestudy/coinshift"
           />
+          {/* <WorkCard
+            bg={Coinshift}
+            logo={logoCoinshift}
+            sno="5"
+            title="Escher (Website)"
+            desc="Redesign Mobile App & Website"
+            linkText="Case study - Coming Soon"
+            tags={["Branding", "UI/UX"]}
+            ctaLink="/casestudy/coinshift"
+          /> */}
           <motion.div
             initial={{ opacity: 0, x: -15 }}
             whileInView={{ opacity: 1, x: 0 }}

@@ -1,30 +1,36 @@
 footer {
     background-color: #ffffff;
+
     .footer {
         font-family: $secondary-font;
         max-width: $max-width;
         margin: 0 auto;
-        padding:4rem 0px 0px 0px;
+        padding: 4rem 0px 0px 0px;
+
         .contact-me {
             font-family: $primary-font;
             font-size: 1.6rem;
             font-weight: 400;
             margin-bottom: 4rem;
+
             span {
                 color: $accent-color;
             }
         }
+
         ul.social-links {
-            padding:0px;
+            padding: 0px;
             display: flex;
             flex-direction: column;
             margin: 0px;
             width: max-content;
+
             &:hover {
                 li {
                     transition: 0.1s linear;
                     opacity: 0.25;
                     filter: blur(1px);
+
                     &:hover {
                         transition: 0.1s linear;
                         opacity: 1;
@@ -32,11 +38,13 @@ footer {
                     }
                 }
             }
+
             li {
                 flex-direction: row;
                 text-decoration: none;
                 list-style: none;
                 cursor: pointer;
+
                 img {
                     width: 35px;
                     height: 35px;
@@ -44,45 +52,110 @@ footer {
                     border-radius: 100px;
                     box-shadow: 0px 0px 15px rgba($color: #000000, $alpha: 0.1);
                 }
+
                 a {
                     font-family: $primary-font;
                     text-decoration: none;
                     font-size: 1.6rem;
                     display: flex;
                     align-items: center;
-                    margin:1rem 2rem 1rem 0rem ;
+                    margin: 1rem 2rem 1rem 0rem;
                 }
             }
+
             li.mail {
                 a {
-                    color:#0D31EE
+                    color: #0D31EE
                 }
             }
+
             li.dribbble {
                 a {
-                    color:#FC37A1
+                    color: #FC37A1
                 }
             }
+
             li.linkedin {
                 a {
-                    color:#26A9D2
+                    color: #26A9D2
                 }
             }
+
             li.instagram {
                 a {
-                    color:#DE5134
+                    color: #DE5134
                 }
             }
         }
+
         p.footerstripe {
             margin: 0px;
-            padding:1.6rem 0px;
+            padding: 1.6rem 0px;
             text-align: right;
             font-family: $secondary-font;
             font-size: 1rem;
+
             span {
                 opacity: 0.8;
                 // color: $accent-color;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+
+        .footer {
+            font-family: $secondary-font;
+            width: 90%;
+            padding: 2rem 0px 0px 0px;
+
+            .contact-me {
+                font-family: $primary-font;
+                font-size: 1rem;
+                margin-bottom: 1rem;
+                opacity: 0.5;
+
+            }
+
+            ul.social-links {
+                &:hover {
+                    li {
+                        transition: 0.1s linear;
+                        opacity: 1;
+                        filter: none;
+                    }
+                }
+
+                li {
+
+                    img {
+                        width: 20px;
+                        height: 20px;
+                        margin-right: 5px;
+                    }
+
+                    a {
+                        font-family: $primary-font;
+                        text-decoration: none;
+                        font-size: 0.8rem;
+                        margin: 1rem 1rem 0rem 0rem;
+                    }
+                }
+
+            }
+
+            p.footerstripe {
+                margin: 0px;
+                padding: 1.6rem 0px;
+                text-align: center;
+                font-family: $secondary-font;
+                font-size: 0.6rem;
+
+                span {
+                    opacity: 0.8;
+                }
             }
         }
     }

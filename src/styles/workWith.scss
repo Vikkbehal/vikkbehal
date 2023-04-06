@@ -1,6 +1,7 @@
 #iWorkWith.main-wrapper {
     max-width: $max-width;
     margin: 0 auto;
+
     p.mainTitle {
         font-family: $primary-font;
         font-weight: 500;
@@ -8,16 +9,19 @@
         padding-right: 10%;
         margin-bottom: 35px;
     }
+
     span {
         color: $primary-color;
     }
+
     .workWithCardWrapper {
         display: flex;
-        flex:1;
+        flex: 1;
         align-items: center;
         gap: 20px;
         flex-wrap: wrap;
         padding-bottom: 35px;
+
         .workWithCard {
             // width: calc(33.33333333% - 60px);
             flex: 1 1 calc(33% - 60px);
@@ -31,31 +35,92 @@
             font-family: $secondary-font;
             text-align: center;
             padding: 20px;
+
             p {
                 margin: 0;
             }
+
             img {
                 max-height: 55px;
                 margin-bottom: 20px;
                 aspect-ratio: auto 1 / 1;
             }
+
             p.title {
                 font-weight: bold;
                 font-size: 1.1rem;
                 margin-bottom: 10px;
             }
+
             p.myRoll {
                 font-weight: 400;
                 font-size: 0.9rem;
                 margin-bottom: 0px;
             }
+
             .manymoreTitle {
                 font-weight: bold;
                 font-size: 1.6rem;
                 color: $accent-color;
+
                 span {
                     font-size: 1.4rem;
                     opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #iWorkWith.main-wrapper {
+        width: 90%;
+
+        p.mainTitle {
+            font-size: 1.2rem;
+            padding-right: 0%;
+        }
+
+        span {
+            color: $primary-color;
+        }
+
+        .workWithCardWrapper {
+            display: flex;
+            flex: 1;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            padding-bottom: 25px;
+
+            .workWithCard {
+                flex-basis: 100%;
+
+                img {
+                    max-height: 45px;
+                }
+
+                p.title {
+                    font-weight: bold;
+                    font-size: 1.1rem;
+                    margin-bottom: 10px;
+                }
+
+                p.myRoll {
+                    font-weight: 400;
+                    font-size: 0.9rem;
+                    margin-bottom: 0px;
+                }
+
+                .manymoreTitle {
+                    font-weight: bold;
+                    font-size: 1.6rem;
+                    color: $accent-color;
+
+                    span {
+                        font-size: 1.4rem;
+                        opacity: 1;
+                    }
                 }
             }
         }
