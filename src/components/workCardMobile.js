@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+// import arrowRight from "../assets/img/right.svg";
 
 const WorkCardMobile = (props) => {
   return (
@@ -14,13 +15,17 @@ const WorkCardMobile = (props) => {
     >
       <div className="workCard">
         <div className="contentWrapper">
-          <div className="project-image-mobile">
-            <img src={props.bg} alt="vikkbehal" />
-          </div>
           <div className="mobileTitleWrap">
             <p className="sno">00{props.sno}/ </p>
             <p className="title">{props.title}</p>
           </div>
+          <div className="project-image-mobile">
+            <img src={props.bg} alt="vikkbehal" />
+          </div>
+          {/* <div className="mobileTitleWrap">
+            <p className="sno">00{props.sno}/ </p>
+            <p className="title">{props.title}</p>
+          </div> */}
           <p className="desc">{props.desc}</p>
 
           <ul className="taglist">
@@ -37,6 +42,7 @@ const WorkCardMobile = (props) => {
 
           <Link to={props.ctaLink} className="ctaButton">
             {props.linkText}
+            {/* <img src={arrowRight} alt="Vishal Behal UX Designer" /> */}
           </Link>
         </div>
       </div>
@@ -73,6 +79,7 @@ const WorkCardMobile = (props) => {
           </Link>
         </div>
       </div> */}
+      <hr className="divider" />
     </motion.div>
   );
 };

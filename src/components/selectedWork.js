@@ -36,7 +36,7 @@ const SelectedWork = () => {
             sno="1"
             title="Coinmax (Web/Mobile) Mobile"
             desc="Landing Page, Web Based Crypto Exchange, Mobile Based Crypto Exchange (ios,Android), Web App (Instant Buy/Sell) Portal"
-            linkText="View Case Study →"
+            linkText="View Case Study"
             tags={[
               "Branding",
               "Product Design",
@@ -51,7 +51,7 @@ const SelectedWork = () => {
             sno="2"
             title="Coinshop (Mobile Apps)"
             desc="Collection of three Mobile App, Customer App, Merchant App and Collection agent Application."
-            linkText="View Case Study →"
+            linkText="View Case Study"
             tags={["Product Design", "UI/UX", "Frontend (React Native)"]}
             ctaLink="/casestudy/coinshop"
           />
@@ -61,7 +61,7 @@ const SelectedWork = () => {
             sno="3"
             title="Drives (Web/Mobile)"
             desc="Landing Page, Mobile App Redesign, Frontend (react-native)"
-            linkText="View Case Study →"
+            linkText="View Case Study"
             tags={["UI/UX", "Frontend (React Native)"]}
             ctaLink="/casestudy/drives"
           />
@@ -71,10 +71,24 @@ const SelectedWork = () => {
             sno="4"
             title="Coinshift (Brand Guidelines)"
             desc="Brand Guidelines, Redesign Landing Page"
-            linkText="View Project →"
+            linkText="View Project"
             tags={["Branding", "UI/UX"]}
             ctaLink="/casestudy/coinshift"
           />
+          <motion.div
+            initial={{ opacity: 0, x: -15 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{
+              duration: 0.5,
+              delay: 0.25,
+            }}
+          >
+            <div className="view-more-work">
+              <Link to="/work">
+                <p>Check out my other projects for more of my work →</p>
+              </Link>
+            </div>
+          </motion.div>
         </>
       )}
 

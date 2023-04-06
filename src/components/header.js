@@ -6,7 +6,7 @@ import { useWindowSize } from "react-use";
 const Header = () => {
   const { width } = useWindowSize();
 
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(true);
 
   const toggleMenuState = useCallback(() => {
     setIsMenuOpen((currentValue) => !currentValue);
@@ -24,9 +24,7 @@ const Header = () => {
       >
         {width < 768 && (
           <header id="header">
-            <div className="logo">
-              <Link to="/">Vikkbehal</Link>
-            </div>
+            <div className="logo">{/* <Link to="/">Vikkbehal</Link> */}</div>
             <div>
               <p
                 className={`navigation menuStateTogger ${
@@ -78,17 +76,24 @@ const Header = () => {
                 delay: 0.1,
               }}
             >
-              <Link to="/about">about me. ✏️</Link>
+              {/* <Link to="/about">about me. ✏️</Link>
               <Link to="/work">my work. 💼</Link>
-              <Link to="/blog">reads. 📖</Link>
-              <Link to="/blog" className="resume" target="_blank">
+              <Link to="/blog">reads. 📖</Link> */}
+              <Link to="/">Home</Link>
+              <Link to="/about">About</Link>
+              <Link to="/work">Work</Link>
+              {/* <Link to="/blog">reads. 📖</Link> */}
+              {/* <Link to="/blog" className="resume" target="_blank">
                 Download CV ⬇
-              </Link>
+              </Link> */}
+              {/* <Link to="/blog" className="resume" target="_blank">
+                Resume
+              </Link> */}
             </motion.div>
           </div>
         </div>
       )}
-      {width < 768 && (
+      {/* {width < 768 && (
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -102,7 +107,7 @@ const Header = () => {
             onClick={toggleMenuState}
           ></div>
         </motion.div>
-      )}
+      )} */}
     </>
   );
 };

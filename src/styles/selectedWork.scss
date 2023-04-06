@@ -1,194 +1,197 @@
 #selectedWork {
-    max-width: $max-width;
-    margin: 0 auto;
+  max-width: $max-width;
+  margin: 0 auto;
 
-    p.title {
-        font-family: $primary-font;
-        font-size: 1.4rem;
-        margin-bottom: 1rem;
+  p.title {
+    font-family: $primary-font;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
 
+  .workCard {
+    font-family: $secondary-font;
+    padding: 4rem;
+    margin-bottom: 2rem;
+
+    .logoWrapper {
+      margin-bottom: 6rem;
+
+      img {
+        width: 100px;
+      }
     }
 
-    .workCard {
-        font-family: $secondary-font;
-        padding: 4rem;
-        margin-bottom: 2rem;
+    .contentWrapper {
+      max-width: 50%;
 
-        .logoWrapper {
-            margin-bottom: 6rem;
+      p.sno {
+        margin: 0px 0px 10px 0px;
+      }
 
-            img {
-                width: 100px;
-            }
-        }
+      .title {
+        margin: 0px 0px 10px 0px;
+        opacity: 1;
+      }
 
-        .contentWrapper {
-            max-width: 50%;
+      .desc {
+        margin: 0px 0px 10px 0px;
+      }
 
-            p.sno {
-                margin: 0px 0px 10px 0px;
-            }
+      a {
+        color: white;
+        text-decoration: none;
+      }
 
-            .title {
-                margin: 0px 0px 10px 0px;
-                opacity: 1;
-            }
-
-            .desc {
-                margin: 0px 0px 10px 0px;
-            }
-
-            a {
-                color: white;
-                text-decoration: none;
-            }
-
-            ul.taglist {
-                display: flex;
-                flex-wrap: wrap;
-                list-style: none;
-                padding: 0px;
-                width: 50%;
-                margin: 0px 0px 35px 0px;
-
-                li.tag {
-                    background-color: rgba(0, 0, 0, 0.25);
-                    border: 1px solid rgba(0, 0, 0, 0.15);
-                    margin-right: 0.75rem;
-                    margin-bottom: 0.75rem;
-                    color: $light-grey;
-                    padding: 0.4rem 1rem;
-                    font-family: $secondary-font;
-                    border-radius: 5rem;
-                    font-size: 0.7rem;
-                    font-weight: 600;
-                }
-            }
-
-            .ctaButton {
-                padding: 0.8rem 1.2rem;
-                background-color: rgba(0, 0, 0, 0.15);
-                border: 1px solid rgba(255, 255, 255, 1);
-                transition: 0.1s linear;
-
-                &:hover {
-                    background-color: #f8f8f8;
-                    color: #363636;
-                    border: 1px solid rgba(255, 255, 255, 0);
-                }
-            }
-        }
-    }
-
-    .view-more-work {
+      ul.taglist {
         display: flex;
-        justify-content: flex-end;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 0px;
+        width: 50%;
+        margin: 0px 0px 35px 0px;
 
-        p {
-            font-family: $primary-font;
-            font-size: 1.6rem;
-            color: $accent-color;
+        li.tag {
+          background-color: rgba(0, 0, 0, 0.25);
+          border: 1px solid rgba(0, 0, 0, 0.15);
+          margin-right: 0.75rem;
+          margin-bottom: 0.75rem;
+          color: $light-grey;
+          padding: 0.4rem 1rem;
+          font-family: $secondary-font;
+          border-radius: 5rem;
+          font-size: 0.7rem;
+          font-weight: 600;
         }
+      }
 
-        a {
-            text-decoration: none;
+      .ctaButton {
+        padding: 0.8rem 1.2rem;
+        background-color: rgba(0, 0, 0, 0.15);
+        border: 1px solid rgba(255, 255, 255, 1);
+        transition: 0.1s linear;
+
+        &:hover {
+          background-color: #f8f8f8;
+          color: #363636;
+          border: 1px solid rgba(255, 255, 255, 0);
         }
+      }
     }
+  }
+
+  .view-more-work {
+    display: flex;
+    justify-content: flex-end;
+
+    p {
+      font-family: $primary-font;
+      font-size: 1.6rem;
+      color: $accent-color;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
 }
 
 @media screen and (max-width: 768px) {
-    #selectedWork {
-        width: 90%;
+  #selectedWork {
+    width: 90%;
 
-        p.title {
-            font-size: 1rem;
-        }
-
-        .workCard {
-            padding: 0rem;
-            margin-bottom: 2rem;
-
-            .logoWrapper {
-                margin-bottom: 2rem;
-
-                img {
-                    width: 75px;
-                }
-            }
-
-            .contentWrapper {
-                max-width: 100%;
-
-                .project-image-mobile {
-                    img {
-                        width: 100%;
-                    }
-                }
-
-                .mobileTitleWrap {
-                    display: flex;
-                    margin: 0px 0px 10px 0px;
-
-                    p {
-                        font-size: 0.9rem;
-                    }
-
-                    p.sno {
-                        margin: 0px 5px 0px 0px;
-                        font-family: $primary-font;
-                        color: $primary-color;
-                    }
-
-                    p.title {
-                        margin-bottom: 0px;
-                    }
-                }
-
-                .desc {
-                    font-size: 0.8rem;
-                }
-
-                a {
-                    color: white;
-                    text-decoration: none;
-                }
-
-                ul.taglist {
-                    width: 100%;
-                    margin-bottom: 10px;
-
-                    li.tag {
-                        background-color: $off-white;
-                        border: 0px solid rgba(0, 0, 0, 0.15);
-                        color: #000;
-                        padding: 0.3rem 0.6rem;
-                        font-size: 0.6rem;
-                    }
-                }
-
-                .ctaButton {
-                    padding: 0.6rem 0.8rem;
-                    background-color: #000;
-                    border: 0px solid rgba(255, 255, 255, 1);
-                    font-size: 0.8rem;
-
-                }
-            }
-        }
-
-        .view-more-work {
-            display: flex;
-            justify-content: flex-end;
-
-            p {
-                font-family: $primary-font;
-                font-size: 1.6rem;
-                color: $accent-color;
-            }
-
-            a {
-                text-decoration: none;
-            }
-        }
+    p.title {
+      font-size: 1.1rem;
+      color: $primary-color;
     }
+
+    .workCard {
+      padding: 0rem;
+      margin-bottom: 2rem;
+
+      .logoWrapper {
+        margin-bottom: 2rem;
+
+        img {
+          width: 75px;
+        }
+      }
+
+      .contentWrapper {
+        max-width: 100%;
+
+        .project-image-mobile {
+          img {
+            width: 100%;
+          }
+        }
+
+        .mobileTitleWrap {
+          display: flex;
+          margin: 0px 0px 10px 0px;
+
+          p {
+            font-size: 0.9rem;
+          }
+
+          p.sno {
+            margin: 0px 5px 0px 0px;
+            font-family: $primary-font;
+            color: $primary-color;
+          }
+
+          p.title {
+            margin-bottom: 0px;
+            color: black;
+          }
+        }
+
+        .desc {
+          font-size: 0.8rem;
+        }
+
+        a {
+          color: white;
+          text-decoration: none;
+        }
+
+        ul.taglist {
+          width: 100%;
+          margin-bottom: 10px;
+
+          li.tag {
+            background-color: $off-white;
+            border: 0px solid rgba(0, 0, 0, 0.15);
+            color: #000;
+            padding: 0.3rem 0.6rem;
+            font-size: 0.6rem;
+          }
+        }
+        .ctaButton {
+          padding: 0.8rem 2rem;
+          background-color: #000;
+          border: 0px solid rgba(255, 255, 255, 1);
+          font-size: 1rem;
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+    .view-more-work {
+      display: flex;
+      justify-content: flex-end;
+      p {
+        font-family: $primary-font;
+        font-size: 1.1rem;
+        color: $accent-color;
+        text-align: right;
+      }
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+  .divider {
+    margin-bottom: 1.6rem;
+    opacity: 0.25;
+  }
 }
