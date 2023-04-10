@@ -42,7 +42,13 @@ const Coinmax = () => {
           <CaseStudyHeroCard
             sno="1"
             projectName="Coinmax (Web/Mobile)"
-            overview="Tartu City History Museums, established in 1955 is the umbrella organisation for five museums: Tartu City Museum, Song Celebration Museum, KGB Cells Museum, Oskar Lots House Museum, and 19th Century Citizen's Museum. Together, the museums uniquely tell the story of Tartu focussing solely on the city and its progress throughout history."
+            overview="CoinMax is a mobile and web-based cryptocurrency exchange project that aims to provide users with a user-friendly platform to buy, sell, and trade various digital assets. The project aims to offer competitive pricing, high security, and excellent customer support. With a user-friendly interface and robust back-end infrastructure, CoinMax aims to become a leading cryptocurrency exchange that caters to the needs of novice and advanced users alike."
+            tags={[
+              "Branding",
+              "Product Design",
+              "UI/UX",
+              "Frontend (React Native)",
+            ]}
           />
         </motion.div>
         <motion.div

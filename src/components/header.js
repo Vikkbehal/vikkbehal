@@ -3,6 +3,10 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useWindowSize } from "react-use";
 
+import home from "../assets/img/home.svg";
+import about from "../assets/img/about.svg";
+import work from "../assets/img/work.svg";
+
 const Header = () => {
   const { width } = useWindowSize();
 
@@ -79,9 +83,28 @@ const Header = () => {
               {/* <Link to="/about">about me. ✏️</Link>
               <Link to="/work">my work. 💼</Link>
               <Link to="/blog">reads. 📖</Link> */}
-              <Link to="/">Home</Link>
-              <Link to="/about">About</Link>
-              <Link to="/work">Work</Link>
+              <Link to="/">
+                <div>
+                  <img className="menuIcon" src={home} alt="Product Designer" />
+                  <span>Home</span>
+                </div>
+              </Link>
+              <Link to="/about">
+                <div>
+                  <img
+                    className="menuIcon"
+                    src={about}
+                    alt="Product Designer"
+                  />
+                  <span>About</span>
+                </div>
+              </Link>
+              <Link to="/work">
+                <div>
+                  <img className="menuIcon" src={work} alt="Product Designer" />
+                  <span>Work</span>
+                </div>
+              </Link>
               {/* <Link to="/blog">reads. 📖</Link> */}
               {/* <Link to="/blog" className="resume" target="_blank">
                 Download CV ⬇

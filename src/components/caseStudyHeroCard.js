@@ -28,6 +28,14 @@ const CaseStudyHeroCard = (props) => {
               <li>03 UI/UX</li>
               <li>04 Frontend (React Native)</li>
             </ul>
+            <ul className="description">
+              {props.tags &&
+                props.tags.map((singleTag, i) => (
+                  <li key={`uitags-${props.sno}--${i}`} className="myrole">
+                    {singleTag}
+                  </li>
+                ))}
+            </ul>
           </div>
         </div>
       </div>
