@@ -1,6 +1,7 @@
 @import "./variables.scss";
 @import "./header.scss";
 @import "./blog.scss";
+@import "./pageNotFound.scss";
 @import "./selectedWork.scss";
 @import "./experience.scss";
 @import "./workWith.scss";
@@ -210,8 +211,7 @@ html {
           span{
             background: $accent-color;
             color: white;
-            padding: 0.8rem 1.2rem;
-            font-weight: 500;
+            padding: 0.9rem 1.2rem;
             margin-left: 0.8rem;
             font-size: 1.2rem;
             transition: 0.1s linear;

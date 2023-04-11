@@ -1,0 +1,60 @@
+#pnfWrapper {
+    .pnfWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: $max-width;
+        margin: 0 auto;
+        height: 80vh;
+        font-family: $primary-font;
+
+        .pnfTitle {
+            max-width: 75%;
+            color:$thistle;
+            font-size: 5rem;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        .pnfdescription {
+            color:$accent-color;
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 6rem;
+        }
+        .pnfLink {
+            text-decoration: none;
+            background: $primary-color;
+            color: white;
+            padding: 0.8rem 2rem;
+            font-weight: 500;
+            font-size: 1.2rem;
+            transition: 0.1s linear;
+            &:hover {
+                background: $off-white;
+                color: $primary-color;
+                padding: 0.8rem 2rem;
+                letter-spacing: 2px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #pnfWrapper {
+        .pnfWrapper {
+            width: 90%;
+            height: 65vh;
+            font-family: $primary-font;
+
+            .pnfTitle {
+                font-size: 1.6rem;
+            }
+
+            .pnfLink {
+                font-weight: 400;
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
