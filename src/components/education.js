@@ -1,7 +1,16 @@
 import React from "react";
+import { motion } from "framer-motion";
 
-const ExperienceCard = (props) => {
+const EducationCard = (props) => {
   return (
+    <motion.div
+    initial={{ opacity: 0, y: -5 }}
+    whileInView={{ opacity: 1, y: 0 }}
+      transition={{
+        duration: 0.5,
+        delay: 0.15,
+      }}
+    >
     <div className="experienceWrapper">
       <div className="titleWrapper">
         <p className="title">{props.title}</p>
@@ -14,6 +23,7 @@ const ExperienceCard = (props) => {
         <p className="whatidid">{props.role}</p>
       </div>
     </div>
+    </motion.div>
   );
 };
 
@@ -21,14 +31,14 @@ const Education = () => {
   return (
     <section id="experience" className="main-wrapper">
       <p className="title">My Education 📖</p>
-      <ExperienceCard
+      <EducationCard
         title="BCA (Bachelor of Computer Application)"
         sno="1"
         position="UI & Graphic Designer"
         period="Mar 2022 - Oct 2022"
         role="Assisted in Dashboard Design/Redesign Landing Page/ Designed Graphics & Assets"
       />
-      <ExperienceCard
+      <EducationCard
         title="High School"
         sno="2"
         position="Product Designer"

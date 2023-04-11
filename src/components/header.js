@@ -73,8 +73,8 @@ const Header = () => {
         <div className={`navigationFloat ${isMenuOpen ? "open" : "closed"}`}>
           <div>
             <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
+              initial={{ opacity: 0, y: -10 }}
+              whileInView={{ opacity: 1, y: 0 }}
               transition={{
                 duration: 0.2,
                 delay: 0.1,

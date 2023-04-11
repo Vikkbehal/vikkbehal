@@ -15,8 +15,8 @@ const Footer = () => {
     <footer>
       <div className="footer">
         <motion.div
-          initial={{ opacity: 0, x: -25 }}
-          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, y: -10 }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{
             duration: 0.5,
             delay: 0.3,
@@ -28,8 +28,8 @@ const Footer = () => {
           </p>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0, x: 15 }}
-          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, y: -10 }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{
             duration: 0.5,
             delay: 0.3,
@@ -44,7 +44,7 @@ const Footer = () => {
               >
                 <img src={Gmail} alt="vikkbehal_email" />
                 {/* Lets Have a word! 😇 */}
-                Lets talk about our next project! 😇
+                Lets talk about our next project!
               </Link>
             </li>
             <li className="dribbble">
@@ -74,17 +74,26 @@ const Footer = () => {
                 target="_blank"
               >
                 <img src={Insta} alt="vikkbehal_email" />
-                Instagram
+                ux.vikkbehal
               </Link>
             </li>
           </ul>
         </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: -10 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{
+            duration: 0.5,
+            delay: 0.3,
+          }}
+        >
         <p className="footerstripe">
           <span>
             © 2023 Vishal Behal | All Rights Reserved | Design & Coded with{" "}
           </span>
           💗💗
         </p>
+        </motion.div>
       </div>
     </footer>
   );

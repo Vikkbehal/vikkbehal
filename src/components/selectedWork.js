@@ -76,11 +76,11 @@ const SelectedWork = () => {
             ctaLink="/casestudy/coinshift"
           />
           <motion.div
-            initial={{ opacity: 0, x: -15 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: -15 }}
+            whileInView={{ opacity: 1, y: 0 }}
             transition={{
               duration: 0.5,
-              delay: 0.25,
+              delay: 0,
             }}
           >
             <div className="view-more-work">
@@ -150,11 +150,11 @@ const SelectedWork = () => {
             ctaLink="/casestudy/coinshift"
           /> */}
           <motion.div
-            initial={{ opacity: 0, x: -15 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: -15 }}
+            whileInView={{ opacity: 1, y: 0 }}
             transition={{
               duration: 0.5,
-              delay: 0.25,
+              delay: 0,
             }}
           >
             <div className="view-more-work">

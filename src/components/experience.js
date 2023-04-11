@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 const ExperienceCard = (props) => {
   return (
     <motion.div
-      initial={{ opacity: 0, y: 10 }}
-      whileInView={{ opacity: 1, y: 0 }}
+    initial={{ opacity: 0, y: -5 }}
+    whileInView={{ opacity: 1, y: 0 }}
       transition={{
         duration: 0.5,
         delay: 0.15,
@@ -31,7 +31,7 @@ const Experience = () => {
   return (
     <section id="experience" className="main-wrapper">
       <motion.div
-        initial={{ opacity: 0, y: 10 }}
+        initial={{ opacity: 0, y: -5 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{
           duration: 0.5,
