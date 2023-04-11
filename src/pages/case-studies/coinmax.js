@@ -44,10 +44,10 @@ const Coinmax = () => {
             projectName="Coinmax (Web/Mobile)"
             overview="CoinMax is a mobile and web-based cryptocurrency exchange project that aims to provide users with a user-friendly platform to buy, sell, and trade various digital assets. The project aims to offer competitive pricing, high security, and excellent customer support. With a user-friendly interface and robust back-end infrastructure, CoinMax aims to become a leading cryptocurrency exchange that caters to the needs of novice and advanced users alike."
             tags={[
-              "Branding",
-              "Product Design",
-              "UI/UX",
-              "Frontend (React Native)",
+              "01 Branding",
+              "02 Product Design",
+              "03 UI/UX",
+              "04 Frontend (React Native)",
             ]}
           />
         </motion.div>
@@ -75,7 +75,7 @@ const Coinmax = () => {
         >
           <section className="content-wrapper">
             <h3 className="title">
-              <span>01/ </span>The Problem(Brief)
+              <span>01/ </span>The Problem (Brief)
             </h3>
             <p>
               Tartu City History Museums, established in 1955 is the umbrella

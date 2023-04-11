@@ -1,8 +1,9 @@
 import React from "react";
 import Header from "../components/header";
-import Footer from "../components/footer";
-import { Link } from "react-router-dom";
+// import Footer from "../components/footer";
+// import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import notFound from '../assets/img/404.png';
 
 const PageNotFound = () => {
   return (
@@ -17,14 +18,16 @@ const PageNotFound = () => {
         }}
       >
         <div className="pnfWrapper">
-          <p className="pnfTitle">Whoops!</p>
-          <p className="pnfdescription">It seems like we couldn't find the page you were looking for</p>
+          <img className="notFoundImage" src={notFound} alt="vikkbehal" />
+          <p className="pnfTitle">404</p>
+          {/* <p className="pnfdescription">It seems like we couldn't find the page you were looking for</p> */}
+          <p className="pnfdescription" >Shucks... We can't seem to find that page</p>
           {/* <Link className="pnfLink" to="/">
             Back to Home.
           </Link> */}
         </div>
       </motion.div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
