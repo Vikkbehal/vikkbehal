@@ -14,7 +14,7 @@ const HeroAbout = () => {
           delay: 0.15,
         }}
       >
-        <h1 className="title">
+        {/* <h1 className="title">
           {" "}
           <span>
             Hello, I am Vishal Behal & <br />{" "}
@@ -22,6 +22,16 @@ const HeroAbout = () => {
           I’m a ✏️ UX Designer based in 🇮🇳 India,
           <br />
           available 🌍 Worldwide
+        </h1> */}
+        <h1 className="title">
+          <span>
+          Hello, I am Vishal Behal & <br />
+          </span>
+          I’m a Digital Product Designer<br />
+          {/* I’m a <span className="emoji">✏️</span> UX Designer based in{" "} */}
+          {/* <span className="emoji">🇮🇳</span>  */}
+          from India, available Worldwide. <span className="emoji">🌍</span>
+          {/* available <span className="emoji">🌍</span> Worldwide */}
         </h1>
         <p className="desc">
           Self-taught Product Designer from with 7+ years of experience of

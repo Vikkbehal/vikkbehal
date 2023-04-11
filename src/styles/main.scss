@@ -211,7 +211,6 @@ html {
             color: white;
             padding: 0.8rem 1.2rem;
             font-weight: 500;
-            // border-radius: 2rem;
             margin-left: 0.8rem;
             font-size: 1.2rem;
             transition: 0.1s linear;
@@ -264,5 +263,28 @@ html {
             width: 100%;
             font-size: 0.9rem;
         }
+    }
+    .moreWorkContainer {
+        max-width: 90%;
+        .view-more-work {
+            p {
+              font-family: $primary-font;
+              color: #000000;
+              font-size: 0.9rem;
+              text-align: center;
+              line-height: 3rem;
+              span{
+                padding: 0.8rem;
+                margin-left: 0.6rem;
+                font-size: 0.8rem;
+                &:hover {
+                    background: $accent-color;
+                    color: white;
+                    padding: 0.8rem;
+                    letter-spacing: 0px;
+                }
+              }
+            }
+          }
     }
 }

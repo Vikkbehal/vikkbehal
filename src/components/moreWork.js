@@ -14,9 +14,7 @@ const MoreWork = () => {
             }}
           >
             <div className="view-more-work">
-              <Link to="/work">
-              <p>Check out my other projects for more of <span>my work →</span></p>
-              </Link>
+              <p>Check out my other projects for more of <Link to="/work"><span>my work →</span></Link></p>
             </div>
           </motion.div>
     </div>

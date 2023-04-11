@@ -24,7 +24,7 @@ const WorkCard = (props) => {
           <img className="logo" src={props.logo} alt="vikkbehal" />
         </div>
         <div className="contentWrapper">
-          <p className="sno">● 00{props.sno}</p>
+          <p className="sno">00{props.sno}</p>
           <p className="title">{props.title}</p>
           <p className="desc">{props.desc}</p>
 
