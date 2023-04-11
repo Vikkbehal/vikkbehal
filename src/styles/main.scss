@@ -17,7 +17,6 @@
     top: -19px;
     left: -18px;
     pointer-events: none;
-    // border: 1px solid rgba(#363636, $alpha: 0.15);
     backdrop-filter: blur(2px);
 
     .point {
@@ -194,6 +193,26 @@ html {
     font-family: $primary-font;
     font-size: 2rem;
     color: $accent-color;
+}
+.moreWorkContainer {
+    max-width: $max-width;
+    margin: 0 auto;
+    .view-more-work {
+        display: flex;
+        justify-content: flex-end;
+        p {
+          font-family: $primary-font;
+          color: #000000;
+          font-size: 1.4rem;
+          text-align: right;
+          span{
+            color: $accent-color;
+          }
+        }
+        a {
+          text-decoration: none;
+        }
+      }
 }
 
 @media screen and (max-width: 768px) {

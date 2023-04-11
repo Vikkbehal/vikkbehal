@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/header";
 import Hero from "../components/hero";
 import Footer from "../components/footer";
+import MoreWork from "../components/moreWork";
 import SelectedWork from "../components/selectedWork";
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
       <Header />
       <Hero />
       <SelectedWork />
+      <MoreWork/>
       <Footer />
     </div>
   );
