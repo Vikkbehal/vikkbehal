@@ -7,10 +7,10 @@
         max-width: $max-width;
         margin: 0 auto;
         height: 80vh;
-        font-family: $secondary-font;
+        font-family: $primary-font;
 
         .blogTitle {
-            max-width: 80%;
+            max-width: 75%;
             color: $primary-color;
             font-size: 3rem;
             text-align: center;
@@ -19,11 +19,19 @@
 
         .blogLink {
             text-decoration: none;
-            font-weight: 700;
-            font-size: 2rem;
-            text-align: center;
-            color: $accent-color;
-            margin-bottom: 20px;
+            background: $accent-color;
+            color: white;
+            padding: 0.8rem 2rem;
+            font-weight: 500;
+            margin-left: 0.9rem;
+            font-size: 1.2rem;
+            transition: 0.1s linear;
+            &:hover {
+                background: $off-white;
+                color: $accent-color;
+                padding: 0.8rem 2rem;
+                letter-spacing: 2px;
+            }
         }
     }
 }

@@ -28,13 +28,15 @@ footer {
             &:hover {
                 li {
                     transition: 0.1s linear;
-                    opacity: 0.25;
-                    filter: blur(1px);
+                    opacity: 0.5;
+                    // filter: blur(1px);
+                    filter: grayscale(1);
 
                     &:hover {
                         transition: 0.1s linear;
                         opacity: 1;
-                        filter: blur(0px);
+                        // filter: blur(0px);
+                        filter: grayscale(0);
                     }
                 }
             }

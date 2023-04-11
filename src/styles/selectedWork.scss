@@ -79,20 +79,20 @@
     }
   }
 
-  .view-more-work {
-    display: flex;
-    justify-content: flex-end;
+  // .view-more-work {
+  //   display: flex;
+  //   justify-content: flex-end;
 
-    p {
-      font-family: $primary-font;
-      font-size: 1.6rem;
-      color: $accent-color;
-    }
+  //   p {
+  //     font-family: $primary-font;
+  //     font-size: 1.6rem;
+  //     color: $accent-color;
+  //   }
 
-    a {
-      text-decoration: none;
-    }
-  }
+  //   a {
+  //     text-decoration: none;
+  //   }
+  // }
 }
 
 @media screen and (max-width: 768px) {
