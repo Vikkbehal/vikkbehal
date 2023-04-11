@@ -21,11 +21,11 @@ import WorkCardMobile from "./workCardMobile";
 import WorkCard from "./workCard";
 import { useWindowSize } from "react-use";
 
-const SelectedWork = () => {
+const SelectedWork = (props) => {
   const { width } = useWindowSize();
   return (
     <section id="selectedWork" data-test={width}>
-      <p className="title">Some of My Selected Work</p>
+      <p className="title">{props.workTitle}</p>
       {width < 768 && (
         <>
           <WorkCardMobile

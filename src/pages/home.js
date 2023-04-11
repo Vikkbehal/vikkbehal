@@ -10,7 +10,7 @@ const Home = () => {
     <div id="homeWrapper" className="main-wrapper">
       <Header />
       <Hero />
-      <SelectedWork />
+      <SelectedWork workTitle="Some of My Selected Work" />
       <MoreWork/>
       <Footer />
     </div>

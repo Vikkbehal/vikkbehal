@@ -9,7 +9,7 @@
 @import "./footer.scss";
 
 .cursor {
-    background-color: rgba($primary-color, $alpha: 0.1);
+    background-color: rgba($accent-color, $alpha: 0.1);
     height: 35px;
     width: 35px;
     border-radius: 50%;
@@ -20,7 +20,7 @@
     backdrop-filter: blur(2px);
 
     .point {
-        background-color: rgba($primary-color, $alpha: 0.75);
+        background-color: rgba($accent-color, $alpha: 1);
         height: 4px;
         width: 4px;
         border-radius: 50%;
@@ -67,8 +67,9 @@ html {
     .hello {
         font-size: 1rem;
         font-family: $primary-font;
-        font-weight: 600;
+        font-weight: 500;
         letter-spacing: 1px;
+        color: $accent-color;
     }
 
     h1.title {

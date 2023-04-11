@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/header";
-// import Hero from '../components/hero'
+import HeroWork from '../components/heroWork';
 import Footer from "../components/footer";
 import SelectedWork from "../components/selectedWork";
 
@@ -18,7 +18,8 @@ const Work = () => {
       <div className="main-wrapper">
         <ScrollToTop />
         <Header />
-        <SelectedWork />
+        <HeroWork/>
+        <SelectedWork workTitle="Selected Work"  />
         <Footer />
       </div>
     </section>

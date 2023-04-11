@@ -1,6 +1,7 @@
 footer {
     background-color: #ffffff;
-
+    box-shadow:0px -5px 20px rgba($color: #363636, $alpha: 0.1);
+    margin-top: 1rem;
     .footer {
         font-family: $secondary-font;
         max-width: $max-width;

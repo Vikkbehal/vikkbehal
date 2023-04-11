@@ -38,6 +38,11 @@ header#header {
       color: white;
       opacity: 1;
       padding: 15px 25px;
+      transition: 0.1s linear;
+      &:hover {
+        background-color: transparent;
+        color: $accent-color;
+      }
     }
   }
 }

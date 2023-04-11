@@ -32,11 +32,11 @@ const Coinmax = () => {
       <Header />
       <div className="case-study-body-wrapper">
         <motion.div
-          initial={{ opacity: 0, y: 10 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y:-5 }}
+          whileInView={{ opacity: 1, y:0 }}
           transition={{
             duration: 0.5,
-            delay: 0.25,
+            delay: 0.1,
           }}
         >
           <CaseStudyHeroCard
@@ -52,11 +52,11 @@ const Coinmax = () => {
           />
         </motion.div>
         <motion.div
-          initial={{ opacity: 0, y: 10 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y:-5 }}
+          whileInView={{ opacity: 1, y:0 }}
           transition={{
             duration: 0.5,
-            delay: 0.25,
+            delay: 0.1,
           }}
         >
           <img
@@ -66,11 +66,11 @@ const Coinmax = () => {
           />
         </motion.div>
         <motion.div
-          initial={{ opacity: 0, y: 10 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y:-5 }}
+          whileInView={{ opacity: 1, y:0 }}
           transition={{
             duration: 0.5,
-            delay: 0.25,
+            delay: 0.1,
           }}
         >
           <section className="content-wrapper">
@@ -88,11 +88,11 @@ const Coinmax = () => {
           </section>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0, y: 10 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y:-5 }}
+          whileInView={{ opacity: 1, y:0 }}
           transition={{
             duration: 0.5,
-            delay: 0.25,
+            delay: 0.1,
           }}
         >
           <section className="content-wrapper">
@@ -110,11 +110,11 @@ const Coinmax = () => {
           </section>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0, y: 10 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y:-5 }}
+          whileInView={{ opacity: 1, y:0 }}
           transition={{
             duration: 0.5,
-            delay: 0.25,
+            delay: 0.1,
           }}
         >
           <section className="content-wrapper">
@@ -127,11 +127,11 @@ const Coinmax = () => {
           </section>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0, y: 10 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y:-5 }}
+          whileInView={{ opacity: 1, y:0 }}
           transition={{
             duration: 0.5,
-            delay: 0.25,
+            delay: 0.1,
           }}
         >
           <section className="content-wrapper">
@@ -152,11 +152,11 @@ const Coinmax = () => {
           </section>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0, y: 10 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y:-5 }}
+          whileInView={{ opacity: 1, y:0 }}
           transition={{
             duration: 0.5,
-            delay: 0.25,
+            delay: 0.1,
           }}
         >
           <section className="content-wrapper">
@@ -173,11 +173,11 @@ const Coinmax = () => {
             <p>Tartu City History Museums, established in 1955 is the umbrella organisation for five museums: Tartu City Museum, Song Celebration Museum, KGB Cells Museum, Oskar Lots House Museum, and 19th Century Citizen's Museum. Together, the museums uniquely tell the story of Tartu focussing solely on the city and its progress throughout history.</p>
           </section> */}
         <motion.div
-          initial={{ opacity: 0, y: 10 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y:-5 }}
+          whileInView={{ opacity: 1, y:0 }}
           transition={{
             duration: 0.5,
-            delay: 0.25,
+            delay: 0.1,
           }}
         >
           <section className="content-wrapper">
