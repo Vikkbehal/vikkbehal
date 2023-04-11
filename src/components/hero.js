@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <motion.div
-    initial={{ opacity: 0, y: -10 }}
+    initial={{ opacity: 0, y: -5 }}
     whileInView={{ opacity: 1, y: 0 }}
       transition={{
         duration: 1,
@@ -15,13 +15,13 @@ const Hero = () => {
         <p className="hello">🙏🏽 Hello ● Bonjour ● Namastey</p>
         <h1 className="title">
           <span>
-            My name is Vishal Behal <br />{" "}
+            My name is Vishal Behal <br />
           </span>
-          I’m a <span className="emoji">✏️</span> UX Designer based in{" "}
+          I’m a Digital Product Designer<br />
+          {/* I’m a <span className="emoji">✏️</span> UX Designer based in{" "} */}
           {/* <span className="emoji">🇮🇳</span>  */}
-          India,
-          <br />
-          available <span className="emoji">🌍</span> Worldwide
+          based in India, available Worldwide <span className="emoji">🌍</span>
+          {/* available <span className="emoji">🌍</span> Worldwide */}
         </h1>
         <p className="desc">
           Self-taught Product Designer from with 7+ years of experience of
