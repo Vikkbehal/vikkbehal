@@ -20,10 +20,10 @@ function Router() {
         <Route path="/about" element={<About/>} />
         <Route path="/blog" element={<Blog/>} />
         <Route path="/resources" element={<Resources/>} />
-        <Route path="/casestudy/coinmax" element={<Coinmax/>} />
-        <Route path="/casestudy/coinshift" element={<Coinshift/>} />
-        <Route path="/casestudy/coinshop" element={<Coinshop/>} />
-        <Route path="/casestudy/Drives" element={<Drives/>} />
+        <Route path="/casestudy/01" element={<Coinmax/>} />
+        <Route path="/casestudy/02" element={<Coinshop/>} />
+        <Route path="/casestudy/03" element={<Drives/>} />
+        <Route path="/casestudy/04" element={<Coinshift/>} />
         <Route path="*" element={<PageNotFound/>} />
       </Routes>
     </BrowserRouter>

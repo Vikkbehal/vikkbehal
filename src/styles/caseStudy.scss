@@ -1,254 +1,264 @@
 #case-study.main-wrapper {
-    #case-study-wrapper {
-        max-width: $max-width;
-        margin: 0 auto;
-
-        .sno {
-            font-family: $primary-font;
-            font-size: 1.2rem;
-            font-weight: 700;
-            color: $primary-color;
-        }
-
-        h3.project-name {
-            font-family: $primary-font;
-            font-size: 2.4rem;
-            margin: 0px;
-            margin-bottom: 2rem;
-            font-weight: 500;
-        }
-
-        .tag-wrapper {
-            display: flex;
-            flex-wrap: wrap;
-            list-style: none;
-            padding: 0px;
-            width: 50%;
-            margin: 0px 0px 35px 0px;
-
-            .tag {
-                background-color: rgba(255, 255, 255, 0.75);
-                margin-right: 0.75rem;
-                margin-bottom: 0.75rem;
-                padding: 0.4rem 1rem;
-                font-family: $secondary-font;
-                border-radius: 5rem;
-                font-size: 0.7rem;
-                font-weight: bold;
-                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.10);
-            }
-        }
-
-        .overview-wrapper {
-            display: flex;
-            flex-direction: row;
-
-            .title {
-                font-family: $primary-font;
-                font-size: 1.4rem;
-                margin: 0px;
-            }
-
-            .description {
-                font-family: $secondary-font;
-                font-size: 1.1rem;
-                list-style: none;
-                padding-left: 0px;
-                line-height: 1.8;
-            }
-
-            .overview {
-                flex: 4;
-                padding-right: 3rem;
-            }
-
-            .myrole-wrapper {
-                flex: 2;
-
-                .description {
-                    font-family: $secondary-font;
-                    font-size: 1.1rem;
-                    list-style: none;
-                    padding-left: 0px;
-                    line-height: 1.8;
-                }
-            }
-        }
-    }
-
-    .case-study-body-wrapper {
-        max-width: $max-width;
-        margin: 0 auto;
-        padding-bottom: 12vh;
-        padding-top: 12vh;
-
-        img.case-study-hero {
-            width: 100%;
-        }
-    }
-
-    .content-wrapper {
-        max-width: $max-width;
-        margin: 0 auto;
-        margin-top: 6rem;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-
-        img.case-study-final {
-            margin-bottom: 1rem;
-        }
-
-        h3.title {
-            font-size: 1.6rem;
-            font-family: $primary-font;
-            flex: 2;
-            margin-top: 0px;
-            font-weight: 500;
-
-            span {
-                color: $primary-color;
-                // opacity: 0.5;
-            }
-        }
-
-        .processWrapper {
-            display: flex;
-            gap: 20px;
-            flex-wrap: wrap;
-
-            img {
-                border-radius: 0rem;
-            }
-
-            .processWrap {
-                background-color: white;
-                padding: 2rem;
-                border-radius: 10px;
-                flex: 1 1 35%;
-
-                h4 {
-                    font-size: 1.6rem;
-                    margin: 0;
-                    font-family: $secondary-font;
-                    text-align: center;
-                }
-            }
-        }
-
-        p,
-        div {
-            flex: 3;
-        }
-
-        p {
-            font-size: 1.2rem;
-            font-family: $secondary-font;
-            margin-top: 0px;
-        }
-
-        img {
-            width: 100%;
-            transition: 0.2s linear;
-            cursor: pointer;
-            // &:hover {
-            //     box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
-            // }
-        }
-    }
-}
-
-section.projectImgWrapper {
+  #case-study-wrapper {
     max-width: $max-width;
     margin: 0 auto;
 
-    img {
-        width: 100%;
-        margin-bottom: 1rem
+    .sno {
+      font-family: $primary-font;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: $primary-color;
     }
+
+    h3.project-name {
+      font-family: $primary-font;
+      font-size: 2.4rem;
+      margin: 0px;
+      margin-bottom: 2rem;
+      font-weight: 500;
+    }
+
+    .tag-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      padding: 0px;
+      width: 50%;
+      margin: 0px 0px 35px 0px;
+
+      .tag {
+        background-color: rgba(255, 255, 255, 0.75);
+        margin-right: 0.75rem;
+        margin-bottom: 0.75rem;
+        padding: 0.4rem 1rem;
+        font-family: $secondary-font;
+        border-radius: 5rem;
+        font-size: 0.7rem;
+        font-weight: bold;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      }
+    }
+
+    .overview-wrapper {
+      display: flex;
+      flex-direction: row;
+
+      .title {
+        font-family: $primary-font;
+        font-size: 1.4rem;
+        margin: 0px;
+      }
+
+      .description {
+        font-family: $secondary-font;
+        font-size: 1rem;
+        list-style: none;
+        padding-left: 0px;
+        line-height: 1.8;
+      }
+
+      .overview {
+        flex: 4;
+        padding-right: 3rem;
+      }
+
+      .myrole-wrapper {
+        flex: 2;
+
+        .description {
+          font-family: $primary-font;
+          font-size: 1rem;
+          list-style: none;
+          padding-left: 0px;
+          line-height: 1.8;
+          color: $accent-color;
+        }
+      }
+    }
+  }
+
+  .case-study-body-wrapper {
+    max-width: $max-width;
+    margin: 0 auto;
+    padding-bottom: 12vh;
+    padding-top: 12vh;
+
+    img.case-study-hero {
+      width: 100%;
+    }
+  }
+
+  .content-wrapper {
+    max-width: $max-width;
+    margin: 0 auto;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    img.case-study-final {
+      margin-bottom: 1rem;
+    }
+
+    h3.title {
+      font-size: 1.6rem;
+      font-family: $primary-font;
+      flex: 2;
+      margin-top: 0px;
+      font-weight: 500;
+
+      span {
+        color: $primary-color;
+        // opacity: 0.5;
+      }
+    }
+
+    .processWrapper {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+
+      img {
+        border-radius: 0rem;
+      }
+
+      .processWrap {
+        background-color: white;
+        padding: 2rem;
+        border-radius: 10px;
+        flex: 1 1 35%;
+
+        h4 {
+          font-size: 1.6rem;
+          margin: 0;
+          font-family: $secondary-font;
+          text-align: center;
+        }
+      }
+    }
+
+    p,
+    div {
+      flex: 3;
+    }
+
+    p {
+      font-size: 1.1rem;
+      font-family: $secondary-font;
+      margin-top: 0px;
+    }
+    ul {
+      margin: 0px;
+      padding-left: 1rem;
+      list-style-type:circle;
+      li {
+        font-size: 1.2rem;
+        font-family: $secondary-font;
+        margin-top: 0.8rem;
+      }
+    }
+    img {
+      width: 100%;
+      transition: 0.2s linear;
+      cursor: pointer;
+      // &:hover {
+      //     box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+      // }
+    }
+  }
+}
+
+section.projectImgWrapper {
+  max-width: $max-width;
+  margin: 0 auto;
+
+  img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    #case-study.main-wrapper {
-        #case-study-wrapper {
-            width: 90%;
+  #case-study.main-wrapper {
+    #case-study-wrapper {
+      width: 90%;
 
-            .sno {
-                font-size: 1rem;
-            }
+      .sno {
+        font-size: 1rem;
+      }
 
-            h3.project-name {
-                font-size: 1.4rem;
-            }
+      h3.project-name {
+        font-size: 1.4rem;
+      }
 
-            .overview-wrapper {
-                flex-direction: column;
+      .overview-wrapper {
+        flex-direction: column;
 
-                .overview {
-                    padding: 0;
-                }
-
-                .title {
-                    font-size: 1rem;
-                }
-
-                .description {
-                    font-family: $secondary-font;
-                    font-size: 1rem;
-                }
-
-                .myrole-wrapper {
-                    .description {
-                        font-size: 1rem;
-                        line-height: 1.6;
-                    }
-                }
-            }
+        .overview {
+          padding: 0;
         }
 
-        .case-study-body-wrapper {
-            width: 90%;
+        .title {
+          font-size: 1rem;
         }
 
-        .content-wrapper {
-            width: 90%;
-            margin-top: 2rem;
-
-            img.case-study-final {
-                margin-bottom: 1rem;
-            }
-
-            h3.title {
-                font-size: 1.1rem;
-            }
-
-            .processWrapper {
-                display: flex;
-                gap: 20px;
-                flex-wrap: wrap;
-
-                img {
-                    border-radius: 0rem;
-                }
-
-                .processWrap {
-                    background-color: white;
-                    padding: 2rem;
-                    border-radius: 10px;
-                    flex: 1 1 35%;
-
-                    h4 {
-                        font-size: 1.6rem;
-                        margin: 0;
-                        font-family: $secondary-font;
-                        text-align: center;
-                    }
-                }
-            }
-
-            p {
-                font-size: 1rem;
-            }
+        .description {
+          font-family: $secondary-font;
+          font-size: 1rem;
         }
+
+        .myrole-wrapper {
+          .description {
+            font-size: 1rem;
+            line-height: 1.6;
+          }
+        }
+      }
     }
+
+    .case-study-body-wrapper {
+      width: 90%;
+    }
+
+    .content-wrapper {
+      width: 90%;
+      margin-top: 2rem;
+
+      img.case-study-final {
+        margin-bottom: 1rem;
+      }
+
+      h3.title {
+        font-size: 1.1rem;
+      }
+
+      .processWrapper {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+
+        img {
+          border-radius: 0rem;
+        }
+
+        .processWrap {
+          background-color: white;
+          padding: 2rem;
+          border-radius: 10px;
+          flex: 1 1 35%;
+
+          h4 {
+            font-size: 1.6rem;
+            margin: 0;
+            font-family: $secondary-font;
+            text-align: center;
+          }
+        }
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
 }

@@ -39,7 +39,12 @@ const Drives = () => {
           <CaseStudyHeroCard
             sno="3"
             projectName="Drives (Web/Mobile)"
-            overview="Tartu City History Museums, established in 1955 is the umbrella organisation for five museums: Tartu City Museum, Song Celebration Museum, KGB Cells Museum, Oskar Lots House Museum, and 19th Century Citizen's Museum. Together, the museums uniquely tell the story of Tartu focussing solely on the city and its progress throughout history."
+            overview="Drives is a mobile app that allows users to place bets on NFL games in real-time. With live odds and easy-to-use interface, users can bet on various outcomes such as the next scoring drive, total yards gained, and more. Stay engaged with the game and earn rewards with Drives."
+            tags={[
+              "01 Redesign Mobile Apps",
+              "02 Frontend (React Native)",
+              "03 Landing Page Design",
+            ]}
           />
         </motion.div>
         <motion.div
@@ -66,7 +71,7 @@ const Drives = () => {
         >
           <section className="content-wrapper">
             <h3 className="title">
-              <span>01/ </span>The Problem(Brief)
+              <span>01/ </span>The Problem (Brief)
             </h3>
             <p>
               Tartu City History Museums, established in 1955 is the umbrella
@@ -117,7 +122,7 @@ const Drives = () => {
             </div>
           </section>
         </motion.div>
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{
@@ -141,7 +146,7 @@ const Drives = () => {
               <img src={userflow} alt="Vishal Behal | UI / UX Designer" />
             </div>
           </section>
-        </motion.div>
+        </motion.div> */}
         <motion.div
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -152,7 +157,7 @@ const Drives = () => {
         >
           <section className="content-wrapper">
             <h3 className="title">
-              <span>05/ </span>Typography & Colors
+              <span>04/ </span>Typography & Colors
             </h3>
             <div>
               <img
@@ -180,7 +185,7 @@ const Drives = () => {
         >
           <section className="content-wrapper">
             <h3 className="title">
-              <span>06/</span>Wireframes
+              <span>05/</span>Wireframes
             </h3>
             <div>
               <img src={prototype} alt="Vishal Behal | UI / UX Designer" />

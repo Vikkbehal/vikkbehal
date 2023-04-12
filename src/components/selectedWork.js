@@ -41,7 +41,7 @@ const SelectedWork = (props) => {
               "UI/UX",
               "Frontend (React Native)",
             ]}
-            ctaLink="/casestudy/coinmax"
+            ctaLink="/casestudy/01"
           />
           <WorkCardMobile
             bg={mobileCoinshop}
@@ -51,7 +51,7 @@ const SelectedWork = (props) => {
             desc="Collection of three Mobile App, Customer App, Merchant App and Collection agent Application."
             linkText="View Case Study"
             tags={["Product Design", "UI/UX", "Frontend (React Native)"]}
-            ctaLink="/casestudy/coinshop"
+            ctaLink="/casestudy/02"
           />
           <WorkCardMobile
             bg={mobileDrives}
@@ -61,7 +61,7 @@ const SelectedWork = (props) => {
             desc="Landing Page, Mobile App Redesign, Frontend (react-native)"
             linkText="View Case Study"
             tags={["UI/UX", "Frontend (React Native)"]}
-            ctaLink="/casestudy/drives"
+            ctaLink="/casestudy/03"
           />
           <WorkCardMobile
             bg={mobileCoinshift}
@@ -71,7 +71,7 @@ const SelectedWork = (props) => {
             desc="Brand Guidelines, Redesign Landing Page"
             linkText="View Project"
             tags={["Branding", "UI/UX"]}
-            ctaLink="/casestudy/coinshift"
+            ctaLink="/casestudy/04"
           />
         </>
       )}
@@ -91,7 +91,7 @@ const SelectedWork = (props) => {
               "UI/UX",
               "Frontend (React Native)",
             ]}
-            ctaLink="/casestudy/coinmax"
+            ctaLink="/casestudy/01"
           />
           <WorkCard
             bg={Coinshop}
@@ -101,7 +101,7 @@ const SelectedWork = (props) => {
             desc="Collection of three Mobile App, Customer App, Merchant App and Collection agent Application."
             linkText="View Case Study"
             tags={["Product Design", "UI/UX", "Frontend (React Native)"]}
-            ctaLink="/casestudy/coinshop"
+            ctaLink="/casestudy/02"
           />
           <WorkCard
             bg={Drives}
@@ -111,7 +111,7 @@ const SelectedWork = (props) => {
             desc="Landing Page, Mobile App Redesign, Frontend (react-native)"
             linkText="View Case Study"
             tags={["UI/UX", "Frontend (React Native)"]}
-            ctaLink="/casestudy/drives"
+            ctaLink="/casestudy/03"
           />
           <WorkCard
             bg={Coinshift}
@@ -121,7 +121,7 @@ const SelectedWork = (props) => {
             desc="Brand Guidelines, Redesign Landing Page"
             linkText="View Project"
             tags={["Branding", "UI/UX"]}
-            ctaLink="/casestudy/coinshift"
+            ctaLink="/casestudy/04"
           />
           {/* <WorkCard
             bg={Coinshift}
