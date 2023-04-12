@@ -230,6 +230,31 @@ html {
       }
 }
 
+@media screen and (max-width: 1440px) {
+    #hero,
+    #heroAbout {
+        .hello {
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        h1.title {
+            width: 100%;
+            font-size: 2rem;
+            font-weight: 500;
+
+            span.emoji {
+                font-size: 1.2rem;
+            }
+        }
+
+        p.desc {
+            width: 100%;
+            font-size: 1rem;
+        }
+    }
+}
+
 @media screen and (max-width: 768px) {
     .cursor {
         display: none;
