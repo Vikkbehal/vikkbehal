@@ -18,7 +18,6 @@ const EducationCard = (props) => {
       </div>
       <hr />
       <div className="experienceDetailsWrapper">
-        <p className="position">{props.position}</p>
         <p className="period">{props.period}</p>
         <p className="whatidid">{props.role}</p>
       </div>
@@ -34,16 +33,14 @@ const Education = () => {
       <EducationCard
         title="BCA (Bachelor of Computer Application)"
         sno="1"
-        position="UI & Graphic Designer"
-        period="Mar 2022 - Oct 2022"
-        role="Assisted in Dashboard Design/Redesign Landing Page/ Designed Graphics & Assets"
+        period="Apr 2011 - Jul 2014"
+        role="Bachelor of Computer Applications (BCA) is a three-year undergraduate program that focuses on computer science, programming languages, database management, and web development. The course curriculum is designed to provide students with a strong foundation in computer applications, making them competent in the IT industry."
       />
       <EducationCard
         title="High School"
         sno="2"
-        position="Product Designer"
-        period="Dec 2018 - Mar 2022"
-        role="Assisted in Dashboard Design/Redesign Landing Page/ Designed Graphics & Assets"
+        period="2010"
+        role="I have completed high school with Physics, Chemistry, and Mathematics."
       />
     </section>
   );

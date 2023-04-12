@@ -19,7 +19,7 @@ const Footer = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{
             duration: 0.5,
-            delay: 0,
+            delay: 0.2,
           }}
         >
           <p className="contact-me">
@@ -32,7 +32,7 @@ const Footer = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{
             duration: 0.5,
-            delay: 0,
+            delay: 0.2,
           }}
         >
           <ul className="social-links">
@@ -80,11 +80,11 @@ const Footer = () => {
           </ul>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0, y: -10 }}
+          initial={{ opacity: 0, y: -5 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{
             duration: 0.5,
-            delay: 0.3,
+            delay: 0.45,
           }}
         >
         <p className="footerstripe">

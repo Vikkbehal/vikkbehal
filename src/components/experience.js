@@ -45,36 +45,43 @@ const Experience = () => {
         sno="1"
         position="UI & Graphic Designer"
         period="Mar 2022 - Oct 2022"
-        role="Assisted in Dashboard Design/Redesign Landing Page/ Designed Graphics & Assets"
+        role="Assisted in Dashboard Design/Redesign Landing Page/ Designed Brand Guidelines"
       />
       <ExperienceCard
         title="Coinshop - Formerly Bittmax "
         sno="2"
         position="Product Designer"
         period="Dec 2018 - Mar 2022"
-        role="Assisted in Dashboard Design/Redesign Landing Page/ Designed Graphics & Assets"
+        role="Product Designer and UI Developer for Various In-House Projects"
       />
       <ExperienceCard
         title="Vevsa Technologies"
         sno="3"
         position="UI Designer"
         period="Mar 2018 - Dec 2018"
-        role="Assisted in Dashboard Design/Redesign Landing Page/ Designed Graphics & Assets"
+        role="UI/UX Designer for Multiple Projects and Product Designer for In-House STartup Idea"
       />
       <ExperienceCard
         title="SNA Power - Software and Technology"
         sno="4"
         position="UI & Web Designer"
         period="Jul 2017 - Mar 2018"
-        role="Assisted in Dashboard Design/Redesign Landing Page/ Designed Graphics & Assets"
+        role="UI designer/ UI Developer for Multiple In-House Projects and Wordpress Developer "
       />
       <ExperienceCard
         title="1neclick Online Pvt. Ltd."
         sno="5"
         position="UI Designer"
         period="Jan 2016 - Jul 2017"
-        role="Assisted in Dashboard Design/Redesign Landing Page/ Designed Graphics & Assets"
+        role="User interface designer for web and Mobile Applications (iOS + Android)"
       />
+      <ExperienceCard
+      title="itech Titan"
+      sno="6"
+      position="Intern"
+      period="Jun 2015 - Jan 2016"
+      role="Assisted in UI Design and Wordpress Development"
+    />
     </section>
   );
 };
