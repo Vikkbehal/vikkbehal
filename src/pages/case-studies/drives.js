@@ -11,7 +11,7 @@ import d03 from "../../assets/img/case-study/drives/d03.jpg";
 import prototype from "../../assets/img/case-study/drives/drives-flow.jpg";
 import drivestc01 from "../../assets/img/case-study/drives/drivestc01.jpg";
 import drivestc02 from "../../assets/img/case-study/drives/drivestc02.jpg";
-import userflow from "../../assets/img/case-study/userflow/coinmax.png";
+// import userflow from "../../assets/img/case-study/userflow/coinmax.png";
 import { motion } from "framer-motion";
 
 import { useEffect } from "react";
