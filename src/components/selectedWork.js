@@ -4,12 +4,14 @@ import {
   Coinshop,
   Drives,
   Coinshift,
+  Escher
 } from "../assets/img/backgrounds";
 import {
   logoCoinmax,
   logoCoinshift,
   logoCoinshop,
   logoDrives,
+  logoEscher
 } from "../assets/img/logos";
 import {
   mobileCoinmax,
@@ -123,16 +125,16 @@ const SelectedWork = (props) => {
             tags={["Branding", "UI/UX"]}
             ctaLink="/casestudy/04"
           />
-          {/* <WorkCard
-            bg={Coinshift}
-            logo={logoCoinshift}
+          <WorkCard
+            bg={Escher}
+            logo={logoEscher}
             sno="5"
-            title="Escher (Website)"
+            title="Escher (Web/Mobile)"
             desc="Redesign Mobile App & Website"
-            linkText="Case study - Coming Soon"
-            tags={["Branding", "UI/UX"]}
-            ctaLink="/casestudy/coinshift"
-          /> */}
+            linkText="Upcoming"
+            tags={["Mobile App Design", "Landing Page"]}
+            ctaLink="/"
+          />
         </>
       )}
     </section>

@@ -13,11 +13,7 @@ const HeroWork = () => {
         }}
       >
         <h1 className="title">
-          <span>
-          Hello, I am Vishal Behal & <br />
-          </span>
-          I’m a Digital Product Designer<br />
-          from India, available Worldwide. <span className="emoji">🌍</span>
+          <span>Hello, I am Vishal Behal & <br /></span>& I take this opportunity to present to you my work.
         </h1>
     
       </motion.div>
