@@ -46,7 +46,12 @@ const Coinshift = () => {
         <CaseStudyHeroCard
           sno="4"
           projectName="Coinshift (Brand Guidelines)"
-          overview="Tartu City History Museums, established in 1955 is the umbrella organisation for five museums: Tartu City Museum, Song Celebration Museum, KGB Cells Museum, Oskar Lots House Museum, and 19th Century Citizen's Museum. Together, the museums uniquely tell the story of Tartu focussing solely on the city and its progress throughout history."
+          overview="Coinshift requires brand guidelines to establish consistency across all marketing materials. This project will define the brand's visual and messaging standards to ensure a cohesive and recognizable identity."
+          tags={[
+            "01 Brand Guidelines",
+            "02 UI Designer",
+            "03 Graphic Designer",
+          ]}
         />
         <section className="projectImgWrapper">
           <img src={Splash} alt="Vishal Behal | UI / UX Designer" />

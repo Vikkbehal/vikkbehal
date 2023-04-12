@@ -1,0 +1,94 @@
+#hero,
+#heroAbout {
+    max-width: $max-width-retina;
+    margin: 0 auto;
+    padding-top: 15vh;
+    padding-bottom: 4vh;
+
+    .hello {
+        font-size: $hero-hello-3X;
+        font-family: $primary-font;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: $accent-color;
+    }
+
+    h1.title {
+        width: 80%;
+        font-size: $hero-title-3X;
+        font-family: $primary-font;
+        margin: 0;
+        font-weight: 500;
+
+        span {
+            color: $primary-color;
+        }
+
+        span.emoji {
+            font-size: $hero-title-3X;
+        }
+    }
+
+    p.desc {
+        max-width: 85%;
+        font-family: $secondary-font;
+        font-size: $hero-desc-3X;
+        color: rgba($color: #000000, $alpha: 0.5);
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    #hero,
+    #heroAbout {
+        max-width: $max-width-regular;
+        .hello {
+            font-size: $hero-hello-2X;
+            font-weight: 500;
+        }
+
+        h1.title {
+            font-size: $hero-title-2X;
+            width: 100%;
+            font-weight: 500;
+
+            span.emoji {
+                font-size: 1.2rem;
+            }
+        }
+
+        p.desc {
+            width: 100%;
+            font-size: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #hero,
+    #heroAbout {
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 15vh;
+        padding-bottom: 2vh;
+
+        .hello {
+            font-size: $hero-hello-1X;
+            font-weight: 500;
+        }
+
+        h1.title {
+            width: 100%;
+            font-size: $hero-title-1X;
+            font-weight: 500;
+
+            span.emoji {
+                font-size: 1.4rem;
+            }
+        }
+
+        p.desc {
+            width: 100%;
+            font-size: 0.9rem;
+        }
+    }
+}

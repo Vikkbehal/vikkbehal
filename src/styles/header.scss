@@ -1,5 +1,5 @@
 header#header {
-  max-width: $max-width;
+  max-width: $max-width-retina;
   margin: 0 auto;
   padding: 2rem 0px;
   display: flex;
@@ -27,7 +27,7 @@ header#header {
       list-style: none;
       margin-left: 3rem;
       text-decoration: none;
-      font-size: 1rem;
+      font-size: $navigation-font-3X;
       color: #363636;
       opacity: 0.75;
       padding: 1rem 0rem;
@@ -42,6 +42,42 @@ header#header {
       &:hover {
         background-color: transparent;
         color: $accent-color;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  header#header {
+    max-width: $max-width-regular;
+    .logo {
+      a {
+        font-family: $logo-font-new;
+        font-size: $header-logo-font-2X;
+      }
+    }
+  
+    .navigation {
+      display: flex;
+      align-items: center;
+      margin: 0rem;
+  
+      a {
+        font-family: $primary-font;
+        font-size: $navigation-font-2X;
+        margin-left: 2rem;
+      }
+  
+      a.resume {
+        background-color: #000000;
+        color: white;
+        opacity: 1;
+        padding: 10px 20px;
+        transition: 0.1s linear;
+        &:hover {
+          background-color: transparent;
+          color: $accent-color;
+        }
       }
     }
   }

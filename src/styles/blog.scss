@@ -36,6 +36,25 @@
     }
 }
 
+@media screen and (max-width: 1440px) {
+    #blogWrapper {
+        .blogWrapper {
+            max-width: $max-width-regular;
+            height: 75vh;
+            font-family: $primary-font;
+
+            .blogTitle {
+                font-size: 2rem;
+            }
+
+            .blogLink {
+                font-weight: 400;
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 768px) {
     #blogWrapper {
         .blogWrapper {

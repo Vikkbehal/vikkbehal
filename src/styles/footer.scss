@@ -4,7 +4,7 @@ footer {
     margin-top: 1rem;
     .footer {
         font-family: $secondary-font;
-        max-width: $max-width;
+        max-width: $max-width-retina;
         margin: 0 auto;
         padding: 4rem 0px 0px 0px;
 
@@ -102,6 +102,34 @@ footer {
             span {
                 opacity: 0.8;
                 // color: $accent-color;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    footer {
+        .footer {
+            max-width: $max-width-regular;
+            .contact-me {
+                font-size: 1.2rem;
+            }
+            ul.social-links {
+                li {
+                    img {
+                        width:30px;
+                        height:30px;
+                        margin-right: 10px;
+                    }
+                    a {
+                        font-size: 1rem;
+                        margin: 1rem 1rem 1rem 0rem;
+                    }
+                }
+            }
+
+            p.footerstripe {
+                font-size: 0.6rem;
             }
         }
     }
