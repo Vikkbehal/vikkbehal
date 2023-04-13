@@ -1,5 +1,5 @@
 #experience.main-wrapper {
-    max-width: $max-width;
+    max-width: $max-width-retina;
     margin: 0 auto;
     padding-bottom: 3rem;
 
@@ -67,6 +67,40 @@
             p.whatidid {
                 font-size: 1.1rem;
                 opacity: 0.5;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    #experience.main-wrapper {
+        max-width: $max-width-regular;
+    
+        p.title {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+    
+        .experienceWrapper {
+            padding-bottom: 3rem;
+    
+            .titleWrapper {
+                p.title,
+                p.titlesno {
+                    font-size: 1.2rem;
+                }
+            }
+    
+            .experienceDetailsWrapper {
+
+                p.position {
+                    font-weight: bold;
+                    font-size: 1rem;
+                    margin-bottom: 10px;
+                }
+                p.whatidid {
+                    font-size: 0.9rem;
+                }
             }
         }
     }

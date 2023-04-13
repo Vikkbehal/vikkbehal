@@ -97,14 +97,14 @@
   
     .workCard {
       font-family: $secondary-font;
-      padding: 3rem;
+      padding: 2.5rem 2rem;
       margin-bottom: 2rem;
   
       .logoWrapper {
         margin-bottom: 4rem;
   
         img {
-          width: 100px;
+          width: 80px;
         }
       }
   
@@ -112,8 +112,7 @@
         max-width: 55%;
   
         p.sno {
-          margin: 0px 0px 10px 0px;
-          font-family: $primary-font;
+          font-size: 0.9rem;
         }
   
         .title {
@@ -153,7 +152,7 @@
   
         .ctaButton {
           font-family: $primary-font;
-          font-size: 0.8rem;
+          font-size: 0.7rem;
           padding: 0.8rem 1.2rem;
           background-color: rgba(0, 0, 0, 0.15);
           border: 1px solid rgba(255, 255, 255, 1);

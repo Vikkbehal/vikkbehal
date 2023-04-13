@@ -41,6 +41,7 @@
     #hero,
     #heroAbout {
         max-width: $max-width-regular;
+        padding-top: 10vh;
         .hello {
             font-size: $hero-hello-2X;
             font-weight: 500;
@@ -58,7 +59,7 @@
 
         p.desc {
             width: 100%;
-            font-size: 1rem;
+            font-size: $hero-desc-2X;
         }
     }
 }

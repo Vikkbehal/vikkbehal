@@ -1,5 +1,5 @@
 #iWorkWith.main-wrapper {
-    max-width: $max-width;
+    max-width: $max-width-retina;
     margin: 0 auto;
 
     p.mainTitle {
@@ -66,6 +66,30 @@
                 span {
                     font-size: 1.4rem;
                     opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    #iWorkWith.main-wrapper {
+        max-width: $max-width-regular;
+        p.mainTitle {
+            font-size: 1.2rem;
+            margin-bottom: 25px;
+        }
+        .workWithCardWrapper {
+            padding-bottom: 25px;   
+            .workWithCard {
+                height: 125px;
+                img {
+                    max-height: 45px;
+                }
+    
+                p.title {
+                    font-weight: bold;
+                    font-size: 0.8rem;
                 }
             }
         }
