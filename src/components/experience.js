@@ -59,7 +59,7 @@ const Experience = () => {
         sno="3"
         position="UI Designer"
         period="Mar 2018 - Dec 2018"
-        role="UI/UX Designer for Multiple Projects and Product Designer for In-House STartup Idea"
+        role="UI/UX Designer for Multiple Projects and Product Designer for In-House Startup Idea"
       />
       <ExperienceCard
         title="SNA Power - Software and Technology"

@@ -62,7 +62,7 @@ const Header = () => {
               <Link to="/about">about me.</Link>
               <Link to="/work">my work.</Link>
               <Link to="/blog">reads.</Link>
-              <Link to="/ekfhgker" className="resume">
+              <Link to="https://www.dropbox.com/s/faz5sfse4sma7p2/vikkbehalResume.pdf?dl=0" className="resume" target="_blank" >
                 Resumé
               </Link>
             </div>
