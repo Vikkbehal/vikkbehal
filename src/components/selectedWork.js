@@ -133,7 +133,7 @@ const SelectedWork = (props) => {
             desc="Redesign Mobile App & Website"
             linkText="Upcoming"
             tags={["Mobile App Design", "Landing Page"]}
-            ctaLink="/"
+            ctaLink=""
           />
         </>
       )}
