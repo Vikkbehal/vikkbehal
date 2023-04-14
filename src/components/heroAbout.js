@@ -30,7 +30,8 @@ const HeroAbout = () => {
           I’m a Digital Product Designer<br />
           {/* I’m a <span className="emoji">✏️</span> UX Designer based in{" "} */}
           {/* <span className="emoji">🇮🇳</span>  */}
-          from India, available Worldwide. <span className="emoji">🌍</span>
+          from India, available Worldwide. 
+          {/* <span className="emoji">🌍</span> */}
           {/* available <span className="emoji">🌍</span> Worldwide */}
         </h1>
         <p className="desc">
