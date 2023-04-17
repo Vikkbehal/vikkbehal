@@ -44,7 +44,17 @@ const Header = () => {
         {width > 768 && (
           <header id="header">
             <div className="logo">
-              <Link to="/">Vikkbehal</Link>
+              <motion.div
+              initial={{ opacity: 0, x: -5 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: -5 }}
+                transition={{
+                  duration: 0.2,
+                  delay: .1,
+                }}
+              >
+                <Link to="/">Vikkbehal</Link>
+              </motion.div>
               {/* <button
                 className={`navigation menuState-${
                   isMenuOpen ? "open" : "closed"
@@ -59,12 +69,63 @@ const Header = () => {
                 isMenuOpen ? "open" : "closed"
               }`}
             >
-              <Link to="/about">about me.</Link>
-              <Link to="/work">my work.</Link>
-              <Link to="/blog">reads.</Link>
-              <Link to="https://www.dropbox.com/s/faz5sfse4sma7p2/vikkbehalResume.pdf?dl=0" className="resume" target="_blank" >
+              <motion.div
+                initial={{ opacity: 0, x: 5 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: 5 }}
+                transition={{
+                  duration: 0.2,
+                  delay: 0.2,
+                }}
+              >
+                <Link to="/about">about me.</Link>
+                </motion.div>
+              <motion.div
+                initial={{ opacity: 0, x: 5 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: 5 }}
+                transition={{
+                  duration: 0.2,
+                  delay: 0.3,
+                }}
+              >
+                <Link to="/work">my work.</Link>
+                </motion.div>
+              <motion.div
+                initial={{ opacity: 0, x: 5 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: 5 }}
+                transition={{
+                  duration: 0.2,
+                  delay: 0.4,
+                }}
+              >
+                <Link to="/blog">reads.</Link>
+                </motion.div>
+              <motion.div
+                initial={{ opacity: 0, x: 5 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: 5 }}
+                transition={{
+                  duration: 0.2,
+                  delay: 0.5,
+                }}
+              >
+                {/* <Link
+                to="https://www.dropbox.com/s/faz5sfse4sma7p2/vikkbehalResume.pdf?dl=0"
+                className="resume"
+                target="_blank"
+              >
+                Resumé
+              </Link> */}
+              <Link
+                to="/resume"
+                className="resume"
+                target="_blank"
+              >
                 Resumé
               </Link>
+              </motion.div>
             </div>
           </header>
         )}

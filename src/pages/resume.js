@@ -1,0 +1,217 @@
+import React from "react";
+import Header from "../components/header";
+import Footer from "../components/footer";
+import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
+
+const Experience = (props) => {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: -5 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{
+        duration: 0.5,
+        delay: 0.15,
+      }}
+    >
+      <div className="resumeExperience">
+        <p className="companyName">
+          <span>{props.companyName}</span>
+          <span> / </span>
+          <span>{props.post}</span>
+        </p>
+        <p className="timeline">{props.duration}</p>
+        <p className="description">{props.description}</p>
+      </div>
+    </motion.div>
+  );
+};
+
+const Education = (props) => {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: -5 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{
+        duration: 0.5,
+        delay: 0.15,
+      }}
+    >
+      <div className="resumeExperience">
+        <p className="collegeName">{props.collegeName}</p>
+        <p className="timeline">{props.duration}</p>
+        <p className="description">{props.description}</p>
+      </div>
+    </motion.div>
+  );
+};
+
+const Skills = (props) => {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: -5 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{
+        duration: 0.5,
+        delay: 0.15,
+      }}
+    >
+      <div className="resumeExperience">
+        <p>{props.skillHeadline}</p>
+        <p className="skilllist">
+          {props.skills &&
+            props.skills.map((singleSkill, i) => (
+              <span key={`uiskills-${props.sno}--${i}`} className="skill">
+                {singleSkill},
+              </span>
+            ))}
+        </p>
+      </div>
+    </motion.div>
+  );
+};
+
+const Resume = () => {
+  return (
+    <div id="resumeWrap" className="main-wrapper">
+      <Header />
+      <motion.div
+        initial={{ opacity: 0, y: -5 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{
+          duration: 0.5,
+          delay: 0,
+        }}
+      >
+        <div className="resume">
+          <div className="resumeWrapper">
+            <hr />
+            <div className="introWrapper">
+              <h1 className="name">Vishal Behal</h1>
+              <h3 className="post">Digital Product Designer</h3>
+            </div>
+            <hr />
+            <p className="description">
+              Self-taught Product Designer with 7+ years experience in UX/UI
+              design for mobile and web. Skilled in user research, prototyping,
+              and wireframing. Passionate about creating user-centric and
+              aesthetically pleasing digital experiences. Firm believer that
+              design can drive meaningful products and brands. Eager to apply
+              knowledge and expertise to deliver exceptional results.
+            </p>
+            <hr />
+            <div className="bottomWrapper">
+              <div className="workWrapper">
+                <div className="flexxer">
+                  <h2>Work Experience</h2>
+                  <Experience
+                    companyName="Coinshift"
+                    post="UI Designer"
+                    duration="Mar 2022 - Oct 2022"
+                    description="Assisted in Dashboard Design/Redesign Landing Page/ Designed Brand Guidelines."
+                  />
+                  <Experience
+                    companyName="Coinshift"
+                    post="UI Designer"
+                    duration="Mar 2022 - Oct 2022"
+                    description="Assisted in Dashboard Design/Redesign Landing Page/ Designed Brand Guidelines."
+                  />
+                  <Experience
+                    companyName="Coinshift"
+                    post="UI Designer"
+                    duration="Mar 2022 - Oct 2022"
+                    description="Assisted in Dashboard Design/Redesign Landing Page/ Designed Brand Guidelines."
+                  />
+                  <Experience
+                    companyName="Coinshift"
+                    post="UI Designer"
+                    duration="Mar 2022 - Oct 2022"
+                    description="Assisted in Dashboard Design/Redesign Landing Page/ Designed Brand Guidelines."
+                  />
+                  <Experience
+                    companyName="Coinshift"
+                    post="UI Designer"
+                    duration="Mar 2022 - Oct 2022"
+                    description="Assisted in Dashboard Design/Redesign Landing Page/ Designed Brand Guidelines."
+                  />
+                  <Experience
+                    companyName="Coinshift"
+                    post="UI Designer"
+                    duration="Mar 2022 - Oct 2022"
+                    description="Assisted in Dashboard Design/Redesign Landing Page/ Designed Brand Guidelines."
+                  />
+                </div>
+                <div className="flexxer">
+                  <h2>Education</h2>
+                  <Education
+                    collegeName="Lyallpur Khalsa College"
+                    duration="2011-2014"
+                    description="Bachelor of Computer Application"
+                  />
+                  <Education
+                    collegeName="Doaba College"
+                    duration="2010"
+                    description="High School with Physics, Chemistry and Maths."
+                  />
+                </div>
+                <div className="flexxer">
+                  <h2>Skills</h2>
+                  <Skills
+                    skillHeadline="Design Skills"
+                    skills={[
+                      "User-centred design",
+                      "Information architecture",
+                      " Visual design",
+                      " Interaction design",
+                      " Mind-Mapping",
+                      " Design thinking",
+                      " Communication",
+                      " Collaboration",
+                    ]}
+                  />
+                  <Skills
+                    skillHeadline="UX Methods"
+                    skills={[
+                      "User Research",
+                      "Personas",
+                      "User Flows",
+                      "Wireframing",
+                      "Prototyping",
+                      "Usability Testing",
+                      "Analytics",
+                    ]}
+                  />
+                  <Skills
+                    skillHeadline="Tools"
+                    skills={[
+                      "Figma",
+                      "Adobe XD",
+                      "SketchApp",
+                      "InVision",
+                      "Zeplin",
+                      "UXPin",
+                      "Adobe Photoshop",
+                      "Adobe Illustrator",
+                      "Microsoft Suite",
+                    ]}
+                  />
+                  <Skills
+                    skillHeadline="Development"
+                    skills={["HTML", "CSS", "SCSS", "JavaScript", "ReactJS"]}
+                  />
+                </div>
+              </div>
+            </div>
+            <hr/>
+          </div>
+        </div>
+      </motion.div>
+      <Footer />
+    </div>
+  );
+};
+
+export default Resume;

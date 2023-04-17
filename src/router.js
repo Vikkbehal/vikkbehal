@@ -3,6 +3,7 @@ import Home from './pages/home';
 import About from './pages/about';
 import Blog from './pages/blog';
 import Work from './pages/work';
+import Resume from './pages/resume';
 import Coinmax from './pages/case-studies/coinmax';
 import Coinshift from './pages/case-studies/coinshift';
 import Drives from './pages/case-studies/drives';
@@ -19,6 +20,7 @@ function Router() {
         <Route path="/work" element={<Work/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/blog" element={<Blog/>} />
+        <Route path="/resume" element={<Resume/>} />
         <Route path="/resources" element={<Resources/>} />
         <Route path="/casestudy/01" element={<Coinmax/>} />
         <Route path="/casestudy/02" element={<Coinshop/>} />

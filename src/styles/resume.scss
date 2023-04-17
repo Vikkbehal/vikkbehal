@@ -1,0 +1,74 @@
+#resumeWrap {
+    hr {
+        height: 1px;
+        background-color: $black;
+    }
+  .resume {
+    margin-top: 3rem;
+    .resumeWrapper {
+        margin-top: 4rem;
+        max-width: $max-width;
+        margin: 0 auto;
+        padding: 3rem;
+        font-family: $resume-font;
+        background-color: #d8d3ce;
+        border-radius: 1rem;
+        .introWrapper {
+            .name {
+                font-size: 5rem;
+                font-weight: 300;
+                margin:0;
+                margin-top: 2rem;
+            }
+            .post {
+                font-size: 2.4rem;
+                font-weight: 300;
+                margin:1rem;
+                margin-left: 4px;
+                opacity: 0.5;
+            }
+        }
+        .description {
+            font-size: 1.8rem;
+            font-weight: 300;
+        }
+        .bottomWrapper {
+            .workWrapper {
+                display: flex;
+                flex-direction: row;
+                h2 {
+                    font-size: 2rem;
+                    font-weight: 400;
+                }
+                .resumeExperience {
+                    .companyName {
+                        font-size: 1.3rem;
+                        font-weight: 300;
+                    }
+                    .timeline {
+                        font-size: 1rem;
+                        font-weight: 300;
+                    }
+                    .description {
+                        font-size: 1.1rem;
+                        font-weight: 300;
+                        opacity: 0.75;
+                    }
+                }
+                .flexxer {
+                    &:nth-child(1) {
+                        flex: 50%;
+                    }
+                    &:nth-child(2) {
+                        flex: 25%;
+                    }
+                    &:nth-child(3) {
+                        flex: 25%;
+                    }
+                }
+            }
+        }
+
+      }
+  }
+}
