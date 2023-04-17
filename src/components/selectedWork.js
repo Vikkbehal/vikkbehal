@@ -102,7 +102,7 @@ const SelectedWork = (props) => {
             title="Coinshop (Mobile Apps)"
             desc="Collection of three Mobile App, Customer App, Merchant App and Collection agent Application."
             linkText="View Case Study"
-            tags={["Product Design", "UI/UX", "Frontend (React Native)"]}
+            tags={["Product Design", "UI/UX", "Frontend (React Native)"]}x
             ctaLink="/casestudy/02"
           />
           <WorkCard
