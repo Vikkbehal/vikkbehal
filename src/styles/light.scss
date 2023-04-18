@@ -12,7 +12,12 @@ html {
         background-image: url("../assets/img/bg/bg-white.jpg");
         color: #20262e;
       }
-
+      .toggleTheme {
+        background-color: $black;
+        img {
+          filter: invert(1);
+        }
+      }
       header#header {
         .logo {
           a {
@@ -54,6 +59,17 @@ html {
       #heroAbout {
         p.desc {
           color: rgba($color: #000000, $alpha: 0.5);
+        }
+      }
+
+      #iWorkWith.main-wrapper {
+        .workWithCardWrapper {
+            .workWithCard {
+              background-color: white;
+              p.title {
+                color: $black;
+            }
+          }
         }
       }
     }

@@ -2,6 +2,7 @@ import "./styles/main.scss";
 import Router from "./router";
 import { useRef, useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import Sunny from "../src/assets/img/sunny-sharp.svg";
 
 function App() {
 
@@ -53,7 +54,9 @@ function App() {
       >
         <div className="point"></div>
       </motion.div>
-      {/* <button className="toggleTheme" onClick={toggleDarkMode}>Dark</button> */}
+      <button className="toggleTheme" onClick={toggleDarkMode}>
+        <img src={Sunny} alt="darkmode"/>
+      </button>
       <Router />
     </div>
   );

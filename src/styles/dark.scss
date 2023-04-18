@@ -1,5 +1,8 @@
 html {
   body {
+    hr {
+      opacity: 0.25 !important;
+    }
     .dark {
         p {
             color: $off-white;
@@ -15,7 +18,12 @@ html {
         // background-image: url("../assets/img/bg/bg-white.jpg");
         color: $off-white;
       }
-
+      .toggleTheme {
+        background-color: $off-white;
+        img {
+          filter: invert(0);
+        }
+      }
       header#header {
         .logo {
           a {
@@ -57,6 +65,17 @@ html {
       #heroAbout {
         p.desc {
           color: rgba($color: $off-white, $alpha: 0.75);
+        }
+      }
+
+      #iWorkWith.main-wrapper {
+        .workWithCardWrapper {
+            .workWithCard {
+              background-color: $off-white;
+              p.title {
+                color: $black;
+            }
+          }
         }
       }
     }

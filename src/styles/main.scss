@@ -39,13 +39,20 @@ html {
     }
     .toggleTheme {
         position: fixed;
-        bottom: 2rem;
-        right: 2rem;
-        height: 3rem;
-        width: 3rem;
+        bottom: 2.5rem;
+        left: 2.5rem;
+        height: 4rem;
+        width: 4rem;
         border: none;
         border-radius: 3rem;
         cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+            width: 2rem;
+            height: 2rem;
+        }
     }
     .cursor {
         background-color: rgba($accent-color, $alpha: 0.1);
