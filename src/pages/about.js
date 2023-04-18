@@ -6,6 +6,7 @@ import Experience from "../components/experience";
 import Education from "../components/education";
 // import SomeSkills from "../components/someSkills";
 import HeroAbout from "../components/heroAbout";
+import { motion } from "framer-motion";
 
 import { useEffect } from "react";
 function ScrollToTop() {
@@ -21,7 +22,17 @@ const About = () => {
       <ScrollToTop />
       <Header />
       <HeroAbout />
-      <Experience />
+      <motion.div
+        initial={{ opacity: 0, y: 5 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{
+          duration: 0.5,
+          delay: 0.8,
+        }}
+      >
+        <Experience />
+      </motion.div>
       <IWorkWith />
       <Education />
       <Footer />

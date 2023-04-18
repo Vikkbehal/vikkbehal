@@ -4,14 +4,14 @@ import { motion } from "framer-motion";
 const ExperienceCard = (props) => {
   return (
     <motion.div
-    initial={{ opacity: 0, y: -5 }}
-    whileInView={{ opacity: 1, y: 0 }}
-    viewport={{ once: true }}
-      transition={{
-        duration: 0.5,
-        delay: 0.15,
-      }}
-    >
+        initial={{ opacity: 0, y: 5 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{
+          duration: 0.5,
+          delay: 0.2,
+        }}
+      >
       <div className="experienceWrapper">
         <div className="titleWrapper">
           <p className="title">{props.title}</p>

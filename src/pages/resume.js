@@ -28,6 +28,22 @@ const Experience = (props) => {
   );
 };
 
+const Contact = (props) => {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: -5 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{
+        duration: 0.5,
+        delay: 0.15,
+      }}
+    >
+      <Link to={props.where} target={props.target}>{props.name}</Link>
+    </motion.div>
+  );
+};
+
 const Education = (props) => {
   return (
     <motion.div
@@ -39,7 +55,7 @@ const Education = (props) => {
         delay: 0.15,
       }}
     >
-      <div className="resumeExperience">
+      <div className="resumeEducation">
         <p className="collegeName">{props.collegeName}</p>
         <p className="timeline">{props.duration}</p>
         <p className="description">{props.description}</p>
@@ -59,8 +75,8 @@ const Skills = (props) => {
         delay: 0.15,
       }}
     >
-      <div className="resumeExperience">
-        <p>{props.skillHeadline}</p>
+      <div className="resumeSkills">
+        <p className="skillname">{props.skillHeadline}</p>
         <p className="skilllist">
           {props.skills &&
             props.skills.map((singleSkill, i) => (
@@ -93,6 +109,12 @@ const Resume = () => {
               <h1 className="name">Vishal Behal</h1>
               <h3 className="post">Digital Product Designer</h3>
             </div>
+            <div className="linkWrapper">
+              <Contact name="vikkbehal.com" where="/" />
+              <Contact name="linkedin" where="https://www.linkedin.com/in/vikkbehal/" target="_blank"/>
+              <Contact name="vikkbehal@gmail.com" where="#" />
+              <Contact name="+91-9501009151" where="#" />
+            </div>
             <hr />
             <p className="description">
               Self-taught Product Designer with 7+ years experience in UX/UI
@@ -114,34 +136,34 @@ const Resume = () => {
                     description="Assisted in Dashboard Design/Redesign Landing Page/ Designed Brand Guidelines."
                   />
                   <Experience
-                    companyName="Coinshift"
-                    post="UI Designer"
+                    companyName="Coinshop"
+                    post="Product Designer"
                     duration="Mar 2022 - Oct 2022"
-                    description="Assisted in Dashboard Design/Redesign Landing Page/ Designed Brand Guidelines."
+                    description="Product Designer and UI Developer for Various In-House Projects."
                   />
                   <Experience
-                    companyName="Coinshift"
-                    post="UI Designer"
-                    duration="Mar 2022 - Oct 2022"
-                    description="Assisted in Dashboard Design/Redesign Landing Page/ Designed Brand Guidelines."
+                    companyName="Vevsa"
+                    post="UX/UI Designer"
+                    duration="Mar 2018 - Dec 2018"
+                    description="UI / UX Designer for Multiple Projects and Product Designer for In-House Startup Idea."
                   />
                   <Experience
-                    companyName="Coinshift"
-                    post="UI Designer"
-                    duration="Mar 2022 - Oct 2022"
-                    description="Assisted in Dashboard Design/Redesign Landing Page/ Designed Brand Guidelines."
+                    companyName="SNA Power"
+                    post="UI & Web Developer"
+                    duration="Jul 2017 - Mar 2018"
+                    description="UI designer/ UI Developer for Multiple In-House Projects and Wordpress Developer."
                   />
                   <Experience
-                    companyName="Coinshift"
-                    post="UI Designer"
-                    duration="Mar 2022 - Oct 2022"
-                    description="Assisted in Dashboard Design/Redesign Landing Page/ Designed Brand Guidelines."
+                    companyName="1neclick pvt. ltd."
+                    post="UI Designer & Developer"
+                    duration="Jan 2016 - Jul 2017"
+                    description="User interface designer for web and Mobile Applications (iOS + Android)."
                   />
                   <Experience
-                    companyName="Coinshift"
-                    post="UI Designer"
-                    duration="Mar 2022 - Oct 2022"
-                    description="Assisted in Dashboard Design/Redesign Landing Page/ Designed Brand Guidelines."
+                    companyName="itech Titan"
+                    post="Intern"
+                    duration="Jun 2015 - Jan 2016"
+                    description="Assisted in UI Design and Wordpress Development."
                   />
                 </div>
                 <div className="flexxer">
@@ -205,7 +227,7 @@ const Resume = () => {
                 </div>
               </div>
             </div>
-            <hr/>
+            <hr />
           </div>
         </div>
       </motion.div>

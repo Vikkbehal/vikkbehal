@@ -15,7 +15,6 @@ const WorkWithCard = (props) => {
       >
         <img className="logo" src={props.CompanyLogo} alt="vikkbehal" />
         <p className="title">{props.MyRoll}</p>
-        {/* <p className="myRoll">{props.MyRollExp}</p> */}
       </motion.div>
     </div>
   );

@@ -121,7 +121,7 @@ const Header = () => {
               <Link
                 to="/resume"
                 className="resume"
-                target="_blank"
+                // target="_blank"
               >
                 Resumé
               </Link>
