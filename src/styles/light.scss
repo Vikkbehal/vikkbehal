@@ -1,0 +1,61 @@
+html {
+  body {
+    .light {
+      #homeWrapper,
+      #aboutWrapper,
+      #case-study,
+      #blogWrapper,
+      #resumeWrap,
+      #work {
+        transition: 0.25s ease-in-out;
+        background-color: $light-grey;
+        background-image: url("../assets/img/bg/bg-white.jpg");
+        color: #20262e;
+      }
+
+      header#header {
+        .logo {
+          a {
+            color: black;
+          }
+        }
+        .navigation {
+          display: flex;
+          align-items: center;
+          margin: 0rem;
+          a {
+            color: #363636;
+          }
+          a.resume {
+            background-color: #000000;
+            color: white;
+            &:hover {
+              background-color: transparent;
+              color: $accent-color;
+            }
+          }
+        }
+      }
+
+      footer {
+        background-color: #ffffff;
+        .footer {
+          .contact-me {
+            span {
+              color: $accent-color;
+            }
+          }
+          p.footerstripe {
+          }
+        }
+      }
+
+      #hero,
+      #heroAbout {
+        p.desc {
+          color: rgba($color: #000000, $alpha: 0.5);
+        }
+      }
+    }
+  }
+}

@@ -29,8 +29,11 @@ header#header {
       text-decoration: none;
       font-size: $navigation-font-3X;
       color: #363636;
-      opacity: 0.75;
+      opacity: 0.5;
       padding: 1rem 0rem;
+    }
+    a.active {
+      opacity: 1;
     }
 
     a.resume {
@@ -135,7 +138,7 @@ header#header {
       // height: 40vh;
       height: 50px;
       display: flex;
-      align-items: center;
+      align-items:center;
       justify-content: flex-end;
     }
     img.menuIcon {
@@ -148,15 +151,11 @@ header#header {
     }
 
     div {
-      // display: flex;
-      // flex-direction: column;
-      // align-items: flex-end;
-      // padding: 0.6rem;
       display: flex;
       flex-direction: row;
       align-items: flex-end;
       padding: 0.6rem;
-      justify-content: space-between;
+      justify-content: space-evenly;
       flex: 1;
 
       a {
@@ -166,6 +165,9 @@ header#header {
         color: #000;
         font-size: 0.8rem;
         font-weight: 500;
+        opacity: 0.25;
+      }
+      a.active {
         opacity: 1;
       }
 

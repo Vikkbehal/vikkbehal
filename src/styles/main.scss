@@ -1,4 +1,8 @@
 @import "./variables.scss";
+
+@import "./light.scss";
+@import "./dark.scss";
+
 @import "./header.scss";
 @import "./hero.scss";
 @import "./blog.scss";
@@ -22,20 +26,26 @@
 
 html {
     body {
-
         #homeWrapper,
         #aboutWrapper,
         #case-study,
         #blogWrapper,
         #resumeWrap,
         #work {
-            background-color: $light-grey;
-            background-image: url("../assets/img/bg/bg-white.jpg");
             background-size: cover;
             background-size: 100%;
             background-repeat: no-repeat;
-            color: #20262e;
         }
+    }
+    .toggleTheme {
+        position: fixed;
+        bottom: 2rem;
+        right: 2rem;
+        height: 3rem;
+        width: 3rem;
+        border: none;
+        border-radius: 3rem;
+        cursor: pointer;
     }
     .cursor {
         background-color: rgba($accent-color, $alpha: 0.1);

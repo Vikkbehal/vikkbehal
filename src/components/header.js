@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useWindowSize } from "react-use";
 
@@ -78,7 +78,7 @@ const Header = () => {
                   delay: 0.2,
                 }}
               >
-                <Link to="/about">about me.</Link>
+                <NavLink to="/about" activeClassName="active">about me.</NavLink>
                 </motion.div>
               <motion.div
                 initial={{ opacity: 0, x: 5 }}
@@ -89,7 +89,7 @@ const Header = () => {
                   delay: 0.3,
                 }}
               >
-                <Link to="/work">my work.</Link>
+                <NavLink to="/work" activeClassName="active">my work.</NavLink>
                 </motion.div>
               <motion.div
                 initial={{ opacity: 0, x: 5 }}
@@ -100,7 +100,7 @@ const Header = () => {
                   delay: 0.4,
                 }}
               >
-                <Link to="/blog">reads.</Link>
+                <NavLink to="/blog" activeClassName="active">reads.</NavLink>
                 </motion.div>
               <motion.div
                 initial={{ opacity: 0, x: 5 }}
@@ -111,20 +111,20 @@ const Header = () => {
                   delay: 0.5,
                 }}
               >
-                {/* <Link
+                {/* <NavLink
                 to="https://www.dropbox.com/s/faz5sfse4sma7p2/vikkbehalResume.pdf?dl=0"
                 className="resume"
                 target="_blank"
               >
                 Resumé
-              </Link> */}
-              <Link
+              </NavLink> */}
+              <NavLink
                 to="/resume"
                 className="resume"
                 // target="_blank"
               >
                 Resumé
-              </Link>
+              </NavLink>
               </motion.div>
             </div>
           </header>
@@ -144,13 +144,13 @@ const Header = () => {
               {/* <Link to="/about">about me. ✏️</Link>
               <Link to="/work">my work. 💼</Link>
               <Link to="/blog">reads. 📖</Link> */}
-              <Link to="/">
+              <NavLink to="/" activeClassName="active">
                 <div>
                   <img className="menuIcon" src={home} alt="Product Designer" />
                   <span>Home</span>
                 </div>
-              </Link>
-              <Link to="/about">
+              </NavLink>
+              <NavLink to="/about" activeClassName="active">
                 <div>
                   <img
                     className="menuIcon"
@@ -159,13 +159,13 @@ const Header = () => {
                   />
                   <span>About</span>
                 </div>
-              </Link>
-              <Link to="/work">
+              </NavLink>
+              <NavLink to="/work" activeClassName="active">
                 <div>
                   <img className="menuIcon" src={work} alt="Product Designer" />
                   <span>Work</span>
                 </div>
-              </Link>
+              </NavLink>
               {/* <Link to="/blog">reads. 📖</Link> */}
               {/* <Link to="/blog" className="resume" target="_blank">
                 Download CV ⬇

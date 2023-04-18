@@ -1,0 +1,64 @@
+html {
+  body {
+    .dark {
+        p {
+            color: $off-white;
+          }
+      #homeWrapper,
+      #aboutWrapper,
+      #case-study,
+      #blogWrapper,
+      #resumeWrap,
+      #work {
+        transition: 0.25s ease-in-out;
+        background-color: #020202;
+        // background-image: url("../assets/img/bg/bg-white.jpg");
+        color: $off-white;
+      }
+
+      header#header {
+        .logo {
+          a {
+            color: $off-white;
+          }
+        }
+        .navigation {
+          display: flex;
+          align-items: center;
+          margin: 0rem;
+          a {
+            color: $off-white;
+          }
+          a.resume {
+            background-color: $off-white;
+            color: #020202;
+            &:hover {
+              background-color: transparent;
+              color: $accent-color;
+            }
+          }
+        }
+      }
+
+      footer {
+        background-color: lighten($color: #020202, $amount: 5);
+        .footer {
+          .contact-me {
+            span {
+              color: $accent-color;
+            }
+          }
+          p.footerstripe {
+          }
+        }
+      }
+
+      #hero,
+      #heroAbout {
+        p.desc {
+          color: rgba($color: $off-white, $alpha: 0.75);
+        }
+      }
+    }
+  }
+}
