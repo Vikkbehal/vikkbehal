@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import Sunny from "../src/assets/img/sunny-sharp.svg";
 
 function App() {
-
   const [isDarkMode, setIsDarkMode] = useState(false);
   const myDiv = useRef(null);
 
@@ -54,9 +53,19 @@ function App() {
       >
         <div className="point"></div>
       </motion.div>
-      <button className="toggleTheme" onClick={toggleDarkMode}>
-        <img src={Sunny} alt="darkmode"/>
-      </button>
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{
+          duration: 0.5,
+          delay: 1,
+        }}
+      >
+        <button className="toggleTheme" onClick={toggleDarkMode}>
+          <img src={Sunny} alt="darkmode" />
+        </button>
+        </motion.div>
       <Router />
     </div>
   );
