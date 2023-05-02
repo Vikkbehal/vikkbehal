@@ -1,7 +1,7 @@
-import Coinmax from "./coinmax.png";
-import Coinshop from "./coinshop.png";
-import Drives from "./drives.png";
-import Coinshift from "./coinshift.png";
+import Coinmax from "./coinmax.jpg";
+import Coinshop from "./coinshop.jpg";
+import Drives from "./drives.jpg";
+import Coinshift from "./coinshift.jpg";
 import Escher from "./escher.jpg";
 
 export {

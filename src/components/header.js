@@ -78,7 +78,7 @@ const Header = () => {
                   delay: 0.2,
                 }}
               >
-                <NavLink to="/about" activeClassName="active">about me.</NavLink>
+                <NavLink to="/about" activeclassname="active">about me.</NavLink>
                 </motion.div>
               <motion.div
                 initial={{ opacity: 0, x: 5 }}
@@ -89,7 +89,7 @@ const Header = () => {
                   delay: 0.3,
                 }}
               >
-                <NavLink to="/work" activeClassName="active">my work.</NavLink>
+                <NavLink to="/work" activeclassname="active">my work.</NavLink>
                 </motion.div>
               <motion.div
                 initial={{ opacity: 0, x: 5 }}
@@ -100,7 +100,7 @@ const Header = () => {
                   delay: 0.4,
                 }}
               >
-                <NavLink to="/blog" activeClassName="active">reads.</NavLink>
+                <NavLink to="/blog" activeclassname="active">reads.</NavLink>
                 </motion.div>
               <motion.div
                 initial={{ opacity: 0, x: 5 }}
