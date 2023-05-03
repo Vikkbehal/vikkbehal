@@ -1,6 +1,6 @@
 import "./styles/main.scss";
-import Router from "./router";
 import { useRef, useEffect, useState } from "react";
+import Router from "./router";
 import { motion } from "framer-motion";
 import Sunny from "../src/assets/img/sunny-sharp.svg";
 
@@ -44,30 +44,30 @@ function App() {
   };
 
   return (
-    <div ref={myDiv} className={isDarkMode ? "dark App" : "light App"}>
-      <motion.div
-        className="cursor"
-        variants={variants}
-        animate={cursorVariant}
-        transition={{ type: "Spring", stiffness: 100, duration: 0.1 }}
-      >
-        <div className="point"></div>
-      </motion.div>
-      <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        viewport={{ once: true }}
-        transition={{
-          duration: 0.5,
-          delay: 1,
-        }}
-      >
-        <button className="toggleTheme" onClick={toggleDarkMode}>
-          <img src={Sunny} alt="darkmode" />
-        </button>
+      <div ref={myDiv} className={isDarkMode ? "dark App" : "light App"}>
+        <motion.div
+          className="cursor"
+          variants={variants}
+          animate={cursorVariant}
+          transition={{ type: "Spring", stiffness: 100, duration: 0.1 }}
+        >
+          <div className="point"></div>
         </motion.div>
-      <Router />
-    </div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{
+            duration: 0.5,
+            delay: 1,
+          }}
+        >
+          <button className="toggleTheme" onClick={toggleDarkMode}>
+            <img src={Sunny} alt="darkmode" />
+          </button>
+        </motion.div>
+        <Router />
+      </div>
   );
 }
 
