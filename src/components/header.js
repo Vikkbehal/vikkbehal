@@ -53,7 +53,8 @@ const Header = () => {
                   delay: .1,
                 }}
               >
-                <Link to="/">Vikkbehal</Link>
+                <Link to="/">Vishal Behal</Link>
+                {/* <Link to="/">Vikkbehal</Link> */}
               </motion.div>
               {/* <button
                 className={`navigation menuState-${
