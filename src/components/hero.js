@@ -47,12 +47,7 @@ const Hero = () => {
         }}
       >
       <p className="desc">
-        Self-taught Product Designer from with 7+ years of experience of
-        creating User Experiences & User Interfaces for Mobile and Web. Over the
-        past 2 years, I have had the opportunity to explore how user-centric
-        design is used to influence the creation of these experiences. I believe
-        that design can be used as a tool to create meaningful products, brands
-        and experiences.
+      Self-taught Product Designer with 7+ years of experience in creating User Experiences & User Interfaces for Mobile and the Web. Over the past 2 years, I have had the opportunity to explore how user-centric design is used to influence the creation of these experiences. I believe that design can be used as a tool to create meaningful products, brands and experiences.
       </p>
       </motion.div>
     </section>
