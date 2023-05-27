@@ -11,6 +11,7 @@ const WorkCard = (props) => {
           color: props.textColor || "white",
           backgroundSize: "cover",
           backgroundPosition: "center",
+          backgroundColor:"transparent"
         }}
       >
         <div className="logoWrapper">

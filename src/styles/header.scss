@@ -7,12 +7,15 @@ header#header {
   justify-content: space-between;
 
   .logo {
+    color: $primary-color;
     a {
       font-family: $logo-font-new;
-      font-size: 3rem;
+      font-family: $primary-font;
+      font-size: 1.4rem;
+      font-weight: 500;
       margin: 1rem 0rem;
       text-decoration: none;
-      color: black;
+      color: $primary-color;
     }
   }
 
@@ -28,9 +31,12 @@ header#header {
       margin-left: 3rem;
       text-decoration: none;
       font-size: $navigation-font-3X;
-      color: #363636;
-      opacity: 0.75;
+      // color: #363636;
+      opacity: 0.5;
       padding: 1rem 0rem;
+    }
+    a.active {
+      opacity: 1;
     }
 
     a.resume {
@@ -52,8 +58,7 @@ header#header {
     max-width: $max-width-regular;
     .logo {
       a {
-        font-family: $logo-font-new;
-        font-size: $header-logo-font-2X;
+        // font-size: $header-logo-font-2X;
       }
     }
   
@@ -87,10 +92,9 @@ header#header {
   header#header {
     width: 90%;
     padding: 1rem;
-
     .logo {
       a {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
       }
     }
   }
@@ -135,7 +139,7 @@ header#header {
       // height: 40vh;
       height: 50px;
       display: flex;
-      align-items: center;
+      align-items:center;
       justify-content: flex-end;
     }
     img.menuIcon {
@@ -148,15 +152,11 @@ header#header {
     }
 
     div {
-      // display: flex;
-      // flex-direction: column;
-      // align-items: flex-end;
-      // padding: 0.6rem;
       display: flex;
       flex-direction: row;
       align-items: flex-end;
       padding: 0.6rem;
-      justify-content: space-between;
+      justify-content: space-evenly;
       flex: 1;
 
       a {
@@ -166,6 +166,9 @@ header#header {
         color: #000;
         font-size: 0.8rem;
         font-weight: 500;
+        opacity: 0.25;
+      }
+      a.active {
         opacity: 1;
       }
 
