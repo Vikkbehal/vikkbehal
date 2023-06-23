@@ -1,8 +1,8 @@
-import Coinmax from "./coinmax.jpg";
-import Coinshop from "./coinshop.jpg";
-import Drives from "./drives.jpg";
-import Coinshift from "./coinshift.jpg";
-import Escher from "./escher.jpg";
+import Coinmax from "./compressed/coinmax.jpg";
+import Coinshop from "./compressed/coinshop.jpg";
+import Drives from "./compressed/drives.jpg";
+import Coinshift from "./compressed/coinshift.jpg";
+import Escher from "./compressed/escher.jpg";
 
 export {
     Coinmax,
