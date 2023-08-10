@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/home';
+// import Main from './pages/main';
 import About from './pages/about';
 import Blog from './pages/blog';
 import Work from './pages/work';
@@ -11,9 +12,20 @@ import Coinshop from './pages/case-studies/coinshop';
 import PageNotFound from './components/pageNotFound';
 import Resources from './pages/resources';
 
+import Header from "./components/header";
+import Footer from "./components/footer";
+import blob1 from "./assets/img/bg/background/purple-orange-triangle.svg";
+import blob2 from "./assets/img/bg/background/green-yellow-blob.svg";
+
 function Router() {
   return (
     <BrowserRouter>
+    <div className='AppWrapper'>
+      <div className='relative'>
+        <img src={blob2} className="absolute" style={{top:"-100vh",left:"-45%", zIndex:-1}}/>
+        <img src={blob1} className="absolute" style={{top:"20vh",right:"-40%", zIndex:-1, opacity:0.5 }}/>
+      </div>
+    <Header />
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/home" element={<Home/>} />
@@ -28,6 +40,8 @@ function Router() {
         <Route path="/casestudy/04" element={<Coinshift/>} />
         <Route path="*" element={<PageNotFound/>} />
       </Routes>
+      <Footer />
+    </div>
     </BrowserRouter>
   );
 }

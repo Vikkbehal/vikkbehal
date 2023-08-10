@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700&family=Unbounded:wght@300;400;500;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700&family=Unbounded:wght@300;400;500;600;700;800&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
 
 @font-face {
     font-family: boulevard-signature;
@@ -10,8 +11,10 @@
 $max-width: 75%;
 
 // Colors
-$primary-color: #A459D1;
-$accent-color: #DA4167;
+// $primary-color: #A459D1;
+$primary-color: #165cf3;
+// $accent-color: #DA4167;
+$accent-color: #65334d;
 $ghost-white:#F0EFF4;
 $thistle:#EFC7E5;
 $black:#000000;
@@ -20,11 +23,12 @@ $light-grey: #F8F8F8;
 $off-white :#F3EEE7;
 
 // Fonts
-$logo-font-new: boulevard-signature;
-$primary-font: 'Unbounded', cursive;
+// $primary-font: 'Unbounded', cursive;
 // $primary-font: 'Playfair Display', serif;
-$secondary-font: 'Manrope', sans-serif;
-$resume-font: 'Inter', sans-serif;
+$logo-font-new: boulevard-signature;
+$primary-font: 'Sora', sans-serif;
+$secondary-font: 'IBM Plex Sans', sans-serif;
+$resume-font: 'IBM Plex Sans', sans-serif;
 
 
 // Widths
@@ -35,15 +39,15 @@ $max-width-mobile: calc(768px - 5%);
 
 // Font Sizes
 
-$hero-hello-3X:1rem;
+$hero-hello-3X:1.4rem;
 $hero-hello-2X:0.8rem;
 $hero-hello-1X:0.6rem;
 
-$hero-title-3X:2.6rem;
+$hero-title-3X:3.2rem;
 $hero-title-2X:1.8rem;
 $hero-title-1X:1.3rem;
 
-$hero-desc-3X:1.2rem;
+$hero-desc-3X:1.4rem;
 $hero-desc-2X:0.9rem;
 $hero-desc-1X:0.8rem;
 

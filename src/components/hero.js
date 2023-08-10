@@ -13,7 +13,8 @@ const Hero = () => {
           delay: 0.6,
         }}
       >
-        <p className="hello">🙏🏽 Hello ● Bonjour ● Namastey</p>
+        {/* 🙏🏽 */}
+        <p className="hello">Hello ● Bonjour ● Namastey</p>
       </motion.div>
       <motion.div
         initial={{ opacity: 0, y: 5 }}
@@ -28,12 +29,10 @@ const Hero = () => {
         <span>
           My name is Vishal Behal <br />
         </span>
-        I’m a Digital Product Designer
-        <br />
-        {/* I’m a <span className="emoji">✏️</span> UX Designer based in{" "} */}
+        {/* I’m a UX/UI */}
+        I’m a UX Designer based in India, <br/>available Worldwide <span className="emoji">🌍</span>.
+        {/* <span className="emoji">✏️</span>  */}
         {/* <span className="emoji">🇮🇳</span>  */}
-        from India, available Worldwide.{" "}
-        {/* <span className="emoji">🌍</span> */}
         {/* available <span className="emoji">🌍</span> Worldwide */}
       </h1>
       </motion.div>

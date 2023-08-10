@@ -93,7 +93,6 @@ const Skills = (props) => {
 const Resume = () => {
   return (
     <div id="resumeWrap" className="main-wrapper">
-      <Header />
       <motion.div
         initial={{ opacity: 0, y: -5 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -231,7 +230,6 @@ const Resume = () => {
           </div>
         </div>
       </motion.div>
-      <Footer />
     </div>
   );
 };

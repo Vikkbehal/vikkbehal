@@ -6,12 +6,10 @@ import { Link } from 'react-router-dom'
 const Resources = () => {
   return (
     <div id="blogWrapper" className='main-wrapper'>
-        <Header />
         <div className='blogWrapper'>
           <p className='blogTitle'>Have Patience, Resources Page is Updating....</p>
           <Link className='blogLink' to="/">Back to home.</Link>
         </div>
-        <Footer/>
     </div>
   )
 }

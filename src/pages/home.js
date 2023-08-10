@@ -1,7 +1,5 @@
 import React from "react";
-import Header from "../components/header";
 import Hero from "../components/hero";
-import Footer from "../components/footer";
 import MoreWork from "../components/moreWork";
 import SelectedWork from "../components/selectedWork";
 import { motion } from "framer-motion";
@@ -9,7 +7,6 @@ import { motion } from "framer-motion";
 const Home = () => {
   return (
     <div id="homeWrapper" className="main-wrapper">
-      <Header />
       <Hero />
       <motion.div
         initial={{ opacity: 0, y: 5 }}
@@ -23,7 +20,6 @@ const Home = () => {
         <SelectedWork workTitle="Some of My Selected Work" />
       </motion.div>
       <MoreWork />
-      <Footer />
     </div>
   );
 };

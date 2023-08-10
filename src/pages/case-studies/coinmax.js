@@ -29,7 +29,6 @@ const Coinmax = () => {
   return (
     <div id="case-study" className="main-wrapper">
       <ScrollToTop />
-      <Header />
       <div className="case-study-body-wrapper">
         <motion.div
           initial={{ opacity: 0, y: -5 }}
@@ -129,7 +128,7 @@ const Coinmax = () => {
         >
           <section className="content-wrapper">
             <h3 className="title">
-              <span>04/ </span>Personas(User Flows)
+              <span>04/ </span>User Flows
             </h3>
             <div>
               <img src={userflow} alt="Vishal Behal | UI / UX Designer" />
@@ -243,7 +242,6 @@ const Coinmax = () => {
           </section>
         </motion.div>
       </div>
-      <Footer />
     </div>
   );
 };

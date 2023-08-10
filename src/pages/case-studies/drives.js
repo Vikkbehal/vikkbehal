@@ -26,7 +26,6 @@ const Drives = () => {
   return (
     <div id="case-study" className="main-wrapper">
       <ScrollToTop />
-      <Header />
       <div className="case-study-body-wrapper">
         <motion.div
           initial={{ opacity: 0, y: 10 }}
@@ -224,7 +223,6 @@ const Drives = () => {
           </section>
         </motion.div>
       </div>
-      <Footer />
     </div>
   );
 };

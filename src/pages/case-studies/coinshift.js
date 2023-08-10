@@ -41,7 +41,6 @@ const Coinshift = () => {
   return (
     <div id="case-study" className="main-wrapper">
       <ScrollToTop />
-      <Header />
       <div className="case-study-body-wrapper">
         <CaseStudyHeroCard
           sno="4"
@@ -79,7 +78,6 @@ const Coinshift = () => {
           <img src={Outro} alt="Vishal Behal | UI / UX Designer" />
         </section>
       </div>
-      <Footer />
     </div>
   );
 };

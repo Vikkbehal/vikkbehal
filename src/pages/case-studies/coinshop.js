@@ -27,7 +27,6 @@ const Coinshop = () => {
   return (
     <div id="case-study" className="main-wrapper">
       <ScrollToTop />
-      <Header />
       {/* <div className="floatNextProject">
         <p>Next Project</p>
       </div> */}
@@ -162,7 +161,7 @@ const Coinshop = () => {
         >
           <section className="content-wrapper">
             <h3 className="title">
-              <span>04/ </span>Personas(User Flows)
+              <span>04/ </span>User Flows
             </h3>
             <div>
               <img src={userflow} alt="Vishal Behal | UI / UX Designer" />
@@ -293,7 +292,6 @@ const Coinshop = () => {
           </section>
         </motion.div>
       </div>
-      <Footer />
     </div>
   );
 };

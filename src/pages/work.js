@@ -18,7 +18,6 @@ const Work = () => {
     <section id="work">
       <div className="main-wrapper">
         <ScrollToTop />
-        <Header />
         <HeroWork />
         <motion.div
           initial={{ opacity: 0, y: 5 }}
@@ -31,7 +30,6 @@ const Work = () => {
         >
           <SelectedWork workTitle="Selected Work" />
         </motion.div>
-        <Footer />
       </div>
     </section>
   );

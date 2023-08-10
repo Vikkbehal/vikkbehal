@@ -20,7 +20,6 @@ const About = () => {
   return (
     <div id="aboutWrapper" className="main-wrapper">
       <ScrollToTop />
-      <Header />
       <HeroAbout />
       <motion.div
         initial={{ opacity: 0, y: 5 }}
@@ -35,7 +34,6 @@ const About = () => {
       </motion.div>
       <IWorkWith />
       <Education />
-      <Footer />
     </div>
   );
 };

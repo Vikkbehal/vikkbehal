@@ -23,9 +23,20 @@
     color: #ffffff;
     background: $primary-color;
 }
-
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
 html {
     body {
+        // position: relative;
+        .AppWrapper {
+            background-image: url("../assets/img/bg/background/grain.png");
+            background-size: 300px 300px;
+            background-repeat:repeat;
+        }
         #homeWrapper,
         #aboutWrapper,
         #case-study,

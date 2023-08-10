@@ -120,7 +120,7 @@ const Header = () => {
                 Resumé
               </NavLink> */}
               <NavLink
-                to="/resume"
+                to="https://docs.google.com/document/d/108RouT2v3r69OTyEtvZDSsx38HNYhI76C4VappXoYh4/export?format=pdf"
                 className="resume"
                 // target="_blank"
               >

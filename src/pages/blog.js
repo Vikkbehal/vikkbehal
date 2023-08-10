@@ -7,7 +7,6 @@ import { motion } from "framer-motion";
 const Blog = () => {
   return (
     <div id="blogWrapper" className="main-wrapper">
-      <Header />
       <motion.div
         initial={{ opacity: 0, y: -5 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -23,7 +22,6 @@ const Blog = () => {
           </Link>
         </div>
       </motion.div>
-      <Footer />
     </div>
   );
 };
