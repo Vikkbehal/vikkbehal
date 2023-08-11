@@ -113,7 +113,8 @@ html {
             color: #363636;
           }
           a.resume {
-            background-color: #000000;
+            // background-color: #000000;
+            background-color: $accent-color;
             color: white;
             &:hover {
               background-color: transparent;

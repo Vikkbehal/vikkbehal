@@ -21,10 +21,10 @@ function Router() {
   return (
     <BrowserRouter>
     <div className='AppWrapper'>
-      <div className='relative'>
+      {/* <div className='relative'>
         <img src={blob2} className="absolute" style={{top:"-100vh",left:"-45%", zIndex:-1}}/>
         <img src={blob1} className="absolute" style={{top:"20vh",right:"-40%", zIndex:-1, opacity:0.5 }}/>
-      </div>
+      </div> */}
     <Header />
       <Routes>
         <Route path="/" element={<Home/>} />

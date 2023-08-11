@@ -4,7 +4,7 @@ header#header {
   padding: 2rem 0px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 
   .logo {
     color: $primary-color;
@@ -34,13 +34,15 @@ header#header {
       // color: #363636;
       opacity: 0.5;
       padding: 1rem 0rem;
+      font-weight: 600;
     }
     a.active {
       opacity: 1;
     }
 
     a.resume {
-      background-color: #000000;
+      // background-color: #000000;
+      background-color: $accent-color;
       color: white;
       opacity: 1;
       padding: 15px 25px;

@@ -43,8 +43,8 @@ const Header = () => {
         )}
         {width > 768 && (
           <header id="header">
-            <div className="logo">
-              <motion.div
+            <div className="navigation">
+              {/* <motion.div
               initial={{ opacity: 0, x: -5 }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -5 }}
@@ -53,9 +53,8 @@ const Header = () => {
                   delay: .1,
                 }}
               >
-                <Link to="/">Vishal Behal</Link>
-                {/* <Link to="/">Vikkbehal</Link> */}
-              </motion.div>
+                <Link to="/">vikkbehal.</Link>
+              </motion.div> */}
               {/* <button
                 className={`navigation menuState-${
                   isMenuOpen ? "open" : "closed"
@@ -70,6 +69,18 @@ const Header = () => {
                 isMenuOpen ? "open" : "closed"
               }`}
             >
+              <motion.div
+              initial={{ opacity: 0, x: -5 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: -5 }}
+                transition={{
+                  duration: 0.2,
+                  delay: .1,
+                }}
+              >
+                {/* <Link to="/">Vishal Behal</Link> */}
+                <NavLink to="/" activeclassname="active">vikkbehal.</NavLink>
+              </motion.div>
               <motion.div
                 initial={{ opacity: 0, x: 5 }}
                 animate={{ opacity: 1, x: 0 }}
@@ -124,7 +135,7 @@ const Header = () => {
                 className="resume"
                 // target="_blank"
               >
-                Resumé
+                Download Resumé
               </NavLink>
               </motion.div>
             </div>

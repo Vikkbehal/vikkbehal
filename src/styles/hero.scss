@@ -53,15 +53,15 @@
         h1.title {
             font-size: $hero-title-2X;
             width: 100%;
-            font-weight: 500;
+            font-weight: 800;
 
             span.emoji {
-                font-size: 1.2rem;
+                font-size: $hero-title-2X;
             }
         }
 
         p.desc {
-            width: 100%;
+            padding: 0 5%;
             font-size: $hero-desc-2X;
         }
     }
