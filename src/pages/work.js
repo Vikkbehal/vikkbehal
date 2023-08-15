@@ -1,7 +1,5 @@
 import React from "react";
-import Header from "../components/header";
 import HeroWork from "../components/heroWork";
-import Footer from "../components/footer";
 import SelectedWork from "../components/selectedWork";
 import { motion } from "framer-motion";
 

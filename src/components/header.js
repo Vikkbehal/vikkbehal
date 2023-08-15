@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useWindowSize } from "react-use";
 
@@ -44,25 +44,6 @@ const Header = () => {
         {width > 768 && (
           <header id="header">
             <div className="navigation">
-              {/* <motion.div
-              initial={{ opacity: 0, x: -5 }}
-              animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: -5 }}
-                transition={{
-                  duration: 0.2,
-                  delay: .1,
-                }}
-              >
-                <Link to="/">vikkbehal.</Link>
-              </motion.div> */}
-              {/* <button
-                className={`navigation menuState-${
-                  isMenuOpen ? "open" : "closed"
-                }`}
-                onClick={toggleMenuState}
-              >
-                {!isMenuOpen ? "Open" : "X"}
-              </button> */}
             </div>
             <div
               className={`navigation navigation-menu--${
@@ -78,7 +59,6 @@ const Header = () => {
                   delay: .1,
                 }}
               >
-                {/* <Link to="/">Vishal Behal</Link> */}
                 <NavLink to="/" activeclassname="active">vikkbehal.com</NavLink>
               </motion.div>
               <motion.div
@@ -123,17 +103,9 @@ const Header = () => {
                   delay: 0.5,
                 }}
               >
-                {/* <NavLink
-                to="https://www.dropbox.com/s/faz5sfse4sma7p2/vikkbehalResume.pdf?dl=0"
-                className="resume"
-                target="_blank"
-              >
-                Resumé
-              </NavLink> */}
               <NavLink
                 to="https://docs.google.com/document/d/108RouT2v3r69OTyEtvZDSsx38HNYhI76C4VappXoYh4/export?format=pdf"
                 className="resume"
-                // target="_blank"
               >
                 Download CV.
               </NavLink>
@@ -153,9 +125,6 @@ const Header = () => {
                 delay: 0.1,
               }}
             >
-              {/* <Link to="/about">about me. ✏️</Link>
-              <Link to="/work">my work. 💼</Link>
-              <Link to="/blog">reads. 📖</Link> */}
               <NavLink to="/" activeClassName="active">
                 <div>
                   <img className="menuIcon" src={home} alt="Product Designer" />
@@ -178,32 +147,10 @@ const Header = () => {
                   <span>Work</span>
                 </div>
               </NavLink>
-              {/* <Link to="/blog">reads. 📖</Link> */}
-              {/* <Link to="/blog" className="resume" target="_blank">
-                Download CV ⬇
-              </Link> */}
-              {/* <Link to="/blog" className="resume" target="_blank">
-                Resume
-              </Link> */}
             </motion.div>
           </div>
         </div>
       )}
-      {/* {width < 768 && (
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{
-            duration: 1,
-            delay: 0,
-          }}
-        >
-          <div
-            className={` backdrop ${isMenuOpen ? "show" : "hide"}`}
-            onClick={toggleMenuState}
-          ></div>
-        </motion.div>
-      )} */}
     </>
   );
 };

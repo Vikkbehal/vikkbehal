@@ -1,6 +1,4 @@
 import React from "react";
-import Header from "../../components/header";
-import Footer from "../../components/footer";
 import CaseStudyHeroCard from "../../components/caseStudyHeroCard";
 
 import process from "../../assets/img/case-study/uxProcess/ux-process-blue.png";
@@ -11,7 +9,6 @@ import cs02 from "../../assets/img/case-study/coinshop/cs02.jpg";
 import cs03 from "../../assets/img/case-study/coinshop/cs03.jpg";
 import userflow from "../../assets/img/case-study/userflow/coinshop.jpg";
 import prototype from "../../assets/img/case-study/coinshop/coinshop-prototype.jpg";
-// import CoinmaxResult from "../../assets/img/case-study/CoinMax.jpg";
 
 import { motion } from "framer-motion";
 
@@ -27,9 +24,6 @@ const Coinshop = () => {
   return (
     <div id="case-study" className="main-wrapper">
       <ScrollToTop />
-      {/* <div className="floatNextProject">
-        <p>Next Project</p>
-      </div> */}
       <div className="case-study-body-wrapper">
         <motion.div
           initial={{ opacity: 0, y: 10 }}
@@ -202,10 +196,6 @@ const Coinshop = () => {
             </div>
           </section>
         </motion.div>
-        {/* <section className='content-wrapper'>
-            <h3 className='title'><span>06/</span>Wireframes</h3>
-            <p>Tartu City History Museums, established in 1955 is the umbrella organisation for five museums: Tartu City Museum, Song Celebration Museum, KGB Cells Museum, Oskar Lots House Museum, and 19th Century Citizen's Museum. Together, the museums uniquely tell the story of Tartu focussing solely on the city and its progress throughout history.</p>
-          </section> */}
         <motion.div
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -246,20 +236,6 @@ const Coinshop = () => {
                 alt="Vishal Behal | UI / UX Designer"
               />
             </motion.div>
-            {/* <motion.div
-              initial={{ opacity: 0, y: 10 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{
-                duration: 0.5,
-                delay: 0.15,
-              }}
-            >
-              <img
-                className="case-study-final"
-                src={cm03}
-                alt="Vishal Behal | UI / UX Designer"
-              />
-            </motion.div> */}
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -274,20 +250,6 @@ const Coinshop = () => {
                 alt="Vishal Behal | UI / UX Designer"
               />
             </motion.div>
-            {/* <motion.div
-              initial={{ opacity: 0, y: 10 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{
-                duration: 0.5,
-                delay: 0.15,
-              }}
-            >
-              <img
-                className="case-study-final"
-                src={cm05}
-                alt="Vishal Behal | UI / UX Designer"
-              />
-            </motion.div> */}
             <div></div>
           </section>
         </motion.div>

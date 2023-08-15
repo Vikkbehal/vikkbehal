@@ -14,8 +14,6 @@ import Resources from './pages/resources';
 
 import Header from "./components/header";
 import Footer from "./components/footer";
-import blob1 from "./assets/img/bg/background/purple-orange-triangle.svg";
-import blob2 from "./assets/img/bg/background/green-yellow-blob.svg";
 
 function Router() {
   return (
