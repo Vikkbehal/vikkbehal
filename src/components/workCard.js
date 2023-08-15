@@ -9,9 +9,7 @@ const WorkCard = (props) => {
         style={{
           backgroundImage: `url(${props.bg})`,
           color: props.textColor || "white",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundColor:"transparent"
+          backgroundColor:"transparent",
         }}
       >
         <div className="logoWrapper">

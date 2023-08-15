@@ -46,43 +46,29 @@ const Experience = () => {
         sno="1"
         position="UI & Graphic Designer"
         period="Mar 2022 - Oct 2022"
-        role="Assisted in Dashboard Design/Redesign Landing Page/ Designed Brand Guidelines"
+        role="In my role at Coinshift, I took on the responsibility of crafting informative empty states for dashboards, offering clear and succinct guidance to users. Additionally, I undertook a comprehensive overhaul of the landing page, enhancing both user satisfaction and the conversion rate. Leveraging my proficiency across a range of essential applications such as Microsoft Suite, Adobe Suite, and Figma, I consistently delivered effective solutions and contributed to the team's success."
       />
       <ExperienceCard
-        title="Coinshop - Formerly Bittmax "
+        title="Coinshop / Bittmax "
         sno="2"
-        position="Product Designer"
-        period="Dec 2018 - Mar 2022"
-        role="Product Designer and UI Developer for Various In-House Projects"
-      />
-      <ExperienceCard
-        title="Vevsa Technologies"
-        sno="3"
-        position="UI Designer"
-        period="Mar 2018 - Dec 2018"
-        role="UI/UX Designer for Multiple Projects and Product Designer for In-House Startup Idea"
+        position="UX/UI, Product Designer"
+        period="Mar 2018 - Mar 2022"
+        role=" I undertook the design and development of multiple mobile apps, design systems, and dashboards. I took a user-centric approach, crafting interfaces that effectively addressed the needs of both users and stakeholders. Collaborating seamlessly with cross-functional teams, I ensured the seamless translation of designs into practical implementations. My efforts culminated in the successful and timely launch of various mobile apps and design systems, all accomplished within stipulated budgets. Additionally, I contributed to the creation of diverse in-house products, spanning software applications, websites, and marketing materials. By engaging with clients, I adeptly gathered requirements and specifications, consistently delivering projects punctually and within budget. My track record showcases a demonstrated ability to thrive both independently and within collaborative team settings."
       />
       <ExperienceCard
         title="SNA Power - Software and Technology"
-        sno="4"
-        position="UI & Web Designer"
+        sno="3"
+        position="UI & Graphic Designer"
         period="Jul 2017 - Mar 2018"
-        role="UI designer/ UI Developer for Multiple In-House Projects and Wordpress Developer "
+        role="I have contributed significantly to my company by spearheading the design and development of websites using the WordPress platform. My role involved close collaboration with clients, adeptly gathering their unique requirements and offering tailored solutions to meet their specific needs. This dual focus on creative design and effective problem-solving has been instrumental in enhancing our web development projects."
       />
       <ExperienceCard
-        title="1neclick Online Pvt. Ltd."
-        sno="5"
-        position="UI Designer"
+        title="1neclick Online Pvt Ltd"
+        sno="4"
+        position="Web & UI Designer"
         period="Jan 2016 - Jul 2017"
-        role="User interface designer for web and Mobile Applications (iOS + Android)"
+        role="I spearheaded the creation and optimization of dynamic landing pages and Android mobile applications characterized by high-speed performance. My proficiency encompasses a spectrum of technologies including HTML, CSS, SASS, along with foundational skills in JavaScript and jQuery."
       />
-      <ExperienceCard
-      title="itech Titan"
-      sno="6"
-      position="Intern"
-      period="Jun 2015 - Jan 2016"
-      role="Assisted in UI Design and Wordpress Development"
-    />
     </section>
   );
 };

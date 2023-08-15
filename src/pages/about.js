@@ -30,9 +30,9 @@ const About = () => {
           delay: 0.8,
         }}
       >
-        <Experience />
       </motion.div>
       <IWorkWith />
+      <Experience />
       <Education />
     </div>
   );

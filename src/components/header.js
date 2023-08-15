@@ -79,7 +79,7 @@ const Header = () => {
                 }}
               >
                 {/* <Link to="/">Vishal Behal</Link> */}
-                <NavLink to="/" activeclassname="active">vikkbehal.</NavLink>
+                <NavLink to="/" activeclassname="active">vikkbehal.com</NavLink>
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, x: 5 }}
@@ -135,7 +135,7 @@ const Header = () => {
                 className="resume"
                 // target="_blank"
               >
-                Download Resumé
+                Download CV.
               </NavLink>
               </motion.div>
             </div>

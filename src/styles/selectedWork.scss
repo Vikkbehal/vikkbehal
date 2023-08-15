@@ -6,12 +6,22 @@
     font-family: $primary-font;
     font-size: $selectedwork-title-font-3X;
     margin-bottom: 1rem;
+    font-weight: 700;
   }
 
   .workCard {
     font-family: $secondary-font;
     padding: 4rem;
     margin-bottom: 2rem;
+    background-size: cover;
+    background-position: center center;
+    transition: 0.1s linear;
+    border-radius: 0px;
+    cursor: pointer;
+    &:hover{
+      // border-radius: 15px;
+      box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.25);
+    }
 
     .logoWrapper {
       margin-bottom: 6rem;

@@ -30,12 +30,16 @@
     position: absolute;
 }
 html {
+    background-image: url("../assets/img/bg/background/grain.png");
+    background-size: 300px 300px;
+    background-repeat:repeat;
+    background-attachment: fixed;
     body {
         // position: relative;
         .AppWrapper {
-            background-image: url("../assets/img/bg/background/grain.png");
-            background-size: 300px 300px;
-            background-repeat:repeat;
+            background-image: url("../assets/img/bg/background.png");
+            background-size: 100%;
+            background-repeat:no-repeat;
         }
         #homeWrapper,
         #aboutWrapper,
