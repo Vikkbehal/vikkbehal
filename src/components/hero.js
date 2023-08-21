@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 
 const Hero = () => {
@@ -35,6 +36,9 @@ const Hero = () => {
         {/* <span className="emoji">🇮🇳</span>  */}
         {/* available <span className="emoji">🌍</span> Worldwide */}
       </h1>
+      <p className="resumeWrap">
+        <NavLink to="https://docs.google.com/document/d/108RouT2v3r69OTyEtvZDSsx38HNYhI76C4VappXoYh4/export?format=pdf" className="resume">Download CV.</NavLink>
+      </p>
       </motion.div>
       <motion.div
         initial={{ opacity: 0, y: 5 }}

@@ -4,6 +4,29 @@
     margin: 0 auto;
     padding-top: 15vh;
     padding-bottom: 4vh;
+    p.resumeWrap {
+        display: none;
+        text-align: center;
+        padding: 1rem 0px;
+        a.resume {
+            font-family: $primary-font;
+            font-weight: 500;
+            background-color: $accent-color;
+            color: white;
+            padding: 10px 25px;
+            transition: 0.1s linear;
+            border: 2px solid $accent-color;
+            text-decoration: none;
+            text-align: center;
+            &:hover {
+              background-color: #000000;
+              background-color: $accent-color;
+              opacity: 1;
+              color: white;
+              border: 2px solid transparent;
+            }
+          }
+    }
 
     .hello {
         font-size: $hero-hello-3X;
@@ -70,20 +93,21 @@
 @media screen and (max-width: 768px) {
     #hero,
     #heroAbout {
-        width: 90%;
         margin: 0 auto;
-        padding-top: 15vh;
         padding-bottom: 2vh;
-
+        padding-top: 10vh;
+        width: 90%;
+        p.resumeWrap {
+            display: block;
+        }
         .hello {
             font-size: $hero-hello-1X;
             font-weight: 500;
         }
 
         h1.title {
-            width: 100%;
             font-size: $hero-title-1X;
-            font-weight: 500;
+            font-weight: 700;
 
             span.emoji {
                 font-size: 1.4rem;
@@ -91,8 +115,7 @@
         }
 
         p.desc {
-            width: 100%;
-            font-size: 0.9rem;
+            font-size: $hero-desc-1X;
         }
     }
 }

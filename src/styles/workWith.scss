@@ -24,10 +24,10 @@
 
         .workWithCard {
             // width: calc(33.33333333% - 60px);
-            flex: 1 1 calc(33% - 60px);
+            flex: 1 1 calc(20% - 10px);
             display: flex;
             flex-direction: column;
-            background-color: white;
+            // background-color: white;
             border-radius: 15px;
             height: 135px;
             align-items: center;
