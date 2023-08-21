@@ -38,8 +38,9 @@ html {
         // position: relative;
         .AppWrapper {
             background-image: url("../assets/img/bg/background.png");
-            background-size: contain;
+            background-size: 100%;
             background-repeat:no-repeat;
+            background-attachment: fixed;
         }
         #homeWrapper,
         #aboutWrapper,

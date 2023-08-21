@@ -59,7 +59,7 @@ const Header = () => {
                   delay: .1,
                 }}
               >
-                <NavLink to="/" activeclassname="active">vikkbehal.com</NavLink>
+                <NavLink to="/">vikkbehal.com</NavLink>
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, x: 5 }}
@@ -70,7 +70,7 @@ const Header = () => {
                   delay: 0.2,
                 }}
               >
-                <NavLink to="/about" activeclassname="active">about me.</NavLink>
+                <NavLink to="/about">about me.</NavLink>
                 </motion.div>
               <motion.div
                 initial={{ opacity: 0, x: 5 }}
@@ -81,7 +81,7 @@ const Header = () => {
                   delay: 0.3,
                 }}
               >
-                <NavLink to="/work" activeclassname="active">my work.</NavLink>
+                <NavLink to="/work">my work.</NavLink>
                 </motion.div>
               <motion.div
                 initial={{ opacity: 0, x: 5 }}
@@ -92,7 +92,7 @@ const Header = () => {
                   delay: 0.4,
                 }}
               >
-                <NavLink to="/blog" activeclassname="active">reads.</NavLink>
+                <NavLink to="/blog">reads.</NavLink>
                 </motion.div>
               <motion.div
                 initial={{ opacity: 0, x: 5 }}
@@ -107,7 +107,7 @@ const Header = () => {
                 to="https://docs.google.com/document/d/108RouT2v3r69OTyEtvZDSsx38HNYhI76C4VappXoYh4/export?format=pdf"
                 className="resume"
               >
-                Download CV.
+                Résumé
               </NavLink>
               </motion.div>
             </div>
@@ -125,13 +125,13 @@ const Header = () => {
                 delay: 0.1,
               }}
             >
-              <NavLink to="/" activeClassName="active">
+              <NavLink to="/">
                 <div>
                   <img className="menuIcon" src={home} alt="Product Designer" />
                   <span>Home</span>
                 </div>
               </NavLink>
-              <NavLink to="/about" activeClassName="active">
+              <NavLink to="/about">
                 <div>
                   <img
                     className="menuIcon"
@@ -141,7 +141,7 @@ const Header = () => {
                   <span>About</span>
                 </div>
               </NavLink>
-              <NavLink to="/work" activeClassName="active">
+              <NavLink to="/work">
                 <div>
                   <img className="menuIcon" src={work} alt="Product Designer" />
                   <span>Work</span>

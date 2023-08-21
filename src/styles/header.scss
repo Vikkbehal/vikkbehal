@@ -31,25 +31,28 @@ header#header {
       margin-left: 3rem;
       text-decoration: none;
       font-size: $navigation-font-3X;
-      // color: #363636;
       opacity: 0.5;
       padding: 1rem 0rem;
-      font-weight: 600;
+      font-weight: 500;
+      transition: 0.2s linear;
+      &:hover {
+        opacity: 0.75;
+      }
     }
     a.active {
       opacity: 1;
+      font-weight: 700;
     }
 
     a.resume {
       background-color: transparent;
       color: $accent-color;
-      opacity: 0.5;
+      opacity: 0.35;
       padding: 15px 25px;
       transition: 0.1s linear;
       border: 2px solid $accent-color;
       &:hover {
-        background-color: #000000;
-        // background-color: $accent-color;
+        background-color: $accent-color;
         opacity: 1;
         color: white;
         border: 2px solid transparent;
@@ -160,9 +163,9 @@ header#header {
       display: flex;
       flex-direction: row;
       align-items: flex-end;
-      padding: 0.6rem;
       justify-content: space-evenly;
       flex: 1;
+      padding: 0;
 
       a {
         font-family: $primary-font;

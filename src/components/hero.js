@@ -37,7 +37,7 @@ const Hero = () => {
         {/* available <span className="emoji">🌍</span> Worldwide */}
       </h1>
       <p className="resumeWrap">
-        <NavLink to="https://docs.google.com/document/d/108RouT2v3r69OTyEtvZDSsx38HNYhI76C4VappXoYh4/export?format=pdf" className="resume">Download CV.</NavLink>
+        <NavLink to="https://docs.google.com/document/d/108RouT2v3r69OTyEtvZDSsx38HNYhI76C4VappXoYh4/export?format=pdf" className="resume">Résumé</NavLink>
       </p>
       </motion.div>
       <motion.div
