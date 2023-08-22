@@ -28,8 +28,8 @@ const About = () => {
         }}
       >
       </motion.div>
-      <IWorkWith />
       <Experience />
+      <IWorkWith />
       <Education />
     </div>
   );
